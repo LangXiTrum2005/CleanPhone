@@ -291,7 +291,7 @@ class SettingsFragment : Fragment() {
 
     private fun setupAbout() {
         binding.btnPrivacy.setOnClickListener {
-            showLegalBottomSheet(getString(R.string.settings_privacy_policy), getString(R.string.contact_us_four_answer))
+            openUrl(getString(R.string.privacy_policy_url))
         }
 
         binding.btnTerms.setOnClickListener {
