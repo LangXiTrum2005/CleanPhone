@@ -1,5 +1,0 @@
-package gun.simulator.gun.sounds.lightsaber.taser.timebombs.prank.view;
-
-/* JADX INFO: loaded from: classes.dex */
-public abstract class JJ extends C4215oK {
-}

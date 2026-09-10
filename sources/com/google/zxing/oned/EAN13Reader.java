@@ -1,6 +1,0 @@
-package com.google.zxing.oned;
-
-/* JADX INFO: loaded from: classes3.dex */
-public final class EAN13Reader extends UPCEANReader {
-    public static final int[] f = {0, 11, 13, 14, 19, 25, 28, 21, 22, 26};
-}

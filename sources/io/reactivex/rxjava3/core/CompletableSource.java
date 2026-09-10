@@ -1,7 +1,0 @@
-package io.reactivex.rxjava3.core;
-
-/* JADX INFO: loaded from: classes7.dex */
-@FunctionalInterface
-public interface CompletableSource {
-    void subscribe(CompletableObserver completableObserver);
-}

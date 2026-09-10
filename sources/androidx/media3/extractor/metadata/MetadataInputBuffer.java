@@ -1,8 +1,0 @@
-package androidx.media3.extractor.metadata;
-
-import androidx.media3.decoder.DecoderInputBuffer;
-
-/* JADX INFO: loaded from: classes.dex */
-public final class MetadataInputBuffer extends DecoderInputBuffer {
-    public long j0;
-}

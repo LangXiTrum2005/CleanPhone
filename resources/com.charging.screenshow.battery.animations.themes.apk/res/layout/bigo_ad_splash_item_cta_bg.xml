@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<View xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/bigo_ad_button_bg_rectangle_blue_2"
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_alignTop="@+id/bigo_ad_splash_btn_cta"
-    android:layout_alignBottom="@+id/bigo_ad_splash_btn_cta"
-    android:layout_alignStart="@+id/bigo_ad_splash_btn_cta"
-    android:layout_alignEnd="@+id/bigo_ad_splash_btn_cta"/>

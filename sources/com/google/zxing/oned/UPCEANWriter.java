@@ -1,9 +1,0 @@
-package com.google.zxing.oned;
-
-/* JADX INFO: loaded from: classes3.dex */
-public abstract class UPCEANWriter extends OneDimensionalCodeWriter {
-    @Override // com.google.zxing.oned.OneDimensionalCodeWriter
-    public final int d() {
-        return 9;
-    }
-}

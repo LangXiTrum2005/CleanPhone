@@ -1,6 +1,0 @@
-package p002kotlin.reflect.jvm.internal.impl.resolve;
-
-/* JADX INFO: compiled from: SealedClassInheritorsProvider.kt */
-/* JADX INFO: loaded from: classes5.dex */
-public abstract class impassible {
-}
