@@ -1,0 +1,11 @@
+taser03.png
+	size: 1272, 689
+	filter: Linear, Linear
+	pma: true
+nengliangquan
+	bounds: 1188, 605, 82, 82
+	offsets: 3, 2, 87, 87
+taser03
+	bounds: 2, 2, 685, 1184
+	offsets: 11, 13, 705, 1203
+	rotate: 90

@@ -1,0 +1,55 @@
+smog.png
+	size: 2019, 1515
+	filter: Linear, Linear
+	pma: true
+yanwu01
+	bounds: 1865, 1165, 128, 348
+	offsets: 177, 252, 500, 600
+yanwu03
+	bounds: 1279, 234, 319, 376
+	offsets: 103, 224, 500, 600
+	rotate: 90
+yanwu05
+	bounds: 1657, 582, 360, 431
+	offsets: 83, 169, 500, 600
+yanwu07
+	bounds: 1279, 555, 376, 453
+	offsets: 76, 147, 500, 600
+yanwu09
+	bounds: 887, 536, 390, 468
+	offsets: 70, 132, 500, 600
+yanwu11
+	bounds: 444, 5, 405, 482
+	offsets: 63, 115, 500, 600
+yanwu13
+	bounds: 464, 513, 421, 481
+	offsets: 55, 109, 500, 600
+yanwu15
+	bounds: 2, 2, 440, 485
+	offsets: 46, 90, 500, 600
+yanwu17
+	bounds: 1409, 1015, 454, 498
+	offsets: 39, 77, 500, 600
+yanwu19
+	bounds: 468, 1006, 468, 507
+	offsets: 31, 62, 500, 600
+yanwu21
+	bounds: 2, 996, 464, 517
+	offsets: 24, 50, 500, 600
+yanwu23
+	bounds: 938, 1010, 469, 503
+	offsets: 16, 53, 500, 600
+yanwu25
+	bounds: 2, 489, 460, 505
+	offsets: 9, 54, 500, 600
+yanwu27
+	bounds: 851, 90, 421, 416
+	offsets: 3, 145, 500, 600
+	rotate: 90
+yanwu29
+	bounds: 1657, 174, 269, 406
+	offsets: 0, 157, 500, 600
+yanwu31
+	bounds: 1269, 33, 199, 348
+	offsets: 0, 211, 500, 600
+	rotate: 90

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate
+            android:fromDegrees="180"
+            android:toDegrees="180"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <bitmap android:src="@drawable/bigo_ad_ic_right_round_black"/>
+        </rotate>
+    </item>
+</layer-list>

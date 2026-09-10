@@ -1,0 +1,76 @@
+{
+"skeleton": {
+	"hash": "zbeF0wRuQIg",
+	"spine": "4.2.37",
+	"x": -367.3,
+	"y": -567.06,
+	"width": 734.6,
+	"height": 1134.13,
+	"images": "../images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "Colt Python", "parent": "bone" },
+	{ "name": "TX_weizhi", "parent": "bone", "x": 218.54, "y": 544.68 },
+	{ "name": "zidan_weizhi", "parent": "bone", "rotation": -90, "x": 277.98, "y": 63.66 }
+],
+"slots": [
+	{ "name": "Colt Python", "bone": "Colt Python", "attachment": "Colt Python" },
+	{ "name": "tx_weizhi", "bone": "TX_weizhi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Colt Python": {
+				"Colt Python": { "scaleX": 1.2, "scaleY": 1.2, "rotation": 0.01, "width": 612, "height": 945 }
+			}
+		}
+	}
+],
+"animations": {
+	"Colt Python": {
+		"slots": {
+			"Colt Python": {
+				"attachment": [
+					{ "name": "Colt Python" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Colt Python": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -3 },
+					{ "time": 0.2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -1.85, "y": -35.37 },
+					{ "time": 0.2, "x": -0.52 }
+				]
+			},
+			"zidan_weizhi": {
+				"translate": [
+					{}
+				]
+			},
+			"TX_weizhi": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

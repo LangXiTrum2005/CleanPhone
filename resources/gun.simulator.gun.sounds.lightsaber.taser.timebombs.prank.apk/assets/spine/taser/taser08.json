@@ -1,0 +1,93 @@
+{
+"skeleton": {
+	"hash": "ie325yQBROs",
+	"spine": "4.2.37",
+	"x": -236,
+	"y": -634.5,
+	"width": 472,
+	"height": 1269,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "taser08", "parent": "root" },
+	{ "name": "gun-taser08_2", "parent": "taser08" },
+	{ "name": "gun-taser08_1", "parent": "taser08" },
+	{ "name": "special effects-taser08", "parent": "taser08", "x": 1.28, "y": 691.01 }
+],
+"slots": [
+	{ "name": "taser08", "bone": "gun-taser08_1", "attachment": "taser08" },
+	{ "name": "gun-taser08_2", "bone": "gun-taser08_2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"gun-taser08_2": {
+				"nengliangqiu01": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu02": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu03": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu04": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu05": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu06": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu07": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu08": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu09": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu10": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu11": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu12": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu13": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu14": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu15": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu16": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu17": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu18": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu19": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu20": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu21": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu22": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu23": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 },
+				"nengliangqiu24": { "x": -0.32, "y": 393.24, "width": 362, "height": 362 }
+			},
+			"taser08": {
+				"taser08": { "width": 472, "height": 1269 }
+			}
+		}
+	}
+],
+"animations": {
+	"taser08_circulation": {
+		"slots": {
+			"gun-taser08_2": {
+				"attachment": [
+					{ "name": "nengliangqiu01" },
+					{ "time": 0.0333, "name": "nengliangqiu02" },
+					{ "time": 0.0667, "name": "nengliangqiu03" },
+					{ "time": 0.1, "name": "nengliangqiu04" },
+					{ "time": 0.1333, "name": "nengliangqiu05" },
+					{ "time": 0.1667, "name": "nengliangqiu06" },
+					{ "time": 0.2, "name": "nengliangqiu07" },
+					{ "time": 0.2333, "name": "nengliangqiu08" },
+					{ "time": 0.2667, "name": "nengliangqiu09" },
+					{ "time": 0.3, "name": "nengliangqiu10" },
+					{ "time": 0.3333, "name": "nengliangqiu11" },
+					{ "time": 0.3667, "name": "nengliangqiu12" },
+					{ "time": 0.4, "name": "nengliangqiu13" },
+					{ "time": 0.4333, "name": "nengliangqiu14" },
+					{ "time": 0.4667, "name": "nengliangqiu15" },
+					{ "time": 0.5, "name": "nengliangqiu16" },
+					{ "time": 0.5333, "name": "nengliangqiu17" },
+					{ "time": 0.5667, "name": "nengliangqiu18" },
+					{ "time": 0.6, "name": "nengliangqiu19" },
+					{ "time": 0.6333, "name": "nengliangqiu20" },
+					{ "time": 0.6667, "name": "nengliangqiu21" },
+					{ "time": 0.7, "name": "nengliangqiu22" },
+					{ "time": 0.7333, "name": "nengliangqiu23" },
+					{ "time": 0.7667, "name": "nengliangqiu24" }
+				]
+			}
+		}
+	}
+}
+}

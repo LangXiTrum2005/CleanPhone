@@ -1,0 +1,6 @@
+package gun.simulator.gun.sounds.lightsaber.taser.timebombs.prank.view;
+
+/* JADX INFO: loaded from: classes3.dex */
+public interface Pn0 {
+    void a(boolean z);
+}

@@ -1,0 +1,9 @@
+package gun.simulator.gun.sounds.lightsaber.taser.timebombs.prank.view;
+
+/* JADX INFO: renamed from: gun.simulator.gun.sounds.lightsaber.taser.timebombs.prank.view.Ql, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class AbstractC2703Ql extends AbstractC4936wb {
+    public long c;
+
+    public abstract void e();
+}

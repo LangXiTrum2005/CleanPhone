@@ -1,0 +1,68 @@
+{
+"skeleton": { "hash": "PaxYR3AkiZQ", "spine": "4.2.37", "images": "../im/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "tx", "parent": "root", "scaleX": 2.2, "scaleY": 2.2 },
+	{ "name": "shensheng", "parent": "tx" },
+	{ "name": "1", "parent": "root", "y": -71.83 }
+],
+"slots": [
+	{ "name": "shensheng", "bone": "shensheng" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"shensheng": {
+				"shensheng_00": { "width": 494, "height": 916 },
+				"shensheng_01": { "width": 494, "height": 916 },
+				"shensheng_02": { "width": 494, "height": 916 },
+				"shensheng_03": { "width": 494, "height": 916 },
+				"shensheng_04": { "width": 494, "height": 916 },
+				"shensheng_05": { "width": 494, "height": 916 },
+				"shensheng_06": { "width": 494, "height": 916 },
+				"shensheng_07": { "width": 494, "height": 916 },
+				"shensheng_08": { "width": 494, "height": 916 },
+				"shensheng_09": { "width": 494, "height": 916 },
+				"shensheng_10": { "width": 494, "height": 916 },
+				"shensheng_11": { "width": 494, "height": 916 },
+				"shensheng_12": { "width": 494, "height": 916 },
+				"shensheng_13": { "width": 494, "height": 916 },
+				"shensheng_14": { "width": 494, "height": 916 }
+			}
+		}
+	}
+],
+"animations": {
+	"shensheng": {
+		"slots": {
+			"shensheng": {
+				"attachment": [
+					{ "name": "shensheng_00" },
+					{ "time": 0.0667, "name": "shensheng_01" },
+					{ "time": 0.1333, "name": "shensheng_02" },
+					{ "time": 0.2, "name": "shensheng_03" },
+					{ "time": 0.2667, "name": "shensheng_04" },
+					{ "time": 0.3333, "name": "shensheng_05" },
+					{ "time": 0.4, "name": "shensheng_06" },
+					{ "time": 0.4667, "name": "shensheng_07" },
+					{ "time": 0.5333, "name": "shensheng_08" },
+					{ "time": 0.6, "name": "shensheng_09" },
+					{ "time": 0.6667, "name": "shensheng_10" },
+					{ "time": 0.7333, "name": "shensheng_11" },
+					{ "time": 0.8, "name": "shensheng_12" },
+					{ "time": 0.8667, "name": "shensheng_13" },
+					{ "time": 0.9333, "name": "shensheng_14" }
+				]
+			}
+		},
+		"bones": {
+			"shensheng": {
+				"translate": [
+					{ "x": 15.76, "y": 367.8 }
+				]
+			}
+		}
+	}
+}
+}

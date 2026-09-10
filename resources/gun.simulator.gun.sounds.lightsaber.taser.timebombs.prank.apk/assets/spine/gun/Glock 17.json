@@ -1,0 +1,69 @@
+{
+"skeleton": {
+	"hash": "ZI9VtUtGGwg",
+	"spine": "4.2.37",
+	"x": -348.69,
+	"y": -529.26,
+	"width": 697.38,
+	"height": 1058.52,
+	"images": "../images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "Glock 17", "parent": "bone" },
+	{ "name": "TX_weizhi", "parent": "bone", "x": 246.65, "y": 528.17 },
+	{ "name": "zidan_weizhi", "parent": "bone", "rotation": -90, "x": 295.17, "y": -28.26 }
+],
+"slots": [
+	{ "name": "Glock 17", "bone": "Glock 17", "attachment": "Glock 17" },
+	{ "name": "tx_weizhi", "bone": "TX_weizhi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Glock 17": {
+				"Glock 17": { "scaleX": 1.2, "scaleY": 1.2, "rotation": 0.01, "width": 581, "height": 882 }
+			}
+		}
+	}
+],
+"animations": {
+	"Glock 17": {
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Glock 17": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -3 },
+					{ "time": 0.2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -1.85, "y": -35.38 },
+					{ "time": 0.2, "x": -0.52 }
+				]
+			},
+			"zidan_weizhi": {
+				"translate": [
+					{}
+				]
+			},
+			"TX_weizhi": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

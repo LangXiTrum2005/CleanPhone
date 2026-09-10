@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/thinkup_myoffer_splash_ad_bottom_container"
+    android:background="@drawable/thinkup_myoffer_splash_bg_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.thinkup.core.common.inner.ui.ScanningAnimButton
+        android:id="@+id/thinkup_myoffer_panel_cta_layout"
+        android:background="@drawable/thinkup_myoffer_splash_bg_rectangle_btn_cta_asseblem"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        style="@style/thinkup_myoffer_single_line"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/thinkup_myoffer_include_4_element"/>
+</RelativeLayout>

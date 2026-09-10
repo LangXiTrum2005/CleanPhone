@@ -1,0 +1,11 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class zzhtu extends zzgzx {
+    @Override // com.google.android.gms.internal.ads.zzgzx
+    public /* bridge */ /* synthetic */ zzhan zza() {
+        throw null;
+    }
+
+    public abstract zzhxc zze();
+}

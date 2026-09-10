@@ -1,0 +1,357 @@
+package com.vungle.ads.internal;
+
+import android.content.Context;
+import android.support.v4.media.a;
+import android.util.DisplayMetrics;
+import android.view.MotionEvent;
+import android.view.WindowManager;
+import com.p004ironsource.d9;
+import com.p004ironsource.x4;
+import com.vungle.ads.ServiceLocator;
+import com.vungle.ads.TpatError;
+import com.vungle.ads.internal.model.AdPayload;
+import com.vungle.ads.internal.network.TpatRequest;
+import com.vungle.ads.internal.network.TpatSender;
+import com.vungle.ads.internal.protos.Sdk;
+import com.vungle.ads.internal.util.ViewUtility;
+import java.util.List;
+import java.util.regex.Pattern;
+import kotlin.Lazy;
+import kotlin.LazyKt;
+import kotlin.LazyThreadSafetyMode;
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.text.Regex;
+
+/* JADX INFO: loaded from: classes6.dex */
+@Metadata(d1 = {"\u0000<\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0010\b\n\u0002\b\t\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0018\u0002\u0018\u0000 \u001d2\u00020\u0001:\u0004\u001c\u001d\u001e\u001fB\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005¢\u0006\u0002\u0010\u0006J\b\u0010\u0017\u001a\u00020\u0018H\u0002J\u000e\u0010\u0019\u001a\u00020\u00182\u0006\u0010\u001a\u001a\u00020\u001bR\u000e\u0010\u0004\u001a\u00020\u0005X\u0082\u0004¢\u0006\u0002\n\u0000R\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004¢\u0006\u0002\n\u0000R\u001c\u0010\u0007\u001a\u00020\b8\u0000X\u0081\u0004¢\u0006\u000e\n\u0000\u0012\u0004\b\t\u0010\n\u001a\u0004\b\u000b\u0010\fR\u0014\u0010\r\u001a\u00020\u000e8BX\u0082\u0004¢\u0006\u0006\u001a\u0004\b\u000f\u0010\u0010R\u0014\u0010\u0011\u001a\u00020\u000e8BX\u0082\u0004¢\u0006\u0006\u001a\u0004\b\u0012\u0010\u0010R\u0014\u0010\u0013\u001a\u00020\u000e8BX\u0082\u0004¢\u0006\u0006\u001a\u0004\b\u0014\u0010\u0010R\u0014\u0010\u0015\u001a\u00020\u000e8BX\u0082\u0004¢\u0006\u0006\u001a\u0004\b\u0016\u0010\u0010¨\u0006 ²\u0006\n\u0010!\u001a\u00020\"X\u008a\u0084\u0002"}, d2 = {"Lcom/vungle/ads/internal/ClickCoordinateTracker;", "", "context", "Landroid/content/Context;", "advertisement", "Lcom/vungle/ads/internal/model/AdPayload;", "(Landroid/content/Context;Lcom/vungle/ads/internal/model/AdPayload;)V", "currentClick", "Lcom/vungle/ads/internal/ClickCoordinateTracker$ClickCoordinate;", "getCurrentClick$vungle_ads_release$annotations", "()V", "getCurrentClick$vungle_ads_release", "()Lcom/vungle/ads/internal/ClickCoordinateTracker$ClickCoordinate;", "deviceHeight", "", "getDeviceHeight", "()I", "deviceWidth", "getDeviceWidth", "requestedHeight", "getRequestedHeight", "requestedWidth", "getRequestedWidth", "sendClickCoordinates", "", "trackCoordinate", "event", "Landroid/view/MotionEvent;", "ClickCoordinate", "Companion", "Coordinate", "DeviceScreenInfo", "vungle-ads_release", "tpatSender", "Lcom/vungle/ads/internal/network/TpatSender;"}, k = 1, mv = {1, 7, 1}, xi = 48)
+public final class ClickCoordinateTracker {
+    private static final String TAG = "ClickCoordinateTracker";
+    private final AdPayload advertisement;
+    private final Context context;
+    private final ClickCoordinate currentClick;
+    private static final String MACRO_REQ_WIDTH = Pattern.quote("{{{req_width}}}");
+    private static final String MACRO_REQ_HEIGHT = Pattern.quote("{{{req_height}}}");
+    private static final String MACRO_WIDTH = Pattern.quote("{{{width}}}");
+    private static final String MACRO_HEIGHT = Pattern.quote("{{{height}}}");
+    private static final String MACRO_DOWN_X = Pattern.quote("{{{down_x}}}");
+    private static final String MACRO_DOWN_Y = Pattern.quote("{{{down_y}}}");
+    private static final String MACRO_UP_X = Pattern.quote("{{{up_x}}}");
+    private static final String MACRO_UP_Y = Pattern.quote("{{{up_y}}}");
+
+    @Metadata(d1 = {"\u0000(\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\b\f\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\b\u0080\b\u0018\u00002\u00020\u0001B\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0003¢\u0006\u0002\u0010\u0005J\t\u0010\f\u001a\u00020\u0003HÆ\u0003J\t\u0010\r\u001a\u00020\u0003HÆ\u0003J\u001d\u0010\u000e\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u00032\b\b\u0002\u0010\u0004\u001a\u00020\u0003HÆ\u0001J\u0013\u0010\u000f\u001a\u00020\u00102\b\u0010\u0011\u001a\u0004\u0018\u00010\u0001HÖ\u0003J\t\u0010\u0012\u001a\u00020\u0013HÖ\u0001J\u0006\u0010\u0014\u001a\u00020\u0010J\t\u0010\u0015\u001a\u00020\u0016HÖ\u0001R\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\tR\u001a\u0010\u0004\u001a\u00020\u0003X\u0086\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\n\u0010\u0007\"\u0004\b\u000b\u0010\t¨\u0006\u0017"}, d2 = {"Lcom/vungle/ads/internal/ClickCoordinateTracker$ClickCoordinate;", "", "downCoordinate", "Lcom/vungle/ads/internal/ClickCoordinateTracker$Coordinate;", "upCoordinate", "(Lcom/vungle/ads/internal/ClickCoordinateTracker$Coordinate;Lcom/vungle/ads/internal/ClickCoordinateTracker$Coordinate;)V", "getDownCoordinate", "()Lcom/vungle/ads/internal/ClickCoordinateTracker$Coordinate;", "setDownCoordinate", "(Lcom/vungle/ads/internal/ClickCoordinateTracker$Coordinate;)V", "getUpCoordinate", "setUpCoordinate", "component1", "component2", "copy", "equals", "", x4.DEFAULT_AUCTION_FALLBACK_VALUE, "hashCode", "", d9.h.s, "toString", "", "vungle-ads_release"}, k = 1, mv = {1, 7, 1}, xi = 48)
+    public static final /* data */ class ClickCoordinate {
+        private Coordinate downCoordinate;
+        private Coordinate upCoordinate;
+
+        public ClickCoordinate(Coordinate downCoordinate, Coordinate upCoordinate) {
+            Intrinsics.f(downCoordinate, "downCoordinate");
+            Intrinsics.f(upCoordinate, "upCoordinate");
+            this.downCoordinate = downCoordinate;
+            this.upCoordinate = upCoordinate;
+        }
+
+        public static /* synthetic */ ClickCoordinate copy$default(ClickCoordinate clickCoordinate, Coordinate coordinate, Coordinate coordinate2, int i2, Object obj) {
+            if ((i2 & 1) != 0) {
+                coordinate = clickCoordinate.downCoordinate;
+            }
+            if ((i2 & 2) != 0) {
+                coordinate2 = clickCoordinate.upCoordinate;
+            }
+            return clickCoordinate.copy(coordinate, coordinate2);
+        }
+
+        /* JADX INFO: renamed from: component1, reason: from getter */
+        public final Coordinate getDownCoordinate() {
+            return this.downCoordinate;
+        }
+
+        /* JADX INFO: renamed from: component2, reason: from getter */
+        public final Coordinate getUpCoordinate() {
+            return this.upCoordinate;
+        }
+
+        public final ClickCoordinate copy(Coordinate downCoordinate, Coordinate upCoordinate) {
+            Intrinsics.f(downCoordinate, "downCoordinate");
+            Intrinsics.f(upCoordinate, "upCoordinate");
+            return new ClickCoordinate(downCoordinate, upCoordinate);
+        }
+
+        public boolean equals(Object other) {
+            if (this == other) {
+                return true;
+            }
+            if (!(other instanceof ClickCoordinate)) {
+                return false;
+            }
+            ClickCoordinate clickCoordinate = (ClickCoordinate) other;
+            return Intrinsics.a(this.downCoordinate, clickCoordinate.downCoordinate) && Intrinsics.a(this.upCoordinate, clickCoordinate.upCoordinate);
+        }
+
+        public final Coordinate getDownCoordinate() {
+            return this.downCoordinate;
+        }
+
+        public final Coordinate getUpCoordinate() {
+            return this.upCoordinate;
+        }
+
+        public int hashCode() {
+            return this.upCoordinate.hashCode() + (this.downCoordinate.hashCode() * 31);
+        }
+
+        public final boolean ready() {
+            return (this.downCoordinate.getX() == Integer.MIN_VALUE || this.downCoordinate.getY() == Integer.MIN_VALUE || this.upCoordinate.getX() == Integer.MIN_VALUE || this.upCoordinate.getY() == Integer.MIN_VALUE) ? false : true;
+        }
+
+        public final void setDownCoordinate(Coordinate coordinate) {
+            Intrinsics.f(coordinate, "<set-?>");
+            this.downCoordinate = coordinate;
+        }
+
+        public final void setUpCoordinate(Coordinate coordinate) {
+            Intrinsics.f(coordinate, "<set-?>");
+            this.upCoordinate = coordinate;
+        }
+
+        public String toString() {
+            return "ClickCoordinate(downCoordinate=" + this.downCoordinate + ", upCoordinate=" + this.upCoordinate + ')';
+        }
+    }
+
+    @Metadata(d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0002\b\t\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0000\b\u0080\b\u0018\u00002\u00020\u0001B\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0003¢\u0006\u0002\u0010\u0005J\t\u0010\t\u001a\u00020\u0003HÆ\u0003J\t\u0010\n\u001a\u00020\u0003HÆ\u0003J\u001d\u0010\u000b\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u00032\b\b\u0002\u0010\u0004\u001a\u00020\u0003HÆ\u0001J\u0013\u0010\f\u001a\u00020\r2\b\u0010\u000e\u001a\u0004\u0018\u00010\u0001HÖ\u0003J\t\u0010\u000f\u001a\u00020\u0003HÖ\u0001J\t\u0010\u0010\u001a\u00020\u0011HÖ\u0001R\u0011\u0010\u0002\u001a\u00020\u0003¢\u0006\b\n\u0000\u001a\u0004\b\u0006\u0010\u0007R\u0011\u0010\u0004\u001a\u00020\u0003¢\u0006\b\n\u0000\u001a\u0004\b\b\u0010\u0007¨\u0006\u0012"}, d2 = {"Lcom/vungle/ads/internal/ClickCoordinateTracker$Coordinate;", "", "x", "", "y", "(II)V", "getX", "()I", "getY", "component1", "component2", "copy", "equals", "", x4.DEFAULT_AUCTION_FALLBACK_VALUE, "hashCode", "toString", "", "vungle-ads_release"}, k = 1, mv = {1, 7, 1}, xi = 48)
+    public static final /* data */ class Coordinate {
+        private final int x;
+        private final int y;
+
+        public Coordinate(int i2, int i3) {
+            this.x = i2;
+            this.y = i3;
+        }
+
+        public static /* synthetic */ Coordinate copy$default(Coordinate coordinate, int i2, int i3, int i4, Object obj) {
+            if ((i4 & 1) != 0) {
+                i2 = coordinate.x;
+            }
+            if ((i4 & 2) != 0) {
+                i3 = coordinate.y;
+            }
+            return coordinate.copy(i2, i3);
+        }
+
+        /* JADX INFO: renamed from: component1, reason: from getter */
+        public final int getX() {
+            return this.x;
+        }
+
+        /* JADX INFO: renamed from: component2, reason: from getter */
+        public final int getY() {
+            return this.y;
+        }
+
+        public final Coordinate copy(int x, int y) {
+            return new Coordinate(x, y);
+        }
+
+        public boolean equals(Object other) {
+            if (this == other) {
+                return true;
+            }
+            if (!(other instanceof Coordinate)) {
+                return false;
+            }
+            Coordinate coordinate = (Coordinate) other;
+            return this.x == coordinate.x && this.y == coordinate.y;
+        }
+
+        public final int getX() {
+            return this.x;
+        }
+
+        public final int getY() {
+            return this.y;
+        }
+
+        public int hashCode() {
+            return Integer.hashCode(this.y) + (Integer.hashCode(this.x) * 31);
+        }
+
+        public String toString() {
+            StringBuilder sb = new StringBuilder("Coordinate(x=");
+            sb.append(this.x);
+            sb.append(", y=");
+            return a.p(sb, this.y, ')');
+        }
+    }
+
+    @Metadata(d1 = {"\u00000\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0010\b\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0000\b\u0080\b\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003¢\u0006\u0002\u0010\u0004J\t\u0010\u000f\u001a\u00020\u0003HÆ\u0003J\u0013\u0010\u0010\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u0003HÆ\u0001J\u0013\u0010\u0011\u001a\u00020\u00122\b\u0010\u0013\u001a\u0004\u0018\u00010\u0001HÖ\u0003J\t\u0010\u0014\u001a\u00020\bHÖ\u0001J\t\u0010\u0015\u001a\u00020\u0016HÖ\u0001R\u0011\u0010\u0002\u001a\u00020\u0003¢\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006R\u0011\u0010\u0007\u001a\u00020\b8F¢\u0006\u0006\u001a\u0004\b\t\u0010\nR\u0011\u0010\u000b\u001a\u00020\b8F¢\u0006\u0006\u001a\u0004\b\f\u0010\nR\u000e\u0010\r\u001a\u00020\u000eX\u0082\u0004¢\u0006\u0002\n\u0000¨\u0006\u0017"}, d2 = {"Lcom/vungle/ads/internal/ClickCoordinateTracker$DeviceScreenInfo;", "", "context", "Landroid/content/Context;", "(Landroid/content/Context;)V", "getContext", "()Landroid/content/Context;", "deviceHeight", "", "getDeviceHeight", "()I", "deviceWidth", "getDeviceWidth", com.smartdigimkt.b0.a.O, "Landroid/util/DisplayMetrics;", "component1", "copy", "equals", "", x4.DEFAULT_AUCTION_FALLBACK_VALUE, "hashCode", "toString", "", "vungle-ads_release"}, k = 1, mv = {1, 7, 1}, xi = 48)
+    public static final /* data */ class DeviceScreenInfo {
+        private final Context context;
+        private final DisplayMetrics dm;
+
+        public DeviceScreenInfo(Context context) {
+            Intrinsics.f(context, "context");
+            this.context = context;
+            DisplayMetrics displayMetrics = new DisplayMetrics();
+            this.dm = displayMetrics;
+            Object systemService = context.getSystemService("window");
+            Intrinsics.d(systemService, "null cannot be cast to non-null type android.view.WindowManager");
+            ((WindowManager) systemService).getDefaultDisplay().getMetrics(displayMetrics);
+        }
+
+        public static /* synthetic */ DeviceScreenInfo copy$default(DeviceScreenInfo deviceScreenInfo, Context context, int i2, Object obj) {
+            if ((i2 & 1) != 0) {
+                context = deviceScreenInfo.context;
+            }
+            return deviceScreenInfo.copy(context);
+        }
+
+        /* JADX INFO: renamed from: component1, reason: from getter */
+        public final Context getContext() {
+            return this.context;
+        }
+
+        public final DeviceScreenInfo copy(Context context) {
+            Intrinsics.f(context, "context");
+            return new DeviceScreenInfo(context);
+        }
+
+        public boolean equals(Object other) {
+            if (this == other) {
+                return true;
+            }
+            return (other instanceof DeviceScreenInfo) && Intrinsics.a(this.context, ((DeviceScreenInfo) other).context);
+        }
+
+        public final Context getContext() {
+            return this.context;
+        }
+
+        public final int getDeviceHeight() {
+            return this.dm.heightPixels;
+        }
+
+        public final int getDeviceWidth() {
+            return this.dm.widthPixels;
+        }
+
+        public int hashCode() {
+            return this.context.hashCode();
+        }
+
+        public String toString() {
+            return "DeviceScreenInfo(context=" + this.context + ')';
+        }
+    }
+
+    public ClickCoordinateTracker(Context context, AdPayload advertisement) {
+        Intrinsics.f(context, "context");
+        Intrinsics.f(advertisement, "advertisement");
+        this.context = context;
+        this.advertisement = advertisement;
+        this.currentClick = new ClickCoordinate(new Coordinate(Integer.MIN_VALUE, Integer.MIN_VALUE), new Coordinate(Integer.MIN_VALUE, Integer.MIN_VALUE));
+    }
+
+    public static /* synthetic */ void getCurrentClick$vungle_ads_release$annotations() {
+    }
+
+    private final int getDeviceHeight() {
+        return new DeviceScreenInfo(this.context).getDeviceHeight();
+    }
+
+    private final int getDeviceWidth() {
+        return new DeviceScreenInfo(this.context).getDeviceWidth();
+    }
+
+    private final int getRequestedHeight() {
+        int iAdHeight = this.advertisement.adHeight();
+        return iAdHeight == 0 ? getDeviceHeight() : ViewUtility.INSTANCE.dpToPixels(this.context, iAdHeight);
+    }
+
+    private final int getRequestedWidth() {
+        int iAdWidth = this.advertisement.adWidth();
+        return iAdWidth == 0 ? getDeviceWidth() : ViewUtility.INSTANCE.dpToPixels(this.context, iAdWidth);
+    }
+
+    private final void sendClickCoordinates() {
+        List<String> tpatUrls$default = AdPayload.getTpatUrls$default(this.advertisement, AdPayload.TPAT_CLICK_COORDINATES_URLS, null, null, 6, null);
+        List list = tpatUrls$default;
+        if (list == null || list.isEmpty()) {
+            new TpatError(Sdk.SDKError.Reason.EMPTY_TPAT_ERROR, "Empty urls for tpat: video.clickCoordinates").setLogEntry$vungle_ads_release(this.advertisement.getLogEntry()).logErrorNoReturnValue$vungle_ads_release();
+            return;
+        }
+        int requestedWidth = getRequestedWidth();
+        int requestedHeight = getRequestedHeight();
+        int requestedWidth2 = getRequestedWidth();
+        int requestedHeight2 = getRequestedHeight();
+        ServiceLocator.Companion companion = ServiceLocator.INSTANCE;
+        final Context context = this.context;
+        Lazy lazyA = LazyKt.a(LazyThreadSafetyMode.X, new Function0<TpatSender>() { // from class: com.vungle.ads.internal.ClickCoordinateTracker$sendClickCoordinates$$inlined$inject$1
+            /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+            {
+                super(0);
+            }
+
+            /* JADX WARN: Type inference failed for: r0v2, types: [com.vungle.ads.internal.network.TpatSender, java.lang.Object] */
+            @Override // kotlin.jvm.functions.Function0
+            public final TpatSender invoke() {
+                return ServiceLocator.INSTANCE.getInstance(context).getService(TpatSender.class);
+            }
+        });
+        for (String str : tpatUrls$default) {
+            String MACRO_REQ_WIDTH2 = MACRO_REQ_WIDTH;
+            Intrinsics.e(MACRO_REQ_WIDTH2, "MACRO_REQ_WIDTH");
+            String strC = new Regex(MACRO_REQ_WIDTH2).c(String.valueOf(requestedWidth), str);
+            String MACRO_REQ_HEIGHT2 = MACRO_REQ_HEIGHT;
+            Intrinsics.e(MACRO_REQ_HEIGHT2, "MACRO_REQ_HEIGHT");
+            String strC2 = new Regex(MACRO_REQ_HEIGHT2).c(String.valueOf(requestedHeight), strC);
+            String MACRO_WIDTH2 = MACRO_WIDTH;
+            Intrinsics.e(MACRO_WIDTH2, "MACRO_WIDTH");
+            String strC3 = new Regex(MACRO_WIDTH2).c(String.valueOf(requestedWidth2), strC2);
+            String MACRO_HEIGHT2 = MACRO_HEIGHT;
+            Intrinsics.e(MACRO_HEIGHT2, "MACRO_HEIGHT");
+            String strC4 = new Regex(MACRO_HEIGHT2).c(String.valueOf(requestedHeight2), strC3);
+            String MACRO_DOWN_X2 = MACRO_DOWN_X;
+            Intrinsics.e(MACRO_DOWN_X2, "MACRO_DOWN_X");
+            String strC5 = new Regex(MACRO_DOWN_X2).c(String.valueOf(this.currentClick.getDownCoordinate().getX()), strC4);
+            String MACRO_DOWN_Y2 = MACRO_DOWN_Y;
+            Intrinsics.e(MACRO_DOWN_Y2, "MACRO_DOWN_Y");
+            String strC6 = new Regex(MACRO_DOWN_Y2).c(String.valueOf(this.currentClick.getDownCoordinate().getY()), strC5);
+            String MACRO_UP_X2 = MACRO_UP_X;
+            Intrinsics.e(MACRO_UP_X2, "MACRO_UP_X");
+            String strC7 = new Regex(MACRO_UP_X2).c(String.valueOf(this.currentClick.getUpCoordinate().getX()), strC6);
+            String MACRO_UP_Y2 = MACRO_UP_Y;
+            Intrinsics.e(MACRO_UP_Y2, "MACRO_UP_Y");
+            TpatSender.sendTpat$default(m3188sendClickCoordinates$lambda0(lazyA), new TpatRequest.Builder(new Regex(MACRO_UP_Y2).c(String.valueOf(this.currentClick.getUpCoordinate().getY()), strC7)).tpatKey(Constants.COORDINATE).build(), false, 2, null);
+        }
+    }
+
+    /* JADX INFO: renamed from: sendClickCoordinates$lambda-0, reason: not valid java name */
+    private static final TpatSender m3188sendClickCoordinates$lambda0(Lazy<TpatSender> lazy) {
+        return (TpatSender) lazy.getX();
+    }
+
+    /* JADX INFO: renamed from: getCurrentClick$vungle_ads_release, reason: from getter */
+    public final ClickCoordinate getCurrentClick() {
+        return this.currentClick;
+    }
+
+    public final void trackCoordinate(MotionEvent event) {
+        Intrinsics.f(event, "event");
+        if (this.advertisement.isClickCoordinatesTrackingEnabled()) {
+            int action = event.getAction();
+            if (action == 0) {
+                this.currentClick.setDownCoordinate(new Coordinate((int) event.getX(), (int) event.getY()));
+            } else {
+                if (action != 1) {
+                    return;
+                }
+                this.currentClick.setUpCoordinate(new Coordinate((int) event.getX(), (int) event.getY()));
+                if (this.currentClick.ready()) {
+                    sendClickCoordinates();
+                }
+            }
+        }
+    }
+}

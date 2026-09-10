@@ -1,0 +1,78 @@
+taser08.png
+	size: 1200, 1997
+	filter: Linear, Linear
+	pma: true
+nengliangqiu01
+	bounds: 2, 364, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu13
+	bounds: 2, 364, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu02
+	bounds: 476, 1635, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu14
+	bounds: 476, 1635, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu03
+	bounds: 2, 2, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu15
+	bounds: 2, 2, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu04
+	bounds: 476, 1273, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu16
+	bounds: 476, 1273, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu05
+	bounds: 838, 1635, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu17
+	bounds: 838, 1635, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu06
+	bounds: 476, 911, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu18
+	bounds: 476, 911, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu07
+	bounds: 838, 1273, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu19
+	bounds: 838, 1273, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu08
+	bounds: 838, 911, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu20
+	bounds: 838, 911, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu09
+	bounds: 476, 549, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu21
+	bounds: 476, 549, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu10
+	bounds: 838, 549, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu22
+	bounds: 838, 549, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu11
+	bounds: 364, 187, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu23
+	bounds: 364, 187, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu12
+	bounds: 726, 187, 360, 360
+	offsets: 1, 1, 362, 362
+nengliangqiu24
+	bounds: 726, 187, 360, 360
+	offsets: 1, 1, 362, 362
+taser08
+	bounds: 2, 726, 472, 1269

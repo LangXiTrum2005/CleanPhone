@@ -1,0 +1,76 @@
+{
+"skeleton": {
+	"hash": "MZq+ncUfO2E",
+	"spine": "4.2.37",
+	"x": -302.56,
+	"y": -907.25,
+	"width": 605.12,
+	"height": 1814.51,
+	"images": "../images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "SCAR 20S", "parent": "bone" },
+	{ "name": "TX_weizhi", "parent": "bone", "x": 14.67, "y": 859.45 },
+	{ "name": "zidan_weizhi", "parent": "bone", "rotation": -90, "x": 83.99, "y": -78.52 }
+],
+"slots": [
+	{ "name": "SCAR 20S", "bone": "SCAR 20S", "attachment": "SCAR 20S" },
+	{ "name": "tx_weizhi", "bone": "TX_weizhi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"SCAR 20S": {
+				"SCAR 20S": { "scaleX": 1.2, "scaleY": 1.2, "rotation": 0.01, "width": 504, "height": 1512 }
+			}
+		}
+	}
+],
+"animations": {
+	"SCAR 20S": {
+		"slots": {
+			"SCAR 20S": {
+				"attachment": [
+					{ "name": "SCAR 20S" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"SCAR 20S": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -3 },
+					{ "time": 0.2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -1.85, "y": -35.37 },
+					{ "time": 0.2, "x": -0.52 }
+				]
+			},
+			"zidan_weizhi": {
+				"translate": [
+					{}
+				]
+			},
+			"TX_weizhi": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

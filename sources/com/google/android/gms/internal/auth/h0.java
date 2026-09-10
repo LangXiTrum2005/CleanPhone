@@ -1,0 +1,139 @@
+package com.google.android.gms.internal.auth;
+
+import java.io.Serializable;
+import java.util.Iterator;
+import java.util.Locale;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes.dex */
+public class h0 implements Iterable, Serializable {
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public static final h0 f22838c = new h0(p0.f22891b);
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public int f22839a = 0;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final byte[] f22840b;
+
+    static {
+        int i10 = e0.f22815a;
+    }
+
+    public h0(byte[] bArr) {
+        bArr.getClass();
+        this.f22840b = bArr;
+    }
+
+    public static int n(int i10, int i11, int i12) {
+        int i13 = i11 - i10;
+        if ((i10 | i11 | i13 | (i12 - i11)) >= 0) {
+            return i13;
+        }
+        if (i10 < 0) {
+            throw new IndexOutOfBoundsException(defpackage.e.h(i10, "Beginning index: ", " < 0"));
+        }
+        if (i11 < i10) {
+            throw new IndexOutOfBoundsException(defpackage.e.g(i10, i11, "Beginning index larger than ending index: ", ", "));
+        }
+        throw new IndexOutOfBoundsException(defpackage.e.g(i11, i12, "End index: ", " >= "));
+    }
+
+    public static h0 p(byte[] bArr, int i10, int i11) {
+        n(i10, i10 + i11, bArr.length);
+        byte[] bArr2 = new byte[i11];
+        System.arraycopy(bArr, i10, bArr2, 0, i11);
+        return new h0(bArr2);
+    }
+
+    public byte b(int i10) {
+        return this.f22840b[i10];
+    }
+
+    public final boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if ((obj instanceof h0) && m() == ((h0) obj).m()) {
+            if (m() == 0) {
+                return true;
+            }
+            if (!(obj instanceof h0)) {
+                return obj.equals(this);
+            }
+            h0 h0Var = (h0) obj;
+            int i10 = this.f22839a;
+            int i11 = h0Var.f22839a;
+            if (i10 == 0 || i11 == 0 || i10 == i11) {
+                int iM = m();
+                if (iM > h0Var.m()) {
+                    throw new IllegalArgumentException("Length too large: " + iM + m());
+                }
+                if (iM > h0Var.m()) {
+                    throw new IllegalArgumentException(defpackage.e.g(iM, h0Var.m(), "Ran off end of other: 0, ", ", "));
+                }
+                byte[] bArr = h0Var.f22840b;
+                int i12 = 0;
+                int i13 = 0;
+                while (i12 < iM) {
+                    if (this.f22840b[i12] == bArr[i13]) {
+                        i12++;
+                        i13++;
+                    }
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public byte h(int i10) {
+        return this.f22840b[i10];
+    }
+
+    public final int hashCode() {
+        int i10 = this.f22839a;
+        if (i10 != 0) {
+            return i10;
+        }
+        int iM = m();
+        int i11 = iM;
+        for (int i12 = 0; i12 < iM; i12++) {
+            i11 = (i11 * 31) + this.f22840b[i12];
+        }
+        if (i11 == 0) {
+            i11 = 1;
+        }
+        this.f22839a = i11;
+        return i11;
+    }
+
+    @Override // java.lang.Iterable
+    public final /* synthetic */ Iterator iterator() {
+        return new androidx.datastore.preferences.protobuf.e(this);
+    }
+
+    public int m() {
+        return this.f22840b.length;
+    }
+
+    public final String toString() {
+        String strConcat;
+        Locale locale = Locale.ROOT;
+        String hexString = Integer.toHexString(System.identityHashCode(this));
+        int iM = m();
+        if (m() <= 50) {
+            strConcat = go.k.Z(this);
+        } else {
+            int iN = n(0, 47, m());
+            strConcat = go.k.Z(iN == 0 ? f22838c : new f0(this.f22840b, iN)).concat("...");
+        }
+        StringBuilder sb2 = new StringBuilder("<ByteString@");
+        sb2.append(hexString);
+        sb2.append(" size=");
+        sb2.append(iM);
+        sb2.append(" contents=\"");
+        return defpackage.e.q(strConcat, "\">", sb2);
+    }
+}

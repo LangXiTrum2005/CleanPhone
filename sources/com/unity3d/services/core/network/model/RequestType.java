@@ -1,0 +1,14 @@
+package com.unity3d.services.core.network.model;
+
+import com.ironsource.C0375hc;
+import gatewayprotocol.v1.DiagnosticEventRequestOuterClass;
+import kotlin.Metadata;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\b\u0005\b\u0086\u0001\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002j\u0002\b\u0003j\u0002\b\u0004j\u0002\b\u0005¨\u0006\u0006"}, d2 = {"Lcom/unity3d/services/core/network/model/RequestType;", "", "(Ljava/lang/String;I)V", C0375hc.f28789b, C0375hc.f28788a, "HEAD", "unity-ads_defaultRelease"}, k = 1, mv = {1, 8, 0}, xi = DiagnosticEventRequestOuterClass.DiagnosticEventType.DIAGNOSTIC_EVENT_TYPE_NATIVE_AD_QUALITY_INIT_STARTED_VALUE)
+public enum RequestType {
+    POST,
+    GET,
+    HEAD
+}

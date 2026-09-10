@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/content"
+    android:background="@drawable/bigo_ad_button_countdown_close"
+    android:clipChildren="false"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp">
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/inter_text_countdown"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+    <View
+        android:id="@+id/inter_view_stroke"
+        android:background="#33ffffff"
+        android:visibility="gone"
+        android:layout_width="2dp"
+        android:layout_height="25dp"/>
+    <sg.bigo.ads.ad.interstitial.CustomTouchImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/bigo_ad_btn_close"
+        android:padding="3.5dp"
+        android:visibility="visible"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/bigo_ad_ic_close"/>
+</LinearLayout>

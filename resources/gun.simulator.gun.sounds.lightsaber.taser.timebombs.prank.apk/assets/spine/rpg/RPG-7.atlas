@@ -1,0 +1,12 @@
+RPG-7.png
+	size: 1057, 366
+	filter: Linear, Linear
+	pma: true
+RPG-7_ canno barrel
+	bounds: 2, 82, 282, 1053
+	offsets: 3, 15, 316, 1068
+	rotate: 90
+bullet
+	bounds: 2, 2, 78, 406
+	offsets: 152, 0, 316, 406
+	rotate: 90

@@ -1,0 +1,100 @@
+package com.facebook.ads.redexgen.core;
+
+import com.facebook.video.heroplayer.exocustom.MetaExoPlayerCustomization;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.mE, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network/classes2.dex */
+@MetaExoPlayerCustomization(type = {"INCREASE_VISIBILITY"}, value = "To support OculusMp4Extractor")
+public final class C2623mE extends AbstractC1449Iu {
+    public static byte[] A03;
+    public static String[] A04 = {"GA2pmS7X4ROGOgByNCdi18taC", "aAh4RNygY6pz4IdlAQ9iIXEvCFWWkzLF", "JuodTrkofMpjka010", "J1Lmlws0eqmUUC5GC3jhEdxTYojxk4jf", "6Ya7uqSvo", "3XyRCMiSsp8rG7f8J4q6xkUhsqnZzFaE", "VspF2Q", "vTSdivoAe22KROlTGGoK4NP8GmV"};
+    public final long A00;
+    public final List<C2623mE> A01;
+    public final List<C2622mD> A02;
+
+    public static String A04(int i2, int i3, int i4) {
+        byte[] bArrCopyOfRange = Arrays.copyOfRange(A03, i2, i2 + i3);
+        for (int i5 = 0; i5 < bArrCopyOfRange.length; i5++) {
+            bArrCopyOfRange[i5] = (byte) ((bArrCopyOfRange[i5] ^ i4) ^ 84);
+        }
+        return new String(bArrCopyOfRange);
+    }
+
+    public static void A05() {
+        A03 = new byte[]{68, 7, 11, 10, 16, 5, 13, 10, 1, 22, 23, 94, 68, 105, 37, 44, 40, 63, 44, 58, 115, 105};
+    }
+
+    static {
+        A05();
+    }
+
+    public C2623mE(int i2, long j) {
+        super(i2);
+        this.A00 = j;
+        this.A02 = new ArrayList();
+        this.A01 = new ArrayList();
+    }
+
+    public final C2623mE A06(int i2) {
+        int size = this.A01.size();
+        for (int i3 = 0; i3 < size; i3++) {
+            C2623mE c2623mE = this.A01.get(i3);
+            int i4 = A04[7].length();
+            if (i4 == 3) {
+                throw new RuntimeException();
+            }
+            String[] strArr = A04;
+            strArr[1] = "n49CDGF4gSULbNzRfDOXSmTNWTogkE10";
+            strArr[3] = "P3Agw1JJwclCkyu9DcuVtuUqOjxfkaYK";
+            C2623mE c2623mE2 = c2623mE;
+            int childrenSize = ((AbstractC1449Iu) c2623mE2).A00;
+            if (childrenSize == i2) {
+                return c2623mE2;
+            }
+        }
+        if (A04[4].length() == 14) {
+            throw new RuntimeException();
+        }
+        String[] strArr2 = A04;
+        strArr2[1] = "eWhxbLiQvYVwUHrDqb1spRuVxj0ikF7I";
+        strArr2[3] = "G0JrlMiW26lgTwAQcPtVzhOkcvjPkvCh";
+        return null;
+    }
+
+    public final C2622mD A07(int i2) {
+        int size = this.A02.size();
+        for (int i3 = 0; i3 < size; i3++) {
+            C2622mD c2622mD = this.A02.get(i3);
+            String[] strArr = A04;
+            String str = strArr[2];
+            String str2 = strArr[0];
+            int i4 = str.length();
+            int childrenSize = str2.length();
+            if (i4 == childrenSize) {
+                throw new RuntimeException();
+            }
+            A04[5] = "r5cbbIuLaeCnR7fWkiITKmUfsEKVcSuB";
+            int childrenSize2 = ((AbstractC1449Iu) c2622mD).A00;
+            if (childrenSize2 == i2) {
+                return c2622mD;
+            }
+        }
+        return null;
+    }
+
+    public final void A08(C2623mE c2623mE) {
+        this.A01.add(c2623mE);
+    }
+
+    public final void A09(C2622mD c2622mD) {
+        this.A02.add(c2622mD);
+    }
+
+    @Override // com.facebook.ads.redexgen.core.AbstractC1449Iu
+    public final String toString() {
+        return AbstractC1449Iu.A02(super.A00) + A04(13, 9, 29) + Arrays.toString(this.A02.toArray()) + A04(0, 13, 48) + Arrays.toString(this.A01.toArray());
+    }
+}

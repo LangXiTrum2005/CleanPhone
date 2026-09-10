@@ -1,0 +1,64 @@
+package com.google.android.gms.internal.ads;
+
+import gun.simulator.gun.sounds.lightsaber.taser.timebombs.prank.view.AbstractC3950lJ;
+import gun.simulator.gun.sounds.lightsaber.taser.timebombs.prank.view.DM;
+import java.security.GeneralSecurityException;
+import javax.annotation.Nullable;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class zzgif extends zzget {
+    private final zzgik zza;
+    private final zzgvp zzb;
+    private final zzgvo zzc;
+
+    @Nullable
+    private final Integer zzd;
+
+    private zzgif(zzgik zzgikVar, zzgvp zzgvpVar, zzgvo zzgvoVar, @Nullable Integer num) {
+        this.zza = zzgikVar;
+        this.zzb = zzgvpVar;
+        this.zzc = zzgvoVar;
+        this.zzd = num;
+    }
+
+    public static zzgif zza(zzgik zzgikVar, zzgvp zzgvpVar, @Nullable Integer num) throws GeneralSecurityException {
+        zzgvo zzgvoVarZzb;
+        zzgij zzgijVarZzc = zzgikVar.zzc();
+        zzgij zzgijVar = zzgij.zzb;
+        if (zzgijVarZzc != zzgijVar && num == null) {
+            throw new GeneralSecurityException(DM.B("For given Variant ", zzgikVar.zzc().toString(), " the value of idRequirement must be non-null"));
+        }
+        if (zzgikVar.zzc() == zzgijVar && num != null) {
+            throw new GeneralSecurityException("For given Variant NO_PREFIX the value of idRequirement must be null");
+        }
+        if (zzgvpVar.zza() != 32) {
+            throw new GeneralSecurityException(AbstractC3950lJ.p("XAesGcmKey key must be constructed with key of length 32 bytes, not ", zzgvpVar.zza()));
+        }
+        if (zzgikVar.zzc() == zzgijVar) {
+            zzgvoVarZzb = zzgml.zza;
+        } else {
+            if (zzgikVar.zzc() != zzgij.zza) {
+                throw new IllegalStateException("Unknown Variant: ".concat(zzgikVar.zzc().toString()));
+            }
+            zzgvoVarZzb = zzgml.zzb(num.intValue());
+        }
+        return new zzgif(zzgikVar, zzgvpVar, zzgvoVarZzb, num);
+    }
+
+    public final zzgik zzb() {
+        return this.zza;
+    }
+
+    public final zzgvo zzc() {
+        return this.zzc;
+    }
+
+    public final zzgvp zzd() {
+        return this.zzb;
+    }
+
+    @Nullable
+    public final Integer zze() {
+        return this.zzd;
+    }
+}

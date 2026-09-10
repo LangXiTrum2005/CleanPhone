@@ -1,0 +1,110 @@
+package com.iab.omid.library.startio.internal;
+
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.app.Application;
+import android.content.Context;
+import android.os.Bundle;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class d implements Application.ActivityLifecycleCallbacks {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private boolean f22249a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    protected boolean f22250b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    private a f22251c;
+
+    public interface a {
+        void a(boolean z2);
+    }
+
+    public void a(Context context) {
+        if (context instanceof Application) {
+            ((Application) context).registerActivityLifecycleCallbacks(this);
+        }
+    }
+
+    public ActivityManager.RunningAppProcessInfo b() {
+        ActivityManager.RunningAppProcessInfo runningAppProcessInfo = new ActivityManager.RunningAppProcessInfo();
+        ActivityManager.getMyMemoryState(runningAppProcessInfo);
+        return runningAppProcessInfo;
+    }
+
+    public boolean c() {
+        return this.f22250b;
+    }
+
+    public boolean d() {
+        return false;
+    }
+
+    public void e() {
+        this.f22249a = true;
+        boolean zA = a();
+        this.f22250b = zA;
+        b(zA);
+    }
+
+    public void f() {
+        this.f22249a = false;
+        this.f22251c = null;
+    }
+
+    @Override // android.app.Application.ActivityLifecycleCallbacks
+    public void onActivityCreated(Activity activity, Bundle bundle) {
+    }
+
+    @Override // android.app.Application.ActivityLifecycleCallbacks
+    public void onActivityDestroyed(Activity activity) {
+    }
+
+    @Override // android.app.Application.ActivityLifecycleCallbacks
+    public void onActivityPaused(Activity activity) {
+    }
+
+    @Override // android.app.Application.ActivityLifecycleCallbacks
+    public void onActivityResumed(Activity activity) {
+    }
+
+    @Override // android.app.Application.ActivityLifecycleCallbacks
+    public void onActivitySaveInstanceState(Activity activity, Bundle bundle) {
+    }
+
+    @Override // android.app.Application.ActivityLifecycleCallbacks
+    public void onActivityStarted(Activity activity) {
+        a(true);
+    }
+
+    @Override // android.app.Application.ActivityLifecycleCallbacks
+    public void onActivityStopped(Activity activity) {
+        a(a());
+    }
+
+    public void a(a aVar) {
+        this.f22251c = aVar;
+    }
+
+    public void b(boolean z2) {
+    }
+
+    private void a(boolean z2) {
+        if (this.f22250b != z2) {
+            this.f22250b = z2;
+            if (this.f22249a) {
+                b(z2);
+                a aVar = this.f22251c;
+                if (aVar != null) {
+                    aVar.a(z2);
+                }
+            }
+        }
+    }
+
+    private boolean a() {
+        return b().importance == 100 || d();
+    }
+}

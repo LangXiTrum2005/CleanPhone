@@ -1,0 +1,31 @@
+package com.unity3d.ads.core.domain.exposure;
+
+import ak.f;
+import ck.c;
+import ck.e;
+import com.ironsource.InterfaceC0435l1;
+import gatewayprotocol.v1.DiagnosticEventRequestOuterClass;
+import kotlin.Metadata;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes4.dex */
+@e(c = "com.unity3d.ads.core.domain.exposure.CommonAdViewerExposedFunctionsKt$omGetData$1", f = "CommonAdViewerExposedFunctions.kt", l = {InterfaceC0435l1.a.b.f29090j}, m = "invoke")
+@Metadata(k = 3, mv = {1, 8, 0}, xi = DiagnosticEventRequestOuterClass.DiagnosticEventType.DIAGNOSTIC_EVENT_TYPE_NATIVE_AD_QUALITY_INIT_STARTED_VALUE)
+public final class CommonAdViewerExposedFunctionsKt$omGetData$1$invoke$1 extends c {
+    int label;
+    /* synthetic */ Object result;
+    final /* synthetic */ CommonAdViewerExposedFunctionsKt.C08031 this$0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public CommonAdViewerExposedFunctionsKt$omGetData$1$invoke$1(CommonAdViewerExposedFunctionsKt.C08031 c08031, f fVar) {
+        super(fVar);
+        this.this$0 = c08031;
+    }
+
+    @Override // ck.a
+    public final Object invokeSuspend(Object obj) {
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        return this.this$0.invoke((Object[]) null, (f) this);
+    }
+}

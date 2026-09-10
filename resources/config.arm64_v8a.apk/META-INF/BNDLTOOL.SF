@@ -1,0 +1,35 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: wzIij2meuD7IbfsSosjtYUh7cpo=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: aAjuFU1puW31y7bqNUmLx9e28MY=
+
+Name: lib/arm64-v8a/libapp.so
+SHA1-Digest: vJ0nWiTBjv8+RP6E3YRKfS8xMFI=
+
+Name: lib/arm64-v8a/libapplovin-native-crash-reporter.so
+SHA1-Digest: wBvCicnlGklIXjXx1f6abGIoxsc=
+
+Name: lib/arm64-v8a/libdartjni.so
+SHA1-Digest: z/5XStpPNkFVAcFxUl+tGuE0q7M=
+
+Name: lib/arm64-v8a/libdatastore_shared_counter.so
+SHA1-Digest: 2QroeYLrBWw5bbYB9vLjZMnYZKg=
+
+Name: lib/arm64-v8a/libdhash.so
+SHA1-Digest: t+f/+oiK/QwoFrHFMcQTq7IEKaY=
+
+Name: lib/arm64-v8a/libflutter.so
+SHA1-Digest: 0yZvqoTgqE9qQn1gCnv1kB/p/ak=
+
+Name: lib/arm64-v8a/librive_native.so
+SHA1-Digest: mHqWMj5PkLyEFQFLXkIAgQoTG8Q=
+
+Name: lib/arm64-v8a/libsigner.so
+SHA1-Digest: iqonev1CYb7jfdQ/kTu8/e7n91M=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+

@@ -1,0 +1,7 @@
+M2 Flamethrower.png
+	size: 687, 919
+	filter: Linear, Linear
+	pma: true
+M2 Flamethrower
+	bounds: 2, 2, 683, 915
+	offsets: 11, 1, 703, 929

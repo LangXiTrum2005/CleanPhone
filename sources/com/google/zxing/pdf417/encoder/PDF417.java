@@ -1,0 +1,5 @@
+package com.google.zxing.pdf417.encoder;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class PDF417 {
+}

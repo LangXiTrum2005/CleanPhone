@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">Cleanup</string>
+    <string name="app_tagline">Smart Storage &amp; Media Cleaner</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_swipe">Photo Swipe</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_compress">Compress</string>
+    <string name="nav_secret">Secret Vault</string>
+    <string name="nav_apps">App Cleaner</string>
+    <string name="nav_battery">Battery &amp; Charging</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Settings Sections & Items -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_utilities">Utilities</string>
+    <string name="settings_section_secret">Secret Vault Security</string>
+    <string name="settings_section_social">Stay in Touch</string>
+    <string name="settings_section_support">Support &amp; Feedback</string>
+    <string name="settings_section_about">About &amp; Legal</string>
+    <string name="settings_pro_banner_title">Cleanup PRO</string>
+    <string name="settings_pro_banner_sub">Unlimited access to all features</string>
+    <string name="settings_use_pin">Use PIN Lock</string>
+    <string name="settings_use_biometrics">Use Biometrics / Face ID</string>
+    <string name="settings_change_pin">Change 6-Digit PIN</string>
+    <string name="settings_remove_after_import">Remove Original After Import</string>
+    <string name="settings_trash_bin">Trash Bin</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_widgets">Home Screen Widgets</string>
+    <string name="settings_share_app">Share Cleanup</string>
+    <string name="settings_instagram">Follow on Instagram</string>
+    <string name="settings_tiktok">Follow on TikTok</string>
+    <string name="settings_twitter">Follow on Twitter / X</string>
+    <string name="settings_faq">FAQ &amp; Help</string>
+    <string name="settings_rate_us">Rate Us</string>
+    <string name="settings_contact_us">Contact Us</string>
+    <string name="settings_restore_purchase">Restore Purchase</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms_of_service">Terms of Service</string>
+    <string name="settings_community_guidelines">Community Guidelines</string>
+    <string name="popups_got_it">Got It</string>
+    <string name="popups_maybe_later">Maybe Later</string>
+    <string name="contact_us_four_answer">To allow Cleanup to access photos and videos: Go to device Settings -> Apps -> Cleanup -> Permissions -> Photos &amp; Videos -> Select \'Allow all\'. All operations run 100% locally and offline on your device.</string>
+
+    <!-- Dashboard -->
+    <string name="storage_used_title">Used Storage</string>
+    <string name="storage_used_fmt">%1$s of %2$s used</string>
+    <string name="storage_free_fmt">%1$s Free</string>
+    <string name="btn_smart_clean">AI Smart Clean</string>
+    <string name="scanning_storage">Scanning storage…</string>
+    <string name="scanning_photos">Analyzing photos &amp; duplicates…</string>
+    <string name="scanning_videos">Scanning heavy videos…</string>
+    <string name="scan_completed">Scan complete!</string>
+    <string name="reclaimable_space">Reclaimable Space</string>
+
+    <!-- Categories -->
+    <string name="category_similar_photos">Similar Photos</string>
+    <string name="category_similar_desc">Grouped similar shots, keep the best one</string>
+    <string name="category_duplicates">Exact Duplicates</string>
+    <string name="category_duplicates_desc">Identical copy files taking up space</string>
+    <string name="category_screenshots">Screenshots</string>
+    <string name="category_screenshots_desc">Old and unneeded screen captures</string>
+    <string name="category_large_videos">Large Videos</string>
+    <string name="category_large_videos_desc">Heavy video files taking GBs</string>
+    <string name="category_other_media">Other Media</string>
+    <string name="category_other_media_desc">Chat downloads &amp; misc files</string>
+
+    <!-- Photo Cleaner & Similarity -->
+    <string name="best_result">BEST RESULT</string>
+    <string name="delete_selected">Delete Selected (%1$d)</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="keep_best">Keep Best Only</string>
+    <string name="no_items_found">No items found to clean!</string>
+
+    <!-- Photo Swiping -->
+    <string name="swipe_hint_keep">Swipe RIGHT to Keep</string>
+    <string name="swipe_hint_delete">Swipe LEFT to Delete</string>
+    <string name="swipe_progress_fmt">%1$d / %2$d Photos</string>
+    <string name="swipe_undo">Undo</string>
+    <string name="swipe_open_trash">Open Trash Bin (%1$d)</string>
+    <string name="trash_title">Trash Bin</string>
+    <string name="trash_clear_all">Empty Trash</string>
+    <string name="trash_recover_all">Restore All</string>
+    <string name="trash_empty_state">No photos in the trash</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">Organize Contacts</string>
+    <string name="contacts_screen_title">Organize Contacts</string>
+    <string name="duplicates_category_title">Duplicates</string>
+    <string name="incomplete_contacts_category_title">Incomplete Contacts</string>
+    <string name="all_contacts_category_title">All Contacts</string>
+    <string name="backups_category_title">Backups</string>
+    <string name="contacts_duplicate_title">Duplicate Contacts</string>
+    <string name="contacts_duplicate_desc">Same phone numbers or names</string>
+    <string name="contacts_incomplete_title">Incomplete Contacts</string>
+    <string name="contacts_incomplete_desc">Missing name or phone number</string>
+    <string name="contacts_backup_title">Backups &amp; Restore</string>
+    <string name="contacts_backup_desc">Create VCF backup file</string>
+    <string name="contacts_btn_merge">Merge Duplicates</string>
+    <string name="contacts_btn_backup">Create Backup</string>
+    <string name="contacts_btn_restore">Restore from VCF</string>
+    <string name="contacts_merge_preview">Merge Preview</string>
+    <string name="contacts_no_name">No Name</string>
+    <string name="contacts_no_phone">No Phone Number</string>
+    <string name="contacts_duplicated_empty_state_title">No contacts found with duplicate phone numbers!</string>
+    <string name="contacts_incomplete_contacts_empty_state_title">No contacts found with incomplete numbers!</string>
+    <string name="contacts_backups_empty_state_title">There are no backups found!</string>
+    <string name="all_contacts_empty_state_title">There are no contacts found!</string>
+    <string name="all_contacts_text_field_hint_text">Search contact…</string>
+    <string name="contacts_backup_popup_title">Would you like to backup before making any changes?</string>
+    <string name="contacts_backup_popup_subtitle">Changes cannot be reversed if you don\'t backup your contacts.</string>
+    <string name="contacts_backup_popup_primary_action_text">Create Backup</string>
+    <string name="contacts_backup_popup_secondary_action_text">No, thanks</string>
+    <string name="contacts_backup_popup_backup_success_title">Backup created!</string>
+    <string name="contacts_restore_backup">Restore Backup</string>
+    <string name="contacts_restore_backup_success">Backup restored successfully!</string>
+    <string name="contacts_delete_backup_popup_title">Are you sure to delete?</string>
+    <string name="contacts_delete_backup_popup_subtitle">The backup will be deleted. Changes cannot be reversed.</string>
+    <string name="contacts_delete_backup_popup_primary_action_text">Delete</string>
+    <string name="backup_deletion_success_popup_title">Backup deleted successfully!</string>
+    <string name="contacts_merge_popup_title">Merge selected contacts?</string>
+    <string name="contacts_merge_popup_subtitle">They will be merged into one contact. Changes cannot be reversed.</string>
+    <string name="delete_contacts_popup_title">Delete selected contacts?</string>
+    <string name="delete_contacts_popup_subtitle">Contacts cannot be reversed once deleted.</string>
+    <string name="deletion_success_popup_title">Deleted successfully!</string>
+    <string name="contacts_merged_fmt">%1$d Contacts Merged</string>
+    <string name="contacts_need_access_title">Need Access to Contacts</string>
+    <string name="contacts_need_access_subtitle">Cleanup needs access to your Contacts. Please allow access in settings.</string>
+
+    <!-- Video Compressor -->
+    <string name="compress_title">Video Compressor</string>
+    <string name="compress_subtitle">Compress high-res videos to free up GBs</string>
+    <string name="video_compress_header_title">Compress videos &amp; save free space up to:</string>
+    <string name="video_compress_ultimate_space">Ultimate Space</string>
+    <string name="video_compress_moderate_space">Moderate Space</string>
+    <string name="video_compress_light_space">Light Space</string>
+    <string name="video_compress_ultimate_desc">Low Quality • ~70% compress</string>
+    <string name="video_compress_moderate_desc">Medium Quality • ~45% compress</string>
+    <string name="video_compress_light_desc">High Quality • ~25% compress</string>
+    <string name="video_compress_popup_title">Compress selected video?</string>
+    <string name="video_compress_popup_subtitle">The video will be compressed. By doing so you will gain %1$s free space.</string>
+    <string name="video_compress_in_progress_title">Compressing your video…</string>
+    <string name="video_compress_in_progress_subtitle">Keep the app open until the process is complete.</string>
+    <string name="video_compress_progress_completed_title">Completed!</string>
+    <string name="video_compress_progress_completed_subtitle">The video has been compressed &amp; saved to photos.</string>
+    <string name="video_compress_progress_completed_primary_action">Keep Both Videos</string>
+    <string name="video_compress_progress_completed_secondary_action">Remove Original Video</string>
+    <string name="video_compress_exit_popup_title">Don\'t lose your compression progress!</string>
+    <string name="video_compress_exit_popup_subtitle">If you exit now, the compression won\'t be completed.</string>
+    <string name="video_compress_exit_popup_primary_action">Keep Compressing</string>
+    <string name="video_compress_exit_popup_secondary_action">Stop Compressing</string>
+    <string name="video_compress_congrats_compressed">You have compressed</string>
+    <string name="video_compress_congrats_saved">You saved</string>
+    <string name="video_compress_empty_state_title">There are no videos to compress!</string>
+    <string name="video_compress_failed_title">Video compression failed</string>
+    <string name="video_compress_failed_subtitle">An error occurred while compressing your video. Please try again.</string>
+    <string name="compress_btn_start">Compress Video</string>
+    <string name="compressing_progress_fmt">Compressing… %1$d%%</string>
+    <string name="compress_saved_fmt">Saved %1$s</string>
+    <string name="select_video_hint">Select a video to compress</string>
+    <string name="select_video_title">Select Video</string>
+
+    <!-- App Cleaner -->
+    <string name="app_cleaner_title">App Cleaner</string>
+    <string name="app_cleaner_subtitle">Find and uninstall least used heavy apps</string>
+    <string name="sort_largest_size">Largest Size</string>
+    <string name="sort_least_used">Least Used</string>
+    <string name="sort_most_used">Most Used</string>
+    <string name="btn_uninstall">Uninstall Selected</string>
+    <string name="uninstall_success">Uninstalled successfully!</string>
+    <string name="permission_usage_needed">Usage Access Permission Required to track app activity</string>
+    <string name="btn_grant_permission">Grant Permission</string>
+    <string name="app_last_used_fmt">Last used: %1$s</string>
+    <string name="app_rarely_used">Rarely used</string>
+    <string name="error_open_settings">Unable to open settings. Please enable Usage Access manually in Settings.</string>
+    <string name="app_cleaner_hard_permission_title">Find the apps you never use</string>
+    <string name="app_cleaner_hard_permission_subtitle">Usage access shows which apps just sit there taking up space.</string>
+    <string name="app_cleaner_hard_permission_step_one">Tap “Go to settings”</string>
+    <string name="app_cleaner_hard_permission_step_one_desc">Open the Usage Access screen in device system settings.</string>
+    <string name="app_cleaner_hard_permission_step_two">Find “Cleanup” and turn on the toggle</string>
+    <string name="app_cleaner_hard_permission_step_two_desc">Locate Cleanup in the application list and enable permission.</string>
+    <string name="app_cleaner_permission_how_btn">How does it work?</string>
+    <string name="app_cleaner_permission_privacy_note">Privacy Guarantee: Usage data is analyzed 100% offline on your device and is never uploaded.</string>
+    <string name="app_cleaner_btn_go_to_settings">Go to Settings</string>
+    <string name="app_cleaner_stats_summary_fmt">Found %1$d apps (%2$s)</string>
+    <string name="app_cleaner_empty_title">There are no apps found!</string>
+    <string name="app_cleaner_empty_subtitle">No user installed apps could be found on this device.</string>
+    <string name="app_cleaner_how_dialog_title">How to Grant Usage Access</string>
+    <string name="app_cleaner_how_dialog_msg">1. Tap the \"Go to Settings\" button below.\n2. In the Usage Access list, find \"Cleanup\".\n3. Tap on \"Cleanup\" and turn on \"Permit usage access\".\n4. Return to the Cleanup app to instantly view all installed apps sorted by usage.</string>
+
+    <!-- Secret Vault -->
+    <string name="secret_title">Secret Space</string>
+    <string name="secret_desc">Encrypted private vault with PIN &amp; Biometrics</string>
+    <string name="secret_pin_title">Enter Secret PIN</string>
+    <string name="secret_pin_create">Create 6-Digit PIN</string>
+    <string name="secret_pin_confirm">Confirm 6-Digit PIN</string>
+    <string name="secret_pin_wrong">Incorrect PIN! Try again.</string>
+    <string name="btn_reset_pin">Reset PIN Code</string>
+    <string name="secret_pin_reset_notice">PIN has been reset. Please set a new 6-digit PIN.</string>
+    <string name="secret_tab_gallery">Secret Photos</string>
+    <string name="secret_tab_contacts">Secret Contacts</string>
+    <string name="secret_add_media">Add Media</string>
+    <string name="secret_add_contact">Add Secret Contact</string>
+    <string name="secret_unlock_biometric">Unlock with Biometrics</string>
+
+    <!-- Battery & Charging -->
+    <string name="battery_title">Battery &amp; Charging</string>
+    <string name="battery_status_charging">Charging</string>
+    <string name="battery_status_discharging">Discharging</string>
+    <string name="battery_status_full">Battery Full</string>
+    <string name="battery_health_good">Good Health</string>
+    <string name="battery_temp_fmt">Temperature: %1$.1f°C</string>
+    <string name="battery_voltage_fmt">Voltage: %1$.2f V</string>
+    <string name="charging_animation_btn">Preview Charging Animation</string>
+
+    <!-- Pro & Paywall -->
+    <string name="pro_title">Get Unlimited Pro Access</string>
+    <string name="pro_sub_title">Clean your phone storage without any limits</string>
+    <string name="pro_feature_1">AI Smart Duplicate &amp; Similarity Detection</string>
+    <string name="pro_feature_2">Unlimited Video Compression</string>
+    <string name="pro_feature_3">Full Secret Space Encrypted Vault</string>
+    <string name="pro_feature_4">Zero Ads &amp; Maximum Speed</string>
+    <string name="pro_plan_yearly">Yearly Plan - $19.99/yr (3-Day Free Trial)</string>
+    <string name="pro_plan_monthly">Monthly Plan - $4.99/mo</string>
+    <string name="pro_plan_lifetime">Lifetime Access - $39.99 once</string>
+    <string name="btn_start_trial">Start Free Trial &amp; Continue</string>
+    <string name="btn_continue">Continue</string>
+
+    <!-- Common Dialogs & Actions -->
+    <string name="confirm_delete_title">Confirm Deletion</string>
+    <string name="confirm_delete_msg">Are you sure you want to delete the selected items?</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_close">Close</string>
+    <string name="try_again">Try Again</string>
+    <string name="success">Success</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_media_confirm_title">Allow Photo &amp; Video Access</string>
+    <string name="permission_media_confirm_msg">Cleanup needs your permission to access photos and videos on your device to analyze duplicates, similar shots, and screenshots to help you free up space.</string>
+    <string name="btn_allow_and_continue">Allow &amp; Continue</string>
+    <string name="btn_not_now">Not Now</string>
+    <string name="category_all_photos">All Photos</string>
+    <string name="onboarding_title_1">Smart Storage Clean</string>
+    <string name="onboarding_desc_1">Quickly find and clean heavy duplicate files, large videos, and junk data in seconds.</string>
+    <string name="onboarding_title_2">Organize Similar Photos</string>
+    <string name="onboarding_desc_2">Keep the best moments and automatically remove blurry or duplicate shots.</string>
+    <string name="onboarding_title_3">Easy Photo Swipe Clean</string>
+    <string name="onboarding_desc_3">Swipe right to keep your best memories and swipe left to instantly trash unwanted photos.</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="language_selection_title">Select Language</string>
+    <string name="language_selection_subtitle">Choose your preferred language to get started</string>
+
+    <!-- Additional UI & Format Strings -->
+    <string name="contacts_duplicated_empty_state_desc">Your phone contacts are well organized with no redundant numbers or duplicate names.</string>
+    <string name="contacts_incomplete_contacts_empty_state_desc">All contacts on your phone have valid names and phone numbers.</string>
+    <string name="contacts_backups_empty_state_desc">Create your first VCF backup to safeguard your contacts before making edits.</string>
+    <string name="contacts_found_summary_fmt">%1$d contacts found on device</string>
+    <string name="contacts_duplicate_groups_fmt">%1$d groups</string>
+    <string name="contacts_incomplete_count_fmt">%1$d missing</string>
+    <string name="contacts_backups_saved_fmt">%1$d saved</string>
+    <string name="contacts_duplicate_section_title_fmt">Found %1$d duplicate groups (%2$d contacts)</string>
+    <string name="contacts_selected_count_fmt">%1$d selected</string>
+    <string name="contacts_delete_with_count_fmt">Delete (%1$d)</string>
+    <string name="contacts_duplicate_profiles_fmt">%1$d duplicate profiles</string>
+    <string name="contacts_count_badge_fmt">%1$d Contacts</string>
+    <string name="contacts_no_contact_info">No Contact Info</string>
+    <string name="contacts_merge_all_confirm_msg">Merge all %1$d duplicate groups? Would you like to create a backup first?</string>
+    <string name="contacts_merge_without_backup">Merge without backup</string>
+    <string name="contacts_merge_success_fmt">Merged %1$d duplicate groups successfully!</string>
+    <string name="contacts_delete_confirm_msg">Delete %1$d selected contacts? Contacts cannot be recovered once deleted.</string>
+    <string name="contacts_delete_error">Error deleting contacts</string>
+    <string name="contacts_backup_failed">Failed to create backup</string>
+    <string name="contacts_restore_confirm_msg">Restore contacts from %1$s (%2$d contacts)?</string>
+    <string name="contacts_restore_success_fmt">Restored %1$d contacts from backup!</string>
+    <string name="contacts_share_title">Share Backup VCF</string>
+    <string name="merge_preview_current_duplicates_fmt">Current Duplicates (%1$d)</string>
+    <string name="merge_preview_desc">The duplicate profiles below will be combined into a single unified contact.</string>
+    <string name="merge_preview_unified_title">Unified Resulting Contact (1)</string>
+    <string name="merge_preview_aggregated_badge">Aggregated Details</string>
+    <string name="merge_preview_phones_fmt">Phones: %1$s</string>
+    <string name="merge_preview_emails_fmt">Emails: %1$s</string>
+    <string name="merge_preview_unified_contact">Unified Contact</string>
+    <string name="contacts_filter_all">All Incomplete (%1$d)</string>
+    <string name="contacts_filter_no_name">No Name (%1$d)</string>
+    <string name="contacts_filter_no_phone">No Phone (%1$d)</string>
+    <string name="contacts_filter_no_info">No Phone &amp; Email (%1$d)</string>
+    <string name="contact_detail_title">Contact Details</string>
+    <string name="contact_detail_call">Call</string>
+    <string name="contact_detail_message">Message</string>
+    <string name="contact_detail_email">Email</string>
+    <string name="contact_detail_share">Share</string>
+    <string name="contact_detail_delete">Delete</string>
+    <string name="contact_detail_phones_header">Phone Numbers</string>
+    <string name="contact_detail_emails_header">Email Addresses</string>
+    <string name="contact_detail_company_header">Company &amp; Job Title</string>
+    <string name="contact_detail_notes_header">Notes</string>
+    <string name="contact_detail_address_header">Addresses</string>
+    <string name="contact_label_mobile">Mobile</string>
+    <string name="contact_label_home">Home</string>
+    <string name="contact_label_work">Work</string>
+    <string name="contact_label_main">Main</string>
+    <string name="contact_label_other">Other</string>
+    <string name="contacts_duplicated_merge_preview_cta_button_text">See Merge Preview</string>
+    <string name="contacts_duplicated_merge_cta_button_text">Merge Contacts</string>
+    <string name="btn_merge_all">Merge All (%1$d Groups)</string>
+    <string name="contacts_no_search_result_title">No contacts matching search!</string>
+    <string name="contacts_need_access_btn">Grant Permission</string>
+    <string name="contacts_merge_preview_title">Merge Preview</string>
+    <string name="contacts_merge_preview_subtitle">Review duplicate profiles before merging</string>
+
+    <string name="stat_photos_save_fmt">%1$d photos • Save %2$s</string>
+    <string name="stat_files_save_fmt">%1$d files • Save %2$s</string>
+    <string name="stat_groups_save_fmt">%1$d groups • Save %2$s</string>
+    <string name="stat_files_size_fmt">%1$d files • %2$s</string>
+    <string name="stat_save_prefix">Save %1$s</string>
+    <string name="stat_selected_count_fmt">%1$d selected</string>
+    <string name="trash_stats_fmt">%1$d photos • %2$s</string>
+    <string name="trash_restored_all">Restored all photos from trash</string>
+
+    <string name="power_source_ac">AC Charger</string>
+    <string name="power_source_usb">USB Cable</string>
+    <string name="power_source_wireless">Wireless Dock</string>
+    <string name="power_source_battery">Battery Discharging</string>
+
+    <string name="secret_pin_create_success">PIN created successfully!</string>
+    <string name="secret_vault_imported_fmt">Imported %1$d items to Secret Vault!</string>
+    <string name="secret_vault_restored_fmt">Restored %1$d files to gallery!</string>
+    <string name="secret_original_removed">Original media removed from gallery!</string>
+    <string name="secret_biometric_unavailable">Biometric hardware not available</string>
+    <string name="settings_widgets_instructions">To add Cleanup widgets to your home screen:\n\n1. Touch &amp; hold an empty space on your Home Screen.\n2. Tap \'Widgets\' at the bottom.\n3. Scroll to find \'Cleanup\' and drag the widget to your screen.</string>
+    <string name="settings_share_text">Check out Cleanup - AI Storage Cleaner &amp; Video Compressor: https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="pro_welcome_fmt">Welcome to Cleanup PRO! Selected: %1$s</string>
+    <string name="video_count_fmt">%1$d videos</string>
+    <string name="video_save_est_fmt">Save ~%1$s</string>
+    <string name="apps_selected_fmt">%1$d apps selected • %2$s</string>
+
+    <string name="scan_scanning_media">Scanning media files…</string>
+    <string name="scan_scanning_videos">Scanning videos…</string>
+    <string name="scan_analyzing_similarity">Analyzing photo similarity &amp; duplicates…</string>
+    <string name="scan_analyzing_progress_fmt">Analyzing photos (%1$d/%2$d)…</string>
+    <string name="scan_grouping_similar">Grouping similar photos…</string>
+    <string name="scan_done">Done!</string>
+    <string name="scan_failed">Scan failed</string>
+
+    <string name="pin_must_be_4_digits">PIN must be 6 digits</string>
+    <string name="pin_confirm_mismatch">PINs do not match</string>
+    <string name="pin_same_as_old_error">New PIN must be different from current PIN</string>
+    <string name="settings_confirm_new_pin_hint">Confirm new 6-digit PIN</string>
+    <string name="support_contact_toast_fmt">Contact support at: %1$s</string>
+    <string name="subscriptions_checking_restored">Checking subscriptions… Restored Successfully!</string>
+    <string name="subscriptions_restored_success">Restored subscription successfully!</string>
+    <string name="secret_restore_all_title">Restore All to Gallery?</string>
+    <string name="secret_restore_all_msg">All secret photos &amp; videos in the vault will be restored back to your device\'s photo gallery.</string>
+    <string name="secret_restore_all_btn">Restore All</string>
+    <string name="secret_deleted_fmt">Deleted %1$d items from vault</string>
+    <string name="contact_name_hint">Contact Name</string>
+    <string name="contact_phone_hint">Phone Number</string>
+    <string name="settings_old_pin_hint">Enter current PIN (6 digits)</string>
+    <string name="settings_new_pin_hint">Enter new 6-digit PIN</string>
+    <string name="settings_rate_us_msg">Do you enjoy using Cleanup? Please rate us 5 stars on Google Play to support our team!</string>
+    <string name="settings_rate_5_stars">Rate 5 Stars ⭐</string>
+    <string name="settings_terms_title">Terms of Service</string>
+    <string name="settings_terms_content">By using Cleanup, you agree to comply with standard mobile application terms. All scanning and media processing occur entirely locally and securely on your device.</string>
+    <string name="settings_community_title">Community Guidelines</string>
+    <string name="settings_community_content">Cleanup is built with user privacy and data security as the top priority. We do not collect or transmit any of your personal photos, videos, or contacts.</string>
+    <string name="swipe_completed">Completed all photos!</string>
+    <string name="swipe_trash_btn_fmt">Trash (%1$d)</string>
+    <string name="plan_yearly_name">Yearly Pro (3-Day Free Trial)</string>
+    <string name="plan_monthly_name">Monthly Pro</string>
+    <string name="plan_lifetime_name">Lifetime Access</string>
+</resources>

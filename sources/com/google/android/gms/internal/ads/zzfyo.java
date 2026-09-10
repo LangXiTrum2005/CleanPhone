@@ -1,0 +1,27 @@
+package com.google.android.gms.internal.ads;
+
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+
+/* JADX INFO: loaded from: classes4.dex */
+final class zzfyo extends ContinuationImpl {
+    Object zza;
+    long zzb;
+    /* synthetic */ Object zzc;
+    final /* synthetic */ zzfza zzd;
+    int zze;
+    String zzf;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public zzfyo(zzfza zzfzaVar, Continuation continuation) {
+        super(continuation);
+        this.zzd = zzfzaVar;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.zzc = obj;
+        this.zze |= Integer.MIN_VALUE;
+        return this.zzd.zzi(null, this);
+    }
+}

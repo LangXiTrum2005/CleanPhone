@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">Cleanup</string>
+    <string name="app_tagline">智能存储与媒体清理大师</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">首页</string>
+    <string name="nav_swipe">滑动清理</string>
+    <string name="nav_contacts">联系人</string>
+    <string name="nav_compress">视频压缩</string>
+    <string name="nav_secret">隐私保险箱</string>
+    <string name="nav_apps">应用管理</string>
+    <string name="nav_battery">电池与充电</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Settings Sections & Items -->
+    <string name="settings_title">设置</string>
+    <string name="settings_section_utilities">实用工具</string>
+    <string name="settings_section_secret">保险箱安全设置</string>
+    <string name="settings_section_social">关注我们</string>
+    <string name="settings_section_support">支持与反馈</string>
+    <string name="settings_section_about">关于与法律条款</string>
+    <string name="settings_pro_banner_title">Cleanup PRO</string>
+    <string name="settings_pro_banner_sub">解锁所有高级功能，无限制清理</string>
+    <string name="settings_use_pin">使用 PIN 密码锁</string>
+    <string name="settings_use_biometrics">使用生物识别 / 指纹解锁</string>
+    <string name="settings_change_pin">修改 4 位数 PIN 码</string>
+    <string name="settings_remove_after_import">导入保险箱后删除原图</string>
+    <string name="settings_trash_bin">回收站</string>
+    <string name="settings_language">语言 (Language)</string>
+    <string name="settings_widgets">桌面小组件</string>
+    <string name="settings_share_app">分享 Cleanup</string>
+    <string name="settings_instagram">关注 Instagram</string>
+    <string name="settings_tiktok">关注 TikTok</string>
+    <string name="settings_twitter">关注 Twitter / X</string>
+    <string name="settings_faq">常见问题 (FAQ)</string>
+    <string name="settings_rate_us">为我们评分</string>
+    <string name="settings_contact_us">联系客服</string>
+    <string name="settings_restore_purchase">恢复购买</string>
+    <string name="settings_privacy_policy">隐私政策</string>
+    <string name="settings_terms_of_service">服务条款</string>
+    <string name="settings_community_guidelines">社区准则</string>
+    <string name="popups_got_it">知道了</string>
+    <string name="popups_maybe_later">稍后</string>
+    <string name="contact_us_four_answer">要允许 Cleanup 访问照片和视频：请前往设备设置 -> 应用 -> Cleanup -> 权限 -> 照片和视频 -> 选择\'允许\'。所有扫描和清理均在设备本地离线运行。</string>
+
+    <!-- Dashboard -->
+    <string name="storage_used_title">已用存储空间</string>
+    <string name="storage_used_fmt">已使用 %1$s / %2$s</string>
+    <string name="storage_free_fmt">剩余可用 %1$s</string>
+    <string name="btn_smart_clean">AI 智能清理</string>
+    <string name="scanning_storage">正在扫描存储空间…</string>
+    <string name="scanning_photos">正在分析照片和重复文件…</string>
+    <string name="scanning_videos">正在搜索大容量视频…</string>
+    <string name="scan_completed">扫描完成！</string>
+    <string name="reclaimable_space">可释放空间</string>
+
+    <!-- Categories -->
+    <string name="category_similar_photos">相似照片</string>
+    <string name="category_similar_desc">智能聚合相似镜头，自动保留最佳照片</string>
+    <string name="category_duplicates">完全重复照片</string>
+    <string name="category_duplicates_desc">占用空间的完全相同副本</string>
+    <string name="category_screenshots">屏幕截图</string>
+    <string name="category_screenshots_desc">旧的无用屏幕截图</string>
+    <string name="category_large_videos">大容量视频</string>
+    <string name="category_large_videos_desc">占用 GB 级空间的庞大视频文件</string>
+    <string name="category_other_media">其他文件</string>
+    <string name="category_other_media_desc">聊天下载图片与各类媒体</string>
+
+    <!-- Photo Cleaner & Similarity -->
+    <string name="best_result">最佳照片</string>
+    <string name="delete_selected">删除所选项目 (%1$d)</string>
+    <string name="select_all">全选</string>
+    <string name="deselect_all">取消全选</string>
+    <string name="keep_best">仅保留最佳照片</string>
+    <string name="no_items_found">未发现可清理的文件！</string>
+
+    <!-- Photo Swiping -->
+    <string name="swipe_hint_keep">向右滑动以保留</string>
+    <string name="swipe_hint_delete">向左滑动以删除</string>
+    <string name="swipe_progress_fmt">%1$d / %2$d 张照片</string>
+    <string name="swipe_undo">撤销</string>
+    <string name="swipe_open_trash">打开回收站 (%1$d)</string>
+    <string name="trash_title">临时回收站</string>
+    <string name="trash_clear_all">清空回收站</string>
+    <string name="trash_recover_all">全部恢复</string>
+    <string name="trash_empty_state">回收站为空</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">整理联系人</string>
+    <string name="contacts_duplicate_title">重复联系人</string>
+    <string name="contacts_duplicate_desc">相同电话号码或姓名</string>
+    <string name="contacts_incomplete_title">不完整联系人</string>
+    <string name="contacts_incomplete_desc">缺少姓名或缺少电话号码</string>
+    <string name="contacts_backup_title">备份与恢复</string>
+    <string name="contacts_backup_desc">创建安全的 VCF 备份文件</string>
+    <string name="contacts_btn_merge">合并重复项</string>
+    <string name="contacts_btn_backup">创建备份</string>
+    <string name="contacts_btn_restore">从 VCF 恢复</string>
+    <string name="contacts_merge_preview">合并预览</string>
+    <string name="contacts_no_name">无姓名</string>
+    <string name="contacts_no_phone">无电话号码</string>
+
+    <!-- Video Compressor -->
+    <string name="compress_title">视频压缩</string>
+    <string name="compress_subtitle">压缩高清视频，快速释放数 GB 空间</string>
+    <string name="video_compress_header_title">压缩视频最高可节省空间达：</string>
+    <string name="video_compress_ultimate_space">最大极限压缩</string>
+    <string name="video_compress_moderate_space">标准均衡压缩</string>
+    <string name="video_compress_light_space">轻度画质压缩</string>
+    <string name="video_compress_ultimate_desc">画质较低 • 压缩约 70%</string>
+    <string name="video_compress_moderate_desc">中等画质 • 压缩约 45%</string>
+    <string name="video_compress_light_desc">高画质 • 压缩约 25%</string>
+    <string name="video_compress_popup_title">压缩所选视频？</string>
+    <string name="video_compress_popup_subtitle">视频即将被压缩。您将获得约 %1$s 的可用空间。</string>
+    <string name="video_compress_in_progress_title">正在压缩视频…</string>
+    <string name="video_compress_in_progress_subtitle">处理完成前请保持应用处于打开状态。</string>
+    <string name="video_compress_progress_completed_title">压缩完成！</string>
+    <string name="video_compress_progress_completed_subtitle">视频已成功压缩并保存至相册。</string>
+    <string name="video_compress_progress_completed_primary_action">保留两个视频</string>
+    <string name="video_compress_progress_completed_secondary_action">删除原始视频</string>
+    <string name="video_compress_exit_popup_title">不要丢失压缩进度！</string>
+    <string name="video_compress_exit_popup_subtitle">如果现在退出，压缩过程将无法完成。</string>
+    <string name="video_compress_exit_popup_primary_action">继续压缩</string>
+    <string name="video_compress_exit_popup_secondary_action">停止压缩</string>
+    <string name="video_compress_congrats_compressed">已压缩视频：</string>
+    <string name="video_compress_congrats_saved">已节省空间：</string>
+    <string name="video_compress_empty_state_title">当前没有可压缩的视频！</string>
+    <string name="video_compress_failed_title">视频压缩失败</string>
+    <string name="video_compress_failed_subtitle">压缩过程中发生错误，请重试。</string>
+    <string name="compress_btn_start">开始压缩视频</string>
+    <string name="compressing_progress_fmt">正在压缩… %1$d%%</string>
+    <string name="compress_saved_fmt">已节省 %1$s</string>
+    <string name="select_video_hint">请选择要压缩的视频</string>
+    <string name="select_video_title">选择视频</string>
+
+    <!-- App Cleaner -->
+    <string name="app_cleaner_title">应用清理</string>
+    <string name="app_cleaner_subtitle">查找并卸载极少使用的大型应用</string>
+    <string name="sort_largest_size">按占用大小</string>
+    <string name="sort_least_used">按最少使用</string>
+    <string name="sort_most_used">按最常使用</string>
+    <string name="btn_uninstall">卸载所选应用</string>
+    <string name="uninstall_success">卸载成功！</string>
+    <string name="permission_usage_needed">需要授予使用情况访问权限以追踪应用活跃度</string>
+    <string name="btn_grant_permission">授予权限</string>
+    <string name="app_last_used_fmt">最近使用: %1$s</string>
+    <string name="app_rarely_used">很少使用</string>
+    <string name="error_open_settings">无法打开设置。请在系统设置中手动开启使用情况访问权限。</string>
+
+    <!-- Secret Vault -->
+    <string name="secret_title">隐私保险箱</string>
+    <string name="secret_desc">双重加密私密空间（PIN 码与生物识别）</string>
+    <string name="secret_pin_title">输入保险箱 PIN 码</string>
+    <string name="secret_pin_create">创建 4 位数 PIN 码</string>
+    <string name="secret_pin_confirm">确认 PIN 码</string>
+    <string name="secret_pin_wrong">PIN 码错误！请重试。</string>
+    <string name="secret_tab_gallery">私密相册</string>
+    <string name="secret_tab_contacts">私密联系人</string>
+    <string name="secret_add_media">添加文件</string>
+    <string name="secret_add_contact">添加私密联系人</string>
+    <string name="secret_unlock_biometric">使用生物识别解锁</string>
+
+    <!-- Battery & Charging -->
+    <string name="battery_title">电池与充电</string>
+    <string name="battery_status_charging">正在充电</string>
+    <string name="battery_status_discharging">正在放电</string>
+    <string name="battery_status_full">电池已充满</string>
+    <string name="battery_health_good">健康状态良好</string>
+    <string name="battery_temp_fmt">电池温度：%1$.1f°C</string>
+    <string name="battery_voltage_fmt">当前电压：%1$.2f V</string>
+    <string name="charging_animation_btn">预览炫酷充电动画</string>
+
+    <!-- Pro & Paywall -->
+    <string name="pro_title">获取 PRO 无限制特权</string>
+    <string name="pro_sub_title">无限制深度清理您的手机存储空间</string>
+    <string name="pro_feature_1">AI 智能识别重复及相似照片</string>
+    <string name="pro_feature_2">无限制高清视频极速压缩</string>
+    <string name="pro_feature_3">全功能私密加密保险箱</string>
+    <string name="pro_feature_4">完全无广告及极致扫描速度</string>
+    <string name="pro_plan_yearly">包年计划 - ¥128/年 (含 3 天免费试用)</string>
+    <string name="pro_plan_monthly">按月计划 - ¥30/月</string>
+    <string name="pro_plan_lifetime">终身买断 - ¥258 一次性付费</string>
+    <string name="btn_start_trial">开启免费试用并继续</string>
+    <string name="btn_continue">继续</string>
+
+    <!-- Common Dialogs & Actions -->
+    <string name="confirm_delete_title">确认删除</string>
+    <string name="confirm_delete_msg">确定要彻底删除所选的项目吗？</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_done">完成</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_close">关闭</string>
+    <string name="success">操作成功</string>
+    <string name="permission_required">需要相应权限</string>
+    <string name="permission_media_confirm_title">允许访问照片与视频</string>
+    <string name="permission_media_confirm_msg">Cleanup 需要访问您的照片和视频以检测重复项并帮您释放空间。</string>
+    <string name="btn_allow_and_continue">允许并继续</string>
+    <string name="btn_not_now">暂不</string>
+    <string name="category_all_photos">所有照片</string>
+    <string name="onboarding_title_1">智能空间清理</string>
+    <string name="onboarding_desc_1">快速扫描并清理重复文件、大视频和垃圾缓存。</string>
+    <string name="onboarding_title_2">智能整理相似照片</string>
+    <string name="onboarding_desc_2">自动保留最美瞬间，轻松剔除模糊和连拍重复照片。</string>
+    <string name="onboarding_title_3">轻松滑动清理照片</string>
+    <string name="onboarding_desc_3">向右滑动保留珍贵回忆，向左滑动立即清理不需要的照片。</string>
+    <string name="onboarding_skip">跳过</string>
+    <string name="onboarding_next">下一步</string>
+    <string name="onboarding_get_started">立即体验</string>
+    <string name="language_selection_title">选择语言</string>
+    <string name="language_selection_subtitle">请选择您想要使用的首选语言</string>
+
+    <!-- Additional UI & Format Strings -->
+    <string name="contacts_duplicated_empty_state_desc">您的通讯录井井有条，没有重复的姓名或电话号码。</string>
+    <string name="contacts_incomplete_contacts_empty_state_desc">手机中的所有联系人均有完整的姓名和有效电话号码。</string>
+    <string name="contacts_backups_empty_state_desc">创建首个 VCF 备份，在进行任何更改前确保通讯录安全。</string>
+    <string name="contacts_found_summary_fmt">设备中共找到 %1$d 位联系人</string>
+    <string name="contacts_duplicate_groups_fmt">%1$d 个分组</string>
+    <string name="contacts_incomplete_count_fmt">%1$d 项缺失</string>
+    <string name="contacts_backups_saved_fmt">%1$d 个备份</string>
+    <string name="contacts_duplicate_section_title_fmt">找到 %1$d 组重复项（共 %2$d 位联系人）</string>
+    <string name="contacts_selected_count_fmt">已选择 %1$d 项</string>
+    <string name="contacts_delete_with_count_fmt">删除 (%1$d)</string>
+    <string name="contacts_duplicate_profiles_fmt">%1$d 个重复个人资料</string>
+    <string name="contacts_count_badge_fmt">%1$d 位联系人</string>
+    <string name="contacts_no_contact_info">暂无联系人信息</string>
+    <string name="contacts_merge_all_confirm_msg">合并全部 %1$d 个重复分组？是否先创建备份？</string>
+    <string name="contacts_merge_without_backup">直接合并（不备份）</string>
+    <string name="contacts_merge_success_fmt">成功合并 %1$d 组重复联系人！</string>
+    <string name="contacts_delete_confirm_msg">确认删除选中的 %1$d 位联系人？删除后将无法恢复。</string>
+    <string name="contacts_delete_error">删除联系人时出错</string>
+    <string name="contacts_backup_failed">创建备份失败</string>
+    <string name="contacts_restore_confirm_msg">从 %1$s（%2$d 位联系人）恢复通讯录？</string>
+    <string name="contacts_restore_success_fmt">已成功从备份恢复 %1$d 位联系人！</string>
+    <string name="contacts_share_title">分享 VCF 备份</string>
+    <string name="merge_preview_current_duplicates_fmt">当前重复项 (%1$d)</string>
+    <string name="merge_preview_desc">下方重复的个人资料将合并为一个统一联系人。</string>
+    <string name="merge_preview_unified_title">合并后的联系人 (1)</string>
+    <string name="merge_preview_aggregated_badge">合并详情</string>
+    <string name="merge_preview_phones_fmt">电话号码：%1$s</string>
+    <string name="merge_preview_emails_fmt">电子邮箱：%1$s</string>
+    <string name="merge_preview_unified_contact">统一联系人</string>
+
+    <string name="stat_photos_save_fmt">%1$d 张照片 • 可省 %2$s</string>
+    <string name="stat_files_save_fmt">%1$d 个文件 • 可省 %2$s</string>
+    <string name="stat_groups_save_fmt">%1$d 组 • 可省 %2$s</string>
+    <string name="stat_files_size_fmt">%1$d 个文件 • %2$s</string>
+    <string name="stat_save_prefix">可省 %1$s</string>
+    <string name="stat_selected_count_fmt">已选择 %1$d 项</string>
+    <string name="trash_stats_fmt">%1$d 张照片 • %2$s</string>
+    <string name="trash_restored_all">已从回收站恢复所有照片</string>
+
+    <string name="power_source_ac">交流充电器</string>
+    <string name="power_source_usb">USB 数据线</string>
+    <string name="power_source_wireless">无线充电座</string>
+    <string name="power_source_battery">电池供电中</string>
+
+    <string name="secret_pin_create_success">PIN 码设置成功！</string>
+    <string name="secret_vault_imported_fmt">已导入 %1$d 个项目到私密空间！</string>
+    <string name="secret_vault_restored_fmt">已恢复 %1$d 个文件到相册！</string>
+    <string name="secret_original_removed">已从系统相册中删除原始文件！</string>
+    <string name="secret_biometric_unavailable">当前设备不支持生物识别</string>
+    <string name="settings_widgets_instructions">添加 Cleanup 桌面小组件方法：\n\n1. 长按主屏幕空白区域。\n2. 点击底部的“微件/小组件”。\n3. 找到“Cleanup”并拖动到屏幕上。</string>
+    <string name="settings_share_text">推荐使用 Cleanup - AI 智能清理 &amp; 极速视频压缩神器：https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="pro_welcome_fmt">欢迎体验 Cleanup PRO！已选择方案：%1$s</string>
+    <string name="video_count_fmt">%1$d 个视频</string>
+    <string name="video_save_est_fmt">预计可省 ~%1$s</string>
+    <string name="apps_selected_fmt">已选择 %1$d 款应用 • %2$s</string>
+
+    <string name="scan_scanning_media">正在扫描媒体文件…</string>
+    <string name="scan_scanning_videos">正在扫描视频…</string>
+    <string name="scan_analyzing_similarity">正在分析相似照片及重复项…</string>
+    <string name="scan_analyzing_progress_fmt">正在分析照片 (%1$d/%2$d)…</string>
+    <string name="scan_grouping_similar">正在对相似照片进行分组…</string>
+    <string name="scan_done">完成！</string>
+    <string name="scan_failed">扫描失败</string>
+
+    <string name="pin_must_be_4_digits">PIN 码必须为 4 位数字</string>
+    <string name="pin_confirm_mismatch">两次输入的 PIN 码不一致</string>
+    <string name="pin_same_as_old_error">新 PIN 码不能与当前 PIN 码相同</string>
+    <string name="settings_confirm_new_pin_hint">确认新的 4 位 PIN 码</string>
+    <string name="support_contact_toast_fmt">联系技术支持：%1$s</string>
+    <string name="subscriptions_checking_restored">正在检查订阅… 恢复成功！</string>
+    <string name="subscriptions_restored_success">成功恢复订阅！</string>
+    <string name="secret_restore_all_title">全部恢复到相册？</string>
+    <string name="secret_restore_all_msg">保险箱中的所有私密照片和视频都将恢复到设备的系统相册中。</string>
+    <string name="secret_restore_all_btn">全部恢复</string>
+    <string name="secret_deleted_fmt">已从保险箱中删除 %1$d 个项目</string>
+    <string name="contact_name_hint">联系人姓名</string>
+    <string name="contact_phone_hint">电话号码</string>
+    <string name="settings_old_pin_hint">输入当前 PIN 码（4 位数字）</string>
+    <string name="settings_new_pin_hint">输入新的 4 位 PIN 码</string>
+    <string name="settings_rate_us_msg">喜欢使用 Cleanup 吗？请在 Google Play 上给我们 5 星好评以支持我们！</string>
+    <string name="settings_rate_5_stars">评 5 星 ⭐</string>
+    <string name="settings_terms_title">服务条款</string>
+    <string name="settings_terms_content">使用 Cleanup 即表示您同意遵守标准应用条款。所有扫描和媒体处理均在您的设备本地安全完成。</string>
+    <string name="settings_community_title">社区准则</string>
+    <string name="settings_community_content">Cleanup 将用户隐私与数据安全放在首位。我们不会收集或传输您的任何个人照片、视频或联系人。</string>
+    <string name="swipe_completed">已完成所有照片筛选！</string>
+    <string name="swipe_trash_btn_fmt">回收站 (%1$d)</string>
+    <string name="plan_yearly_name">年度 Pro（3 天免费试用）</string>
+    <string name="plan_monthly_name">包月 Pro</string>
+    <string name="plan_lifetime_name">终身买断</string>
+</resources>

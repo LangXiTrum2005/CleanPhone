@@ -1,0 +1,7 @@
+taser05.png
+	size: 573, 1220
+	filter: Linear, Linear
+	pma: true
+taser05
+	bounds: 2, 2, 569, 1216
+	offsets: 26, 5, 655, 1221

@@ -1,0 +1,50 @@
+{
+"skeleton": {
+	"hash": "DsvK8Dv7nA0",
+	"spine": "4.2.37",
+	"x": -273.6,
+	"y": -815.4,
+	"width": 547.2,
+	"height": 1630.8,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "energy gun 3", "parent": "root" },
+	{ "name": "special effects -energy gun 3", "parent": "energy gun 3", "x": 63.7, "y": 885.58 },
+	{ "name": "gun-energy gun 3", "parent": "energy gun 3" }
+],
+"slots": [
+	{ "name": "energy gun 3", "bone": "gun-energy gun 3", "attachment": "energy gun 3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"energy gun 3": {
+				"energy gun 3": { "scaleX": 1.2, "scaleY": 1.2, "width": 456, "height": 1359 }
+			}
+		}
+	}
+],
+"animations": {
+	"energy gun 3": {
+		"bones": {
+			"energy gun 3": {
+				"translate": [
+					{
+						"curve": [ 0.038, 0, 0.062, 0, 0.038, 0, 0.062, -30 ]
+					},
+					{
+						"time": 0.1,
+						"y": -30,
+						"curve": [ 0.133, 0, 0.167, 0, 0.133, -30, 0.167, 0 ]
+					},
+					{ "time": 0.2 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="146dp"
+    android:width="339dp"
+    android:autoMirrored="true"
+    android:viewportWidth="339"
+    android:viewportHeight="146">
+    <path
+        android:fillColor="#1b112e"
+        android:pathData="M317.77,0.5C320.87,0.5 323.74,1.64 325.94,3.54C328.15,5.44 329.69,8.11 330.14,11.18L338.25,66.34C338.41,67.47 338.42,68.62 338.28,69.75L329.96,134.59C329.56,137.71 328.03,140.44 325.82,142.38C323.6,144.33 320.71,145.5 317.56,145.5L21.44,145.5C18.29,145.5 15.4,144.33 13.18,142.38C10.97,140.44 9.44,137.71 9.04,134.59L0.72,69.75C0.58,68.62 0.59,67.47 0.75,66.34L8.86,11.18C9.31,8.11 10.85,5.44 13.06,3.54C15.26,1.64 18.13,0.5 21.23,0.5Z"
+        android:strokeColor="@drawable/_boomclap_bg_settings_sound__0_res_0x7f070011"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

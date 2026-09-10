@@ -1,0 +1,70 @@
+{
+"skeleton": {
+	"hash": "or05uuYkmfM",
+	"spine": "4.2.37",
+	"x": -352.5,
+	"y": -601.5,
+	"width": 705,
+	"height": 1203,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "taser03", "parent": "root" },
+	{ "name": "gun-taser03_2", "parent": "taser03", "scaleX": 2, "scaleY": 2 },
+	{ "name": "gun-taser03_1", "parent": "taser03" },
+	{ "name": "special effects-taser03", "parent": "taser03", "x": 120.56, "y": 691.49 }
+],
+"slots": [
+	{ "name": "taser03", "bone": "gun-taser03_1", "attachment": "taser03" },
+	{ "name": "gun-taser03_2", "bone": "gun-taser03_2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"gun-taser03_2": {
+				"nengliangquan": { "x": 65.1, "y": 210.28, "width": 87, "height": 87 }
+			},
+			"taser03": {
+				"taser03": { "width": 705, "height": 1203 }
+			}
+		}
+	}
+],
+"animations": {
+	"taser03_appear": {
+		"slots": {
+			"gun-taser03_2": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.089, 1, 0.178, 1, 0.089, 1, 0.178, 1, 0.089, 1, 0.178, 1, 0.089, 0, 0.178, 1 ]
+					},
+					{ "time": 0.2667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "nengliangquan" }
+				]
+			}
+		}
+	},
+	"taser03_vanish": {
+		"slots": {
+			"gun-taser03_2": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.089, 1, 0.178, 1, 0.089, 1, 0.178, 1, 0.089, 1, 0.178, 1, 0.089, 1, 0.178, 0 ]
+					},
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "nengliangquan" }
+				]
+			}
+		}
+	}
+}
+}

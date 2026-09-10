@@ -1,0 +1,27 @@
+package com.unity3d.services.ads.gmascar.finder;
+
+import com.unity3d.services.ads.gmascar.bridges.AdapterStatusBridge;
+import com.unity3d.services.ads.gmascar.bridges.InitializationStatusBridge;
+import com.unity3d.services.ads.gmascar.bridges.InitializeListenerBridge;
+import com.unity3d.services.ads.gmascar.bridges.mobileads.MobileAdsBridgeBase;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes4.dex */
+public class PresenceDetector {
+    private AdapterStatusBridge _adapterStatusBridge;
+    private InitializeListenerBridge _initializationListenerBridge;
+    private InitializationStatusBridge _initializationStatusBridge;
+    private MobileAdsBridgeBase _mobileAdsBridge;
+
+    public PresenceDetector(MobileAdsBridgeBase mobileAdsBridgeBase, InitializeListenerBridge initializeListenerBridge, InitializationStatusBridge initializationStatusBridge, AdapterStatusBridge adapterStatusBridge) {
+        this._mobileAdsBridge = mobileAdsBridgeBase;
+        this._initializationListenerBridge = initializeListenerBridge;
+        this._initializationStatusBridge = initializationStatusBridge;
+        this._adapterStatusBridge = adapterStatusBridge;
+    }
+
+    public boolean areGMAClassesPresent() {
+        MobileAdsBridgeBase mobileAdsBridgeBase = this._mobileAdsBridge;
+        return mobileAdsBridgeBase != null && this._initializationListenerBridge != null && this._initializationStatusBridge != null && this._adapterStatusBridge != null && mobileAdsBridgeBase.exists() && this._initializationListenerBridge.exists() && this._initializationStatusBridge.exists() && this._adapterStatusBridge.exists();
+    }
+}

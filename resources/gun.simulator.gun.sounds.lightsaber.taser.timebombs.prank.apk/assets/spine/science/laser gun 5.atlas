@@ -1,0 +1,7 @@
+laser gun 5.png
+	size: 434, 1332
+	filter: Linear, Linear
+	pma: true
+laser gun 5
+	bounds: 2, 2, 430, 1328
+	offsets: 6, 15, 441, 1392

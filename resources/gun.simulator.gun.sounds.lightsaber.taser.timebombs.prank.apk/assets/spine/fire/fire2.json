@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "sUlDKdfiB3k", "spine": "4.2.37", "images": "", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fire2", "parent": "root", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "fire2", "bone": "fire2", "attachment": "fire2_01" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fire2": {
+				"fire2_01": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_02": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_03": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_04": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_05": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_06": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_07": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_08": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_09": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_10": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_11": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_12": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_13": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_14": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_15": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_16": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_17": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_18": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_19": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_20": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_21": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_22": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_23": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_24": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_25": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_26": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_27": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_28": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_29": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_30": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_31": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_32": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_33": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 },
+				"fire2_34": { "x": 20.24, "y": 144.7, "width": 240, "height": 360 }
+			}
+		}
+	}
+],
+"animations": {
+	"fire2": {
+		"slots": {
+			"fire2": {
+				"rgba": [
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "fire2_02" },
+					{ "time": 0.0667, "name": "fire2_03" },
+					{ "time": 0.1, "name": "fire2_04" },
+					{ "time": 0.1333, "name": "fire2_05" },
+					{ "time": 0.1667, "name": "fire2_06" },
+					{ "time": 0.2, "name": "fire2_07" },
+					{ "time": 0.2333, "name": "fire2_08" },
+					{ "time": 0.2667, "name": "fire2_09" },
+					{ "time": 0.3, "name": "fire2_10" },
+					{ "time": 0.3333, "name": "fire2_11" },
+					{ "time": 0.3667, "name": "fire2_12" },
+					{ "time": 0.4, "name": "fire2_13" },
+					{ "time": 0.4333, "name": "fire2_14" },
+					{ "time": 0.4667, "name": "fire2_15" },
+					{ "time": 0.5, "name": "fire2_16" },
+					{ "time": 0.5333, "name": "fire2_17" },
+					{ "time": 0.5667, "name": "fire2_18" },
+					{ "time": 0.6, "name": "fire2_19" },
+					{ "time": 0.6333, "name": "fire2_20" },
+					{ "time": 0.6667, "name": "fire2_21" },
+					{ "time": 0.7, "name": "fire2_22" },
+					{ "time": 0.7333, "name": "fire2_23" },
+					{ "time": 0.7667, "name": "fire2_24" },
+					{ "time": 0.8, "name": "fire2_25" },
+					{ "time": 0.8333, "name": "fire2_26" },
+					{ "time": 0.8667, "name": "fire2_27" },
+					{ "time": 0.9, "name": "fire2_28" },
+					{ "time": 0.9333, "name": "fire2_29" },
+					{ "time": 0.9667, "name": "fire2_30" },
+					{ "time": 1, "name": "fire2_31" },
+					{ "time": 1.0333, "name": "fire2_32" },
+					{ "time": 1.0667, "name": "fire2_33" },
+					{ "time": 1.1, "name": "fire2_34" }
+				]
+			}
+		},
+		"bones": {
+			"fire2": {
+				"scale": [
+					{ "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

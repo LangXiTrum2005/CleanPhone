@@ -1,0 +1,34 @@
+{
+"skeleton": {
+	"hash": "1oYTjA/6GdU",
+	"spine": "4.2.37",
+	"x": -372.5,
+	"y": -699.5,
+	"width": 745,
+	"height": 1399,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "taser01", "parent": "root" },
+	{ "name": "gun-taser01", "parent": "taser01" },
+	{ "name": "special effects-taser01", "parent": "taser01", "x": -169.89, "y": 527.32 }
+],
+"slots": [
+	{ "name": "taser01", "bone": "gun-taser01", "attachment": "taser01" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"taser01": {
+				"taser01": { "width": 745, "height": 959 }
+			}
+		}
+	}
+],
+"animations": {
+	"taser01": {}
+}
+}

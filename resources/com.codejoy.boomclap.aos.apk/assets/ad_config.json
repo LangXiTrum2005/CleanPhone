@@ -1,0 +1,88 @@
+{
+  "default_ad_config": {
+    "ad_max_cache_count": 5,
+    "ad_native_max_cache_count": 1,
+    "ad_show_min_delay_time": 10,
+    "admob_cache_available_time": 3600000,
+    "common_appopen_ad_cloud": [
+      {
+        "platform_cache_type": 100001,
+        "id": 500001,
+        "loadDelaySec": 0,
+        "name": "appopen_h_new",
+        "showDelayMin": 0,
+        "unit": "ca-app-pub-8711357685168472/5384820780",
+        "weight": 1
+      },
+      {
+        "platform_cache_type": 100001,
+        "id": 500001,
+        "loadDelaySec": 0,
+        "name": "appopen_m_new",
+        "showDelayMin": 0,
+        "unit": "ca-app-pub-8711357685168472/7763572116",
+        "weight": 3
+      }
+    ],
+    "common_interstitial_ad_cloud": [
+      {
+        "platform_cache_type": 100001,
+        "id": 100001,
+        "loadDelaySec": 0,
+        "name": "i_h_new",
+        "showDelayMin": 0,
+        "unit": "ca-app-pub-8711357685168472/1118272710",
+        "minColdNoFillSec": 60,
+        "weight": 1
+      },
+      {
+        "platform_cache_type": 100001,
+        "id": 100001,
+        "loadDelaySec": 0,
+        "name": "i_m_new",
+        "showDelayMin": 0,
+        "unit": "ca-app-pub-8711357685168472/4236278696",
+        "minColdNoFillSec": 30,
+        "weight": 2
+      }
+    ],
+    "extra_interstitial_ad_cloud": [],
+    "common_native_ad_cloud": [
+      {
+        "platform_cache_type": 100001,
+        "id": 500001,
+        "loadDelaySec": 0,
+        "name": "native_h_new",
+        "showDelayMin": 0,
+        "unit": "ca-app-pub-8711357685168472/7552707174",
+        "maxColdNoFillSec": 270,
+        "minColdNoFillSec": 80,
+        "weight": 1
+      },
+      {
+        "platform_cache_type": 100001,
+        "id": 500001,
+        "loadDelaySec": 0,
+        "name": "native_m_new",
+        "showDelayMin": 0,
+        "unit": "ca-app-pub-8711357685168472/9922831597",
+        "maxColdNoFillSec": 180,
+        "minColdNoFillSec": 30,
+        "weight": 2
+      },
+      {
+        "platform_cache_type": 100001,
+        "id": 500001,
+        "loadDelaySec": 0,
+        "name": "native_l_new",
+        "showDelayMin": 0,
+        "unit": "ca-app-pub-8711357685168472/8609749923",
+        "weight": 3
+      }
+    ],
+    "show_fb_loading_time": 1500,
+    "extra_reward_ad_cloud": [],
+    "reward_max_cache_count": 2,
+    "common_reward_ad_cloud": []
+  }
+}

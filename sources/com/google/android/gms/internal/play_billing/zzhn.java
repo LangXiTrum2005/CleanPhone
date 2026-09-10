@@ -1,0 +1,13 @@
+package com.google.android.gms.internal.play_billing;
+
+/* JADX INFO: compiled from: com.android.billingclient:billing@@7.0.0 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class zzhn extends zzcn implements zzed {
+    private zzhn() {
+        throw null;
+    }
+
+    public /* synthetic */ zzhn(zzhm zzhmVar) {
+        super(zzho.zzb);
+    }
+}

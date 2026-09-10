@@ -1,0 +1,60 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class zzigv extends zziar implements zzicd {
+    private static final zzigv zzd;
+    private static volatile zzick zze;
+    private int zza;
+    private String zzb = "";
+    private zzhzl zzc = zzhzl.zzb;
+
+    static {
+        zzigv zzigvVar = new zzigv();
+        zzd = zzigvVar;
+        zziar.zzbu(zzigv.class, zzigvVar);
+    }
+
+    private zzigv() {
+    }
+
+    @Override // com.google.android.gms.internal.ads.zziar
+    public final Object zzdc(zziaq zziaqVar, Object obj, Object obj2) {
+        zzick zziamVar;
+        int iOrdinal = zziaqVar.ordinal();
+        if (iOrdinal == 0) {
+            return (byte) 1;
+        }
+        if (iOrdinal == 2) {
+            return zziar.zzbv(zzd, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ည\u0001", new Object[]{"zza", "zzb", "zzc"});
+        }
+        if (iOrdinal == 3) {
+            return new zzigv();
+        }
+        byte[] bArr = null;
+        if (iOrdinal == 4) {
+            return new zzigu(bArr);
+        }
+        if (iOrdinal == 5) {
+            return zzd;
+        }
+        if (iOrdinal != 6) {
+            throw null;
+        }
+        zzick zzickVar = zze;
+        if (zzickVar != null) {
+            return zzickVar;
+        }
+        synchronized (zzigv.class) {
+            try {
+                zziamVar = zze;
+                if (zziamVar == null) {
+                    zziamVar = new zziam(zzd);
+                    zze = zziamVar;
+                }
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+        return zziamVar;
+    }
+}

@@ -1,0 +1,7 @@
+energy gun 1.png
+	size: 365, 1213
+	filter: Linear, Linear
+	pma: true
+energy gun 1
+	bounds: 2, 2, 361, 1209
+	offsets: 0, 0, 381, 1209

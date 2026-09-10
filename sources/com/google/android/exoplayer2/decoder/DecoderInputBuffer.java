@@ -1,0 +1,97 @@
+package com.google.android.exoplayer2.decoder;
+
+import androidx.datastore.preferences.protobuf.a;
+import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import java.nio.ByteBuffer;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class DecoderInputBuffer extends Buffer {
+
+    /* JADX INFO: renamed from: Y, reason: collision with root package name */
+    public final CryptoInfo f17433Y = new CryptoInfo();
+    public ByteBuffer Z;
+    public boolean e0;
+    public long f0;
+    public ByteBuffer g0;
+    public final int h0;
+
+    @Target({ElementType.TYPE_USE})
+    @Documented
+    @Retention(RetentionPolicy.SOURCE)
+    public @interface BufferReplacementMode {
+    }
+
+    public static final class InsufficientCapacityException extends IllegalStateException {
+    }
+
+    static {
+        ExoPlayerLibraryInfo.a("goog.exo.decoder");
+    }
+
+    public DecoderInputBuffer(int i2) {
+        this.h0 = i2;
+    }
+
+    public void d() {
+        this.X = 0;
+        ByteBuffer byteBuffer = this.Z;
+        if (byteBuffer != null) {
+            byteBuffer.clear();
+        }
+        ByteBuffer byteBuffer2 = this.g0;
+        if (byteBuffer2 != null) {
+            byteBuffer2.clear();
+        }
+        this.e0 = false;
+    }
+
+    public final ByteBuffer f(int i2) {
+        int i3 = this.h0;
+        if (i3 == 1) {
+            return ByteBuffer.allocate(i2);
+        }
+        if (i3 == 2) {
+            return ByteBuffer.allocateDirect(i2);
+        }
+        ByteBuffer byteBuffer = this.Z;
+        throw new InsufficientCapacityException(a.e(byteBuffer == null ? 0 : byteBuffer.capacity(), i2, "Buffer too small (", " < ", ")"));
+    }
+
+    public final void g(int i2) {
+        ByteBuffer byteBuffer = this.Z;
+        if (byteBuffer == null) {
+            this.Z = f(i2);
+            return;
+        }
+        int iCapacity = byteBuffer.capacity();
+        int iPosition = byteBuffer.position();
+        int i3 = i2 + iPosition;
+        if (iCapacity >= i3) {
+            this.Z = byteBuffer;
+            return;
+        }
+        ByteBuffer byteBufferF = f(i3);
+        byteBufferF.order(byteBuffer.order());
+        if (iPosition > 0) {
+            byteBuffer.flip();
+            byteBufferF.put(byteBuffer);
+        }
+        this.Z = byteBufferF;
+    }
+
+    public final void h() {
+        ByteBuffer byteBuffer = this.Z;
+        if (byteBuffer != null) {
+            byteBuffer.flip();
+        }
+        ByteBuffer byteBuffer2 = this.g0;
+        if (byteBuffer2 != null) {
+            byteBuffer2.flip();
+        }
+    }
+}

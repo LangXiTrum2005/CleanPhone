@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Brand Colors (Modern Electric Blue & Indigo Glow) -->
+    <color name="primary">#3B82F6</color>
+    <color name="primary_variant">#2563EB</color>
+    <color name="primary_glow">#60A5FA</color>
+    <color name="primary_subtle">#132238</color>
+    <color name="accent_cyan">#06B6D4</color>
+    <color name="accent_emerald">#10B981</color>
+    <color name="accent_amber">#F59E0B</color>
+    <color name="accent_rose">#F43F5E</color>
+    <color name="accent_purple">#8B5CF6</color>
+    <color name="accent_indigo">#6366F1</color>
+
+    <!-- Dark Mode Surfaces (Deep Obsidian & Cyber Slate Glass) -->
+    <color name="bg_dark">#080C16</color>
+    <color name="bg_dark_top">#0E1626</color>
+    <color name="bg_surface">#0F172A</color>
+    <color name="bg_card">#151E32</color>
+    <color name="bg_card_elevated">#1A253D</color>
+    <color name="bg_card_highlight">#22314E</color>
+    <color name="border_subtle">#1E2B40</color>
+    <color name="border_glass">#2C3C58</color>
+    <color name="border_glow">#3B82F6</color>
+
+    <!-- Text & Typography -->
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_tertiary">#64748B</color>
+    <color name="text_muted">#475569</color>
+    <color name="text_accent">#38BDF8</color>
+
+    <!-- State & Category Colors -->
+    <color name="category_similar">#3B82F6</color>
+    <color name="category_duplicate">#EF4444</color>
+    <color name="category_screenshot">#8B5CF6</color>
+    <color name="category_video">#F59E0B</color>
+    <color name="category_contact">#10B981</color>
+    <color name="category_apps">#EC4899</color>
+    <color name="category_secret">#6366F1</color>
+
+    <!-- Common UI -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="scrim_black">#B3000000</color>
+    <color name="ripple_light">#25FFFFFF</color>
+    <color name="ripple_primary">#353B82F6</color>
+</resources>

@@ -1,0 +1,26 @@
+package io.reactivex.rxjava3.internal.operators.observable;
+
+import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.core.Observer;
+import io.reactivex.rxjava3.internal.fuseable.ScalarSupplier;
+
+/* JADX INFO: loaded from: classes7.dex */
+public final class ObservableJust<T> extends Observable<T> implements ScalarSupplier<T> {
+    private final T value;
+
+    public ObservableJust(T t) {
+        this.value = t;
+    }
+
+    @Override // io.reactivex.rxjava3.internal.fuseable.ScalarSupplier, io.reactivex.rxjava3.functions.Supplier
+    public T get() {
+        return this.value;
+    }
+
+    @Override // io.reactivex.rxjava3.core.Observable
+    public void subscribeActual(Observer<? super T> observer) {
+        ObservableScalarXMap.ScalarDisposable scalarDisposable = new ObservableScalarXMap.ScalarDisposable(observer, this.value);
+        observer.onSubscribe(scalarDisposable);
+        scalarDisposable.run();
+    }
+}

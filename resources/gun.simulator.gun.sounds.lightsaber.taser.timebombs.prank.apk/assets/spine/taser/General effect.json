@@ -1,0 +1,108 @@
+{
+"skeleton": { "hash": "whWH1RXjJag", "spine": "4.2.37", "images": "./images/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "General effect", "parent": "root" },
+	{ "name": "General effect-2", "parent": "General effect" },
+	{ "name": "General effect-1", "parent": "General effect" }
+],
+"slots": [
+	{ "name": "General effect-1", "bone": "General effect-1" },
+	{ "name": "General effect-2", "bone": "General effect-2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"General effect-1": {
+				"General effect01": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect02": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect03": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect04": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect05": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect06": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect07": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect08": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect09": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect10": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect11": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 },
+				"General effect12": { "x": 0.04, "y": 0.12, "width": 334, "height": 385 }
+			},
+			"General effect-2": {
+				"General effect-2": { "width": 1082, "height": 1183 }
+			}
+		}
+	}
+],
+"animations": {
+	"General effect": {
+		"slots": {
+			"General effect-1": {
+				"attachment": [
+					{ "name": "General effect01" },
+					{ "time": 0.0333, "name": "General effect02" },
+					{ "time": 0.0667, "name": "General effect03" },
+					{ "time": 0.1, "name": "General effect04" },
+					{ "time": 0.1333, "name": "General effect05" },
+					{ "time": 0.1667, "name": "General effect06" },
+					{ "time": 0.2, "name": "General effect07" },
+					{ "time": 0.2333, "name": "General effect08" },
+					{ "time": 0.2667, "name": "General effect09" },
+					{ "time": 0.3, "name": "General effect10" },
+					{ "time": 0.3333, "name": "General effect11" },
+					{ "time": 0.3667, "name": "General effect12" }
+				]
+			},
+			"General effect-2": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.021, 1, 0.046, 1, 0.021, 1, 0.046, 1, 0.021, 1, 0.046, 1, 0.021, 0.33, 0.046, 1 ]
+					},
+					{
+						"time": 0.0667,
+						"color": "ffffffff",
+						"curve": [ 0.087, 1, 0.113, 1, 0.087, 1, 0.113, 1, 0.087, 1, 0.113, 1, 0.087, 1, 0.113, -0.33 ]
+					},
+					{
+						"time": 0.1333,
+						"color": "ffffff00",
+						"curve": [ 0.154, 1, 0.179, 1, 0.154, 1, 0.179, 1, 0.154, 1, 0.179, 1, 0.154, 0.33, 0.179, 1 ]
+					},
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.221, 1, 0.213, 1, 0.221, 1, 0.213, 1, 0.221, 1, 0.213, 1, 0.221, 1, 0.213, -0.33 ]
+					},
+					{
+						"time": 0.2333,
+						"color": "ffffff00",
+						"curve": [ 0.254, 1, 0.279, 1, 0.254, 1, 0.279, 1, 0.254, 1, 0.279, 1, 0.254, 0.33, 0.279, 1 ]
+					},
+					{
+						"time": 0.3,
+						"color": "ffffffff",
+						"curve": [ 0.321, 1, 0.346, 1, 0.321, 1, 0.346, 1, 0.321, 1, 0.346, 1, 0.321, 1, 0.346, 0.33 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "General effect-2" }
+				]
+			}
+		},
+		"bones": {
+			"General effect-1": {
+				"scale": [
+					{ "x": 3.3, "y": 3.3 }
+				]
+			},
+			"General effect-2": {
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

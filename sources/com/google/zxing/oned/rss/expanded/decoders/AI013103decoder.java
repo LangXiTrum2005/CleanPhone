@@ -1,0 +1,5 @@
+package com.google.zxing.oned.rss.expanded.decoders;
+
+/* JADX INFO: loaded from: classes3.dex */
+final class AI013103decoder extends AI013x0xDecoder {
+}

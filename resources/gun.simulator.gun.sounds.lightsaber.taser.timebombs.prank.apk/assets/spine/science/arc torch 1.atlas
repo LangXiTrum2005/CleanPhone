@@ -1,0 +1,7 @@
+arc torch 1.png
+	size: 538, 904
+	filter: Linear, Linear
+	pma: true
+arc torch 1
+	bounds: 2, 2, 534, 900
+	offsets: 16, 12, 564, 966

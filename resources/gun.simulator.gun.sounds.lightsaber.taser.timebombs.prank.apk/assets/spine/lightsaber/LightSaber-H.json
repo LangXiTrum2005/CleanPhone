@@ -1,0 +1,52 @@
+{
+"skeleton": { "hash": "B+TDguHkdA8", "spine": "4.2.37", "images": "../im/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root" },
+	{ "name": "LightSaber-H", "parent": "1" },
+	{ "name": "texiao", "parent": "1" },
+	{ "name": "texiao2", "parent": "1" },
+	{ "name": "texiao3", "parent": "1" }
+],
+"slots": [
+	{ "name": "LightSaber-H", "bone": "LightSaber-H" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"LightSaber-H": {
+				"8": { "width": 123, "height": 576 }
+			}
+		}
+	}
+],
+"animations": {
+	"LightSaber-H": {
+		"slots": {
+			"LightSaber-H": {
+				"attachment": [
+					{ "name": "8" }
+				]
+			}
+		},
+		"bones": {
+			"texiao": {
+				"translate": [
+					{ "y": 260.64 }
+				]
+			},
+			"texiao2": {
+				"translate": [
+					{ "y": 260.64 }
+				]
+			},
+			"texiao3": {
+				"translate": [
+					{ "y": 260.64 }
+				]
+			}
+		}
+	}
+}
+}

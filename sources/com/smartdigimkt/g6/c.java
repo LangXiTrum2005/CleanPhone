@@ -1,0 +1,29 @@
+package com.smartdigimkt.g6;
+
+import android.graphics.Bitmap;
+import android.net.http.SslError;
+import android.webkit.SslErrorHandler;
+import android.webkit.WebView;
+
+/* JADX INFO: loaded from: classes5.dex */
+public interface c {
+    void a(WebView webView);
+
+    void loadingResourceStatus(WebView webView, int i2);
+
+    void onPageFinished(WebView webView, String str);
+
+    void onPageStarted(WebView webView, String str, Bitmap bitmap);
+
+    void onProgressChanged(WebView webView, int i2);
+
+    void onReceivedError(WebView webView, int i2, String str, String str2);
+
+    void onReceivedSslError(WebView webView, SslErrorHandler sslErrorHandler, SslError sslError);
+
+    void onRenderProcessGone(WebView webView);
+
+    void readyState(WebView webView, int i2);
+
+    boolean shouldOverrideUrlLoading(WebView webView, String str);
+}

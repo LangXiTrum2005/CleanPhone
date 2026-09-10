@@ -1,0 +1,15 @@
+package kotlin.sequences;
+
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: loaded from: classes7.dex */
+@Metadata(k = 3, mv = {2, 1, 0}, xi = 176)
+public final class SequencesKt___SequencesKt$filterIsInstance$1 implements Function1<Object, Boolean> {
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        Intrinsics.l();
+        throw null;
+    }
+}

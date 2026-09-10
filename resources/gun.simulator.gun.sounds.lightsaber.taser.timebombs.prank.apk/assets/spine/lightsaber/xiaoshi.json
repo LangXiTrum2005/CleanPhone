@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "UoHs1GiWy9U", "spine": "4.2.37", "images": "./im/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "tx", "parent": "root", "scaleX": 2.2, "scaleY": 2.2 },
+	{ "name": "1", "parent": "root", "y": -71.83 },
+	{ "name": "xiaoshi", "parent": "tx" }
+],
+"slots": [
+	{ "name": "xiaoshi", "bone": "xiaoshi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"xiaoshi": {
+				"xiaoshi_1_00": { "width": 144, "height": 936 },
+				"xiaoshi_1_01": { "width": 144, "height": 936 },
+				"xiaoshi_1_02": { "width": 144, "height": 936 },
+				"xiaoshi_1_03": { "width": 144, "height": 936 },
+				"xiaoshi_1_04": { "width": 144, "height": 936 },
+				"xiaoshi_1_05": { "width": 144, "height": 936 },
+				"xiaoshi_1_06": { "width": 144, "height": 936 },
+				"xiaoshi_1_07": { "width": 144, "height": 936 },
+				"xiaoshi_1_08": { "width": 144, "height": 936 },
+				"xiaoshi_1_09": { "width": 144, "height": 936 },
+				"xiaoshi_1_10": { "width": 144, "height": 936 }
+			}
+		}
+	}
+],
+"animations": {
+	"xiaoshi": {
+		"slots": {
+			"xiaoshi": {
+				"attachment": [
+					{ "name": "xiaoshi_1_00" },
+					{ "time": 0.0667, "name": "xiaoshi_1_01" },
+					{ "time": 0.1333, "name": "xiaoshi_1_02" },
+					{ "time": 0.2, "name": "xiaoshi_1_03" },
+					{ "time": 0.2667, "name": "xiaoshi_1_04" },
+					{ "time": 0.3333, "name": "xiaoshi_1_05" },
+					{ "time": 0.4, "name": "xiaoshi_1_06" },
+					{ "time": 0.4667, "name": "xiaoshi_1_07" },
+					{ "time": 0.5333, "name": "xiaoshi_1_08" },
+					{ "time": 0.6, "name": "xiaoshi_1_09" },
+					{ "time": 0.6667, "name": "xiaoshi_1_10" }
+				]
+			}
+		},
+		"bones": {
+			"xiaoshi": {
+				"translate": [
+					{ "y": 435.95 }
+				]
+			}
+		}
+	}
+}
+}

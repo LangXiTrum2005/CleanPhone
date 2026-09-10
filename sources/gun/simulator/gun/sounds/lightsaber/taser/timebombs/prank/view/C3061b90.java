@@ -1,0 +1,33 @@
+package gun.simulator.gun.sounds.lightsaber.taser.timebombs.prank.view;
+
+/* JADX INFO: renamed from: gun.simulator.gun.sounds.lightsaber.taser.timebombs.prank.view.b90, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C3061b90 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final int f4161a;
+    public final int b;
+    public final int c;
+    public final int d;
+    public final int e;
+    public final int f;
+    public final int g;
+    public final int h;
+    public final int i;
+    public final int j;
+    public final int k;
+
+    public C3061b90(int i, int i2, int i3, int i4, int i5, int i6, int i7, int i8, int i9, int i10, int i11) {
+        this.f4161a = i;
+        this.b = i2;
+        this.c = i3;
+        this.d = i4;
+        this.e = i5;
+        this.f = i6;
+        this.g = i7;
+        this.h = i8;
+        this.i = i9;
+        this.j = i10;
+        this.k = i11;
+    }
+}

@@ -1,0 +1,74 @@
+{
+"skeleton": { "hash": "QffjEJ0MRCM", "spine": "4.2.37", "images": "./png序列/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "smog", "parent": "root" }
+],
+"slots": [
+	{ "name": "smog", "bone": "smog" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"smog": {
+				"yanwu01": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu03": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu05": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu07": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu09": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu11": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu13": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu15": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu17": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu19": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu21": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu23": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu25": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu27": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu29": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 },
+				"yanwu31": { "x": -11.11, "y": 37.23, "width": 500, "height": 600 }
+			}
+		}
+	}
+],
+"animations": {
+	"smog": {
+		"slots": {
+			"smog": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "yanwu01" },
+					{ "time": 0.2, "name": "yanwu03" },
+					{ "time": 0.2667, "name": "yanwu05" },
+					{ "time": 0.3333, "name": "yanwu07" },
+					{ "time": 0.4, "name": "yanwu09" },
+					{ "time": 0.4667, "name": "yanwu11" },
+					{ "time": 0.5333, "name": "yanwu13" },
+					{ "time": 0.6, "name": "yanwu15" },
+					{ "time": 0.6667, "name": "yanwu17" },
+					{ "time": 0.7333, "name": "yanwu19" },
+					{ "time": 0.8, "name": "yanwu21" },
+					{ "time": 0.8667, "name": "yanwu23" },
+					{ "time": 0.9333, "name": "yanwu25" },
+					{ "time": 1, "name": "yanwu27" },
+					{ "time": 1.0667, "name": "yanwu29" },
+					{ "time": 1.1333, "name": "yanwu31" }
+				]
+			}
+		},
+		"bones": {
+			"smog": {
+				"scale": [
+					{ "time": 0.1, "x": 3, "y": 3 }
+				]
+			}
+		}
+	}
+}
+}

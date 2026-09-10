@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">Cleanup</string>
+    <string name="app_tagline">スマートストレージ＆メディアクリーナー</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_swipe">写真スワイプ</string>
+    <string name="nav_contacts">連絡先</string>
+    <string name="nav_compress">動画圧縮</string>
+    <string name="nav_secret">秘密の保管庫</string>
+    <string name="nav_apps">アプリ管理</string>
+    <string name="nav_battery">バッテリーと充電</string>
+    <string name="nav_settings">設定</string>
+
+    <!-- Settings Sections & Items -->
+    <string name="settings_title">設定</string>
+    <string name="settings_section_utilities">ユーティリティ</string>
+    <string name="settings_section_secret">保管庫のセキュリティ</string>
+    <string name="settings_section_social">コミュニティ</string>
+    <string name="settings_section_support">サポートとフィードバック</string>
+    <string name="settings_section_about">アプリ情報と法的情報</string>
+    <string name="settings_pro_banner_title">Cleanup PRO</string>
+    <string name="settings_pro_banner_sub">すべての機能へ無制限アクセス</string>
+    <string name="settings_use_pin">PINロックを使用</string>
+    <string name="settings_use_biometrics">生体認証 / 指紋認証を使用</string>
+    <string name="settings_change_pin">4桁のPINを変更</string>
+    <string name="settings_remove_after_import">保管庫移動後に元の写真を削除</string>
+    <string name="settings_trash_bin">ゴミ箱</string>
+    <string name="settings_language">言語 (Language)</string>
+    <string name="settings_widgets">ホーム画面ウィジェット</string>
+    <string name="settings_share_app">Cleanupを共有</string>
+    <string name="settings_instagram">Instagramをフォロー</string>
+    <string name="settings_tiktok">TikTokをフォロー</string>
+    <string name="settings_twitter">Twitter / Xをフォロー</string>
+    <string name="settings_faq">よくある質問 (FAQ)</string>
+    <string name="settings_rate_us">評価する</string>
+    <string name="settings_contact_us">お問い合わせ</string>
+    <string name="settings_restore_purchase">購入を復元</string>
+    <string name="settings_privacy_policy">プライバシーポリシー</string>
+    <string name="settings_terms_of_service">利用規約</string>
+    <string name="settings_community_guidelines">コミュニティガイドライン</string>
+    <string name="popups_got_it">了解</string>
+    <string name="popups_maybe_later">後で</string>
+    <string name="contact_us_four_answer">写真と動画へのアクセスを許可するには：端末の設定 -> アプリ -> Cleanup -> 権限 -> 写真と動画 -> \'許可\'を選択してください。すべての操作は端末内で100%ローカルに実行されます。</string>
+
+    <!-- Dashboard -->
+    <string name="storage_used_title">使用済みストレージ</string>
+    <string name="storage_used_fmt">%2$s 中 %1$s 使用中</string>
+    <string name="storage_free_fmt">空き容量 %1$s</string>
+    <string name="btn_smart_clean">AI スマートクリーニング</string>
+    <string name="scanning_storage">ストレージをスキャン中…</string>
+    <string name="scanning_photos">写真と重複を分析中…</string>
+    <string name="scanning_videos">大容量動画を検索中…</string>
+    <string name="scan_completed">スキャン完了！</string>
+    <string name="reclaimable_space">解放可能な容量</string>
+
+    <!-- Categories -->
+    <string name="category_similar_photos">類似の写真</string>
+    <string name="category_similar_desc">似た写真をグループ化、ベストショットを残す</string>
+    <string name="category_duplicates">完全な重複写真</string>
+    <string name="category_duplicates_desc">容量を圧迫している同一のコピー写真</string>
+    <string name="category_screenshots">スクリーンショット</string>
+    <string name="category_screenshots_desc">不要になった古いスクリーンショット</string>
+    <string name="category_large_videos">大容量動画</string>
+    <string name="category_large_videos_desc">GB単位の容量を占める重い動画ファイル</string>
+    <string name="category_other_media">その他のメディア</string>
+    <string name="category_other_media_desc">チャットのダウンロードファイルやその他</string>
+
+    <!-- Photo Cleaner & Similarity -->
+    <string name="best_result">ベストショット</string>
+    <string name="delete_selected">選択した項目を削除 (%1$d)</string>
+    <string name="select_all">すべて選択</string>
+    <string name="deselect_all">選択を解除</string>
+    <string name="keep_best">ベストショットのみ残す</string>
+    <string name="no_items_found">クリーンアップ対象は見つかりませんでした！</string>
+
+    <!-- Photo Swiping -->
+    <string name="swipe_hint_keep">右にスワイプして残す</string>
+    <string name="swipe_hint_delete">左にスワイプして削除</string>
+    <string name="swipe_progress_fmt">%1$d / %2$d 写真</string>
+    <string name="swipe_undo">元に戻す</string>
+    <string name="swipe_open_trash">ゴミ箱を開く (%1$d)</string>
+    <string name="trash_title">一時ゴミ箱</string>
+    <string name="trash_clear_all">ゴミ箱を空にする</string>
+    <string name="trash_recover_all">すべて復元</string>
+    <string name="trash_empty_state">ゴミ箱は空です</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">連絡先の整理</string>
+    <string name="contacts_duplicate_title">重複した連絡先</string>
+    <string name="contacts_duplicate_desc">同じ電話番号または同じ名前</string>
+    <string name="contacts_incomplete_title">不完全な連絡先</string>
+    <string name="contacts_incomplete_desc">名前または電話番号が未登録</string>
+    <string name="contacts_backup_title">バックアップと復元</string>
+    <string name="contacts_backup_desc">安全なVCFバックアップファイルを作成</string>
+    <string name="contacts_btn_merge">重複を統合</string>
+    <string name="contacts_btn_backup">バックアップ作成</string>
+    <string name="contacts_btn_restore">VCFから復元</string>
+    <string name="contacts_merge_preview">統合プレビュー</string>
+    <string name="contacts_no_name">名前なし</string>
+    <string name="contacts_no_phone">電話番号なし</string>
+
+    <!-- Video Compressor -->
+    <string name="compress_title">動画圧縮</string>
+    <string name="compress_subtitle">動画を圧縮してGB単位の空き容量を確保</string>
+    <string name="video_compress_header_title">動画を圧縮して最大節約：</string>
+    <string name="video_compress_ultimate_space">最大節約</string>
+    <string name="video_compress_moderate_space">標準節約</string>
+    <string name="video_compress_light_space">軽度節約</string>
+    <string name="video_compress_ultimate_desc">低画質 • 約70%圧縮</string>
+    <string name="video_compress_moderate_desc">中画質 • 約45%圧縮</string>
+    <string name="video_compress_light_desc">高画質 • 約25%圧縮</string>
+    <string name="video_compress_popup_title">選択した動画を圧縮しますか？</string>
+    <string name="video_compress_popup_subtitle">動画が圧縮され、約 %1$s の空き容量が増加します。</string>
+    <string name="video_compress_in_progress_title">動画を圧縮中…</string>
+    <string name="video_compress_in_progress_subtitle">完了するまでアプリを開いたままにしてください。</string>
+    <string name="video_compress_progress_completed_title">完了しました！</string>
+    <string name="video_compress_progress_completed_subtitle">動画が圧縮され保存されました。</string>
+    <string name="video_compress_progress_completed_primary_action">両方の動画を残す</string>
+    <string name="video_compress_progress_completed_secondary_action">元の動画を削除</string>
+    <string name="video_compress_exit_popup_title">進捗が失われます！</string>
+    <string name="video_compress_exit_popup_subtitle">今終了すると圧縮が完了しません。</string>
+    <string name="video_compress_exit_popup_primary_action">圧縮を続ける</string>
+    <string name="video_compress_exit_popup_secondary_action">圧縮を中止</string>
+    <string name="video_compress_congrats_compressed">圧縮完了：</string>
+    <string name="video_compress_congrats_saved">節約容量：</string>
+    <string name="video_compress_empty_state_title">圧縮可能な動画がありません！</string>
+    <string name="video_compress_failed_title">動画の圧縮に失敗しました</string>
+    <string name="video_compress_failed_subtitle">エラーが発生しました。もう一度お試しください。</string>
+    <string name="compress_btn_start">圧縮を開始</string>
+    <string name="compressing_progress_fmt">圧縮中… %1$d%%</string>
+    <string name="compress_saved_fmt">%1$s 節約</string>
+    <string name="select_video_hint">圧縮する動画を選択してください</string>
+    <string name="select_video_title">動画を選択</string>
+
+    <!-- App Cleaner -->
+    <string name="app_cleaner_title">アプリ管理</string>
+    <string name="app_cleaner_subtitle">使用頻度の低い重いアプリを見つけてアンインストール</string>
+    <string name="sort_largest_size">サイズ順</string>
+    <string name="sort_least_used">使用頻度（低）</string>
+    <string name="sort_most_used">使用頻度（高）</string>
+    <string name="btn_uninstall">選択したアプリを削除</string>
+    <string name="uninstall_success">アンインストール完了！</string>
+    <string name="permission_usage_needed">使用履歴アクセス権限が必要です</string>
+    <string name="btn_grant_permission">権限を許可</string>
+    <string name="app_last_used_fmt">最終使用: %1$s</string>
+    <string name="app_rarely_used">めったに使わない</string>
+    <string name="error_open_settings">設定を開けません。端末の設定から手動で使用履歴アクセスを許可してください。</string>
+
+    <!-- Secret Vault -->
+    <string name="secret_title">秘密の保管庫</string>
+    <string name="secret_desc">暗号化されたプライベート保管庫（PIN＆生体認証）</string>
+    <string name="secret_pin_title">秘密のPINを入力</string>
+    <string name="secret_pin_create">4桁のPINを作成</string>
+    <string name="secret_pin_confirm">PINを再入力</string>
+    <string name="secret_pin_wrong">PINが正しくありません！もう一度お試しください。</string>
+    <string name="secret_tab_gallery">秘密の写真</string>
+    <string name="secret_tab_contacts">秘密の連絡先</string>
+    <string name="secret_add_media">ファイルを追加</string>
+    <string name="secret_add_contact">秘密の連絡先を追加</string>
+    <string name="secret_unlock_biometric">生体認証でロック解除</string>
+
+    <!-- Battery & Charging -->
+    <string name="battery_title">バッテリーと充電</string>
+    <string name="battery_status_charging">充電中</string>
+    <string name="battery_status_discharging">放電中</string>
+    <string name="battery_status_full">満充電</string>
+    <string name="battery_health_good">良好な状態</string>
+    <string name="battery_temp_fmt">温度: %1$.1f°C</string>
+    <string name="battery_voltage_fmt">電圧: %1$.2f V</string>
+    <string name="charging_animation_btn">充電アニメーションをプレビュー</string>
+
+    <!-- Pro & Paywall -->
+    <string name="pro_title">PROプランへアップグレード</string>
+    <string name="pro_sub_title">容量制限なしで端末ストレージを快適に最適化</string>
+    <string name="pro_feature_1">AIによる重複・類似写真の高精度検出</string>
+    <string name="pro_feature_2">無制限の動画圧縮機能</string>
+    <string name="pro_feature_3">完全暗号化された秘密の保管庫</string>
+    <string name="pro_feature_4">広告なし＆最高スキャン速度</string>
+    <string name="pro_plan_yearly">年額プラン - ¥2,400/年 (3日間無料トライアル)</string>
+    <string name="pro_plan_monthly">月額プラン - ¥600/月</string>
+    <string name="pro_plan_lifetime">買い切り永久プラン - ¥4,800</string>
+    <string name="btn_start_trial">無料体験を開始して続ける</string>
+    <string name="btn_continue">続ける</string>
+
+    <!-- Common Dialogs & Actions -->
+    <string name="confirm_delete_title">削除の確認</string>
+    <string name="confirm_delete_msg">選択した項目を削除してもよろしいですか？</string>
+    <string name="btn_delete">削除</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_done">完了</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_close">閉じる</string>
+    <string name="success">成功</string>
+    <string name="permission_required">アクセス権限が必要です</string>
+    <string name="permission_media_confirm_title">写真と動画へのアクセス許可</string>
+    <string name="permission_media_confirm_msg">重複や類似写真を検出し空き容量を確保するために、写真と動画へのアクセス権限が必要です。</string>
+    <string name="btn_allow_and_continue">許可して続ける</string>
+    <string name="btn_not_now">後で</string>
+    <string name="category_all_photos">すべての写真</string>
+    <string name="onboarding_title_1">スマートクリーンアップ</string>
+    <string name="onboarding_desc_1">重複写真、大容量動画、不要なファイルを素早く見つけてクリーンアップ。</string>
+    <string name="onboarding_title_2">似た写真を整理</string>
+    <string name="onboarding_desc_2">最高の1枚を残し、ピンボケや重複したショットを自動で整理します。</string>
+    <string name="onboarding_title_3">簡単な写真スワイプ整理</string>
+    <string name="onboarding_desc_3">右にスワイプして大切な写真を残し、左にスワイプして不要な写真をすぐに削除。</string>
+    <string name="onboarding_skip">スキップ</string>
+    <string name="onboarding_next">次へ</string>
+    <string name="onboarding_get_started">使ってみる</string>
+    <string name="language_selection_title">言語を選択</string>
+    <string name="language_selection_subtitle">使用する言語を選択してください</string>
+
+    <!-- Additional UI & Format Strings -->
+    <string name="contacts_duplicated_empty_state_desc">連絡先は整理されており、重複した番号や名前はありません。</string>
+    <string name="contacts_incomplete_contacts_empty_state_desc">すべての連絡先に有効な名前と電話番号が登録されています。</string>
+    <string name="contacts_backups_empty_state_desc">編集する前に連絡先を保護するために最初のVCFバックアップを作成してください。</string>
+    <string name="contacts_found_summary_fmt">端末内に %1$d 件の連絡先が見つかりました</string>
+    <string name="contacts_duplicate_groups_fmt">%1$d グループ</string>
+    <string name="contacts_incomplete_count_fmt">%1$d 件不完全</string>
+    <string name="contacts_backups_saved_fmt">%1$d 件保存済み</string>
+    <string name="contacts_duplicate_section_title_fmt">%1$d 件の重複グループ（%2$d 件の連絡先）が見つかりました</string>
+    <string name="contacts_selected_count_fmt">%1$d 件選択中</string>
+    <string name="contacts_delete_with_count_fmt">削除 (%1$d)</string>
+    <string name="contacts_duplicate_profiles_fmt">%1$d 件の重複プロフィール</string>
+    <string name="contacts_count_badge_fmt">%1$d 件の連絡先</string>
+    <string name="contacts_no_contact_info">連絡先情報なし</string>
+    <string name="contacts_merge_all_confirm_msg">%1$d 件の重複グループを結合しますか？ 事前にバックアップを作成しますか？</string>
+    <string name="contacts_merge_without_backup">バックアップなしで結合</string>
+    <string name="contacts_merge_success_fmt">%1$d 件の重複グループを正常に結合しました！</string>
+    <string name="contacts_delete_confirm_msg">選択した %1$d 件の連絡先を削除しますか？ 削除した連絡先は復元できません。</string>
+    <string name="contacts_delete_error">連絡先の削除エラー</string>
+    <string name="contacts_backup_failed">バックアップ作成に失敗しました</string>
+    <string name="contacts_restore_confirm_msg">%1$s から連絡先（%2$d 件）を復元しますか？</string>
+    <string name="contacts_restore_success_fmt">バックアップから %1$d 件の連絡先を復元しました！</string>
+    <string name="contacts_share_title">VCFバックアップを共有</string>
+    <string name="merge_preview_current_duplicates_fmt">現在の重複 (%1$d)</string>
+    <string name="merge_preview_desc">以下の重複プロフィールは1つの連絡先に統合されます。</string>
+    <string name="merge_preview_unified_title">統合後の連絡先 (1)</string>
+    <string name="merge_preview_aggregated_badge">統合データ</string>
+    <string name="merge_preview_phones_fmt">電話番号: %1$s</string>
+    <string name="merge_preview_emails_fmt">メール: %1$s</string>
+    <string name="merge_preview_unified_contact">統合された連絡先</string>
+
+    <string name="stat_photos_save_fmt">%1$d 枚の写真 • %2$s 節約</string>
+    <string name="stat_files_save_fmt">%1$d 個のファイル • %2$s 節約</string>
+    <string name="stat_groups_save_fmt">%1$d グループ • %2$s 節約</string>
+    <string name="stat_files_size_fmt">%1$d 個のファイル • %2$s</string>
+    <string name="stat_save_prefix">%1$s 節約</string>
+    <string name="stat_selected_count_fmt">%1$d 件選択中</string>
+    <string name="trash_stats_fmt">%1$d 枚の写真 • %2$s</string>
+    <string name="trash_restored_all">ゴミ箱からすべての写真を復元しました</string>
+
+    <string name="power_source_ac">AC充電器</string>
+    <string name="power_source_usb">USBケーブル</string>
+    <string name="power_source_wireless">ワイヤレス充電</string>
+    <string name="power_source_battery">バッテリー駆動中</string>
+
+    <string name="secret_pin_create_success">PINが正常に作成されました！</string>
+    <string name="secret_vault_imported_fmt">%1$d 件のアイテムを秘密の保管庫に移動しました！</string>
+    <string name="secret_vault_restored_fmt">%1$d 件のファイルをギャラリーに復元しました！</string>
+    <string name="secret_original_removed">元のファイルをギャラリーから削除しました！</string>
+    <string name="secret_biometric_unavailable">この端末は生体認証に対応していません</string>
+    <string name="settings_widgets_instructions">ホーム画面にCleanupウィジェットを追加する方法：\n\n1. ホーム画面の空いている場所を長押しします。\n2. [ウィジェット] をタップします。\n3. [Cleanup] を探してホーム画面にドラッグします。</string>
+    <string name="settings_share_text">Cleanup - AIストレージクリーナー＆動画圧縮アプリをお試しください: https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="pro_welcome_fmt">Cleanup PROへようこそ！ 選択プラン: %1$s</string>
+    <string name="video_count_fmt">%1$d 本の動画</string>
+    <string name="video_save_est_fmt">約 %1$s 節約</string>
+    <string name="apps_selected_fmt">%1$d 個のアプリを選択中 • %2$s</string>
+
+    <string name="scan_scanning_media">メディアファイルをスキャン中…</string>
+    <string name="scan_scanning_videos">動画をスキャン中…</string>
+    <string name="scan_analyzing_similarity">類似写真と重複写真を分析中…</string>
+    <string name="scan_analyzing_progress_fmt">写真を分析中 (%1$d/%2$d)…</string>
+    <string name="scan_grouping_similar">類似写真をグループ化中…</string>
+    <string name="scan_done">完了！</string>
+    <string name="scan_failed">スキャンに失敗しました</string>
+
+    <string name="pin_must_be_4_digits">PINは4桁である必要があります</string>
+    <string name="pin_confirm_mismatch">PINが一致しません</string>
+    <string name="pin_same_as_old_error">新しいPINは現在のPINと異なる必要があります</string>
+    <string name="settings_confirm_new_pin_hint">新しい4桁のPINを再入力</string>
+    <string name="support_contact_toast_fmt">サポートへのお問い合わせ: %1$s</string>
+    <string name="subscriptions_checking_restored">定期購入を確認中… 正常に復元されました！</string>
+    <string name="subscriptions_restored_success">定期購入が正常に復元されました！</string>
+    <string name="secret_restore_all_title">すべてギャラリーに復元しますか？</string>
+    <string name="secret_restore_all_msg">保管庫内のすべての秘密の写真と動画が端末のフォトギャラリーに復元されます。</string>
+    <string name="secret_restore_all_btn">すべて復元</string>
+    <string name="secret_deleted_fmt">保管庫から %1$d 件のアイテムを削除しました</string>
+    <string name="contact_name_hint">連絡先名</string>
+    <string name="contact_phone_hint">電話番号</string>
+    <string name="settings_old_pin_hint">現在のPIN（4桁）を入力</string>
+    <string name="settings_new_pin_hint">新しい4桁のPINを入力</string>
+    <string name="settings_rate_us_msg">Cleanup を気に入っていただけましたか？ Google Playで5つ星評価をお願いします！</string>
+    <string name="settings_rate_5_stars">5つ星で評価 ⭐</string>
+    <string name="settings_terms_title">利用規約</string>
+    <string name="settings_terms_content">Cleanup を使用することにより、標準規約に同意したことになります。すべてのスキャンと処理は端末内で安全に行われます。</string>
+    <string name="settings_community_title">コミュニティガイドライン</string>
+    <string name="settings_community_content">Cleanup はユーザーのプライバシーとデータセキュリティを最優先に構築されています。写真、動画、連絡先などの個人情報を収集または送信することはありません。</string>
+    <string name="swipe_completed">すべての写真の確認が完了しました！</string>
+    <string name="swipe_trash_btn_fmt">ゴミ箱 (%1$d)</string>
+    <string name="plan_yearly_name">年間Pro（3日間無料トライアル）</string>
+    <string name="plan_monthly_name">月額Pro</string>
+    <string name="plan_lifetime_name">生涯アクセス</string>
+</resources>

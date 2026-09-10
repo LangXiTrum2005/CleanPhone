@@ -1,0 +1,14 @@
+{
+  "http_business": {
+    "assetsResXTokenName": "boom.png",
+    "headerXToken": "ELjwSD7iN5cQGjV",
+    "hmacMd5Key": "ELjwSD7iN5cQGjV",
+    "hostUrl": "https://boomclap.codejoys.net"
+  },
+  "http_common": {
+    "assetsResXTokenName": "boom_common.png",
+    "headerXToken": "evKsYqtxDP1UU5X",
+    "hmacMd5Key": "",
+    "hostUrl": "https://boomclap.codejoys.net"
+  }
+}

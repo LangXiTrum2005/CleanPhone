@@ -1,0 +1,10 @@
+package com.bytedance.sdk.component.adexpress.dynamic.dynamicview;
+
+import android.content.Context;
+
+/* JADX INFO: loaded from: classes.dex */
+public class rc extends mo {
+    public rc(Context context, DynamicRootView dynamicRootView, com.bytedance.sdk.component.adexpress.dynamic.mml.jpc jpcVar) {
+        super(context, dynamicRootView, jpcVar);
+    }
+}

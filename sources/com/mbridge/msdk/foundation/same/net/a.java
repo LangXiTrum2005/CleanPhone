@@ -1,0 +1,27 @@
+package com.mbridge.msdk.foundation.same.net;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes3.dex */
+public class a {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private static long f33807a;
+
+    /* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+    public static class b {
+
+        /* JADX INFO: renamed from: a, reason: collision with root package name */
+        private static a f33808a = new a();
+    }
+
+    public static a b() {
+        return b.f33808a;
+    }
+
+    public long a() {
+        return f33807a;
+    }
+
+    private a() {
+    }
+}

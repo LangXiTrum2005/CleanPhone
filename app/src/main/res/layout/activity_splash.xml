@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFCFA">
+
+    <!-- Custom Canvas Animated Background (Particles, Rotating Orbit Rings, Ripples, Light Sweep) -->
+    <com.example.cleanapp.ui.splash.SplashAuraView
+        android:id="@+id/splashAuraView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Center App Logo & Title -->
+    <LinearLayout
+        android:id="@+id/centerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:letterSpacing="0.04"
+            android:text="@string/app_name"
+            android:textColor="#1F2937"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:elevation="4dp"
+            android:letterSpacing="0.06"
+            android:text="AI CLEANER &amp; MEMORY OPTIMIZER"
+            android:textColor="#00A884"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Dynamic Status Subtext (e.g. "Đang phân tích bộ nhớ...") -->
+    <TextView
+        android:id="@+id/tvSplashStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Đang khởi tạo hệ thống dọn dẹp..."
+        android:textColor="#6B7280"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@id/tvSplashProgress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Progress Percentage Indicator (20%, 40%, 60%, 80%, 100%) -->
+    <TextView
+        android:id="@+id/tvSplashProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="0%"
+        android:textColor="#00A884"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/splashProgressBar"
+        app:layout_constraintEnd_toEndOf="@id/splashProgressBar"
+        app:layout_constraintStart_toStartOf="@id/splashProgressBar" />
+
+    <!-- Bottom Loading Progress Bar -->
+    <ProgressBar
+        android:id="@+id/splashProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginBottom="56dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/bg_splash_progress_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

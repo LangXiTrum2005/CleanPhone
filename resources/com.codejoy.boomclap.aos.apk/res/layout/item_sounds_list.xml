@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/cover"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.7"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivVip"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/boomclap_ic_home_pro"
+        android:layout_marginStart="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.codejoy.boom.clap.widget.ParkinsansFontText
+        android:textSize="14dp"
+        android:textColor="#f0eeff"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="asdfadfasdasdfasdfasdfasdaasdfadfasdasdfasdfasdfasdaasdfadfasdasdfasdfasdfasda"
+        android:lines="2"
+        android:shadowColor="#80000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        app:customFontWeight="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cover"
+        app:layout_constraintWidth_percent="0.85"
+        app:lineHeight="20dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

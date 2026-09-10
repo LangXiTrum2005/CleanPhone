@@ -1,0 +1,72 @@
+package com.ironsource;
+
+import android.app.Activity;
+import com.ironsource.mediationsdk.logger.IronSourceError;
+import com.unity3d.mediation.LevelPlayAdError;
+import com.unity3d.mediation.LevelPlayAdInfo;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class I6 implements J6 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private final D6 f26284a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    private final C0547r6 f26285b;
+
+    public I6(D6 strategy, C0547r6 adUnit) {
+        kotlin.jvm.internal.n.f(strategy, "strategy");
+        kotlin.jvm.internal.n.f(adUnit, "adUnit");
+        this.f26284a = strategy;
+        this.f26285b = adUnit;
+    }
+
+    @Override // com.ironsource.J6
+    public void a(Activity activity) {
+        kotlin.jvm.internal.n.f(activity, "activity");
+        this.f26284a.d().c(new IronSourceError(LevelPlayAdError.ERROR_CODE_SHOW_BEFORE_LOAD_SUCCESS_CALLBACK, "Show called before load success"));
+    }
+
+    @Override // com.ironsource.J6
+    public void b(LevelPlayAdInfo adInfo) {
+        kotlin.jvm.internal.n.f(adInfo, "adInfo");
+        this.f26284a.a("load success with better ad while loading");
+    }
+
+    @Override // com.ironsource.J6
+    public void c(LevelPlayAdInfo adInfo) {
+        kotlin.jvm.internal.n.f(adInfo, "adInfo");
+        D6 d10 = this.f26284a;
+        d10.a(new H6(d10, this.f26285b));
+        this.f26284a.d().b(adInfo);
+    }
+
+    @Override // com.ironsource.J6
+    public void loadAd() {
+        this.f26284a.d().a(new IronSourceError(LevelPlayAdError.ERROR_CODE_LOAD_FAILED_ALREADY_CALLED, "Load called before load success"));
+    }
+
+    @Override // com.ironsource.J6
+    public void c(IronSourceError ironSourceError) {
+        this.f26284a.a("show failed while loading");
+    }
+
+    @Override // com.ironsource.J6
+    public void a(IronSourceError ironSourceError) {
+        D6 d10 = this.f26284a;
+        d10.a(new E6(d10, this.f26285b, false, 4, null));
+        this.f26284a.d().a(ironSourceError);
+    }
+
+    @Override // com.ironsource.J6
+    public void a() {
+        this.f26284a.a("ad expired while loading");
+    }
+
+    @Override // com.ironsource.J6
+    public void a(LevelPlayAdInfo adInfo) {
+        kotlin.jvm.internal.n.f(adInfo, "adInfo");
+        this.f26284a.a("show success while loading");
+    }
+}

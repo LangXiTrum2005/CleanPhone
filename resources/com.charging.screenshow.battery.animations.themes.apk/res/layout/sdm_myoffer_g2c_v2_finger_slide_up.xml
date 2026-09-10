@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/sdm_myoffer_g2c_item_line"
+        android:layout_width="30dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/sdm_myoffer_g2c_white_line"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/sdm_myoffer_g2c_item_point"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="188dp"
+        android:src="@drawable/sdm_myoffer_g2c_white_point"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/sdm_myoffer_g2c_item_finger"
+        android:layout_width="61dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="217dp"
+        android:src="@drawable/sdm_myoffer_finger_white_v1"
+        android:scaleType="fitCenter"
+        android:layout_alignLeft="@+id/sdm_myoffer_g2c_item_point"/>
+</merge>

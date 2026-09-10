@@ -1,0 +1,11 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class zzaqs extends zzart {
+    public zzaqs() {
+    }
+
+    public zzaqs(zzarg zzargVar) {
+        super(zzargVar);
+    }
+}

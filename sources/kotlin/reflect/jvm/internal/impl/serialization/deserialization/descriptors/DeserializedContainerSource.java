@@ -1,0 +1,7 @@
+package kotlin.reflect.jvm.internal.impl.serialization.deserialization.descriptors;
+
+import kotlin.reflect.jvm.internal.impl.descriptors.SourceElement;
+
+/* JADX INFO: loaded from: classes7.dex */
+public interface DeserializedContainerSource extends SourceElement {
+}

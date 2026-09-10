@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/drw_card_theme_black_16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp">
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="5 secs"
+        android:fontFamily="@string/Roboto_Regular"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="10 secs"
+        android:fontFamily="@string/Roboto_Regular"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/item3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="15 secs"
+        android:fontFamily="@string/Roboto_Regular"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/item4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="30 secs"
+        android:fontFamily="@string/Roboto_Regular"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/item5"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="1 min"
+        android:fontFamily="@string/Roboto_Regular"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/item6"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="3 min"
+        android:fontFamily="@string/Roboto_Regular"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/item7"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Loop"
+        android:fontFamily="@string/Roboto_Regular"/>
+</LinearLayout>

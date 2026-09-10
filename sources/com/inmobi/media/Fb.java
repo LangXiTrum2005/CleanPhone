@@ -1,0 +1,26 @@
+package com.inmobi.media;
+
+import android.content.Context;
+import java.util.concurrent.ConcurrentHashMap;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.jvm.internal.Lambda;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class Fb extends Lambda implements Function0 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final Fb f22826a = new Fb();
+
+    public Fb() {
+        super(0);
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        ConcurrentHashMap concurrentHashMap = C6.f22734b;
+        Context contextD = Uc.d();
+        Intrinsics.c(contextD);
+        return Boolean.valueOf(B6.a(contextD, "default").f22735a.getBoolean("enableImraidLogs", false));
+    }
+}

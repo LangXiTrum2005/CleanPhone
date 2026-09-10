@@ -1,0 +1,875 @@
+{
+	"skeleton": { "hash": "fs4GpwSJ/o8", "spine": "4.2.37", "images": "./images/", "audio": "./audio" },
+	"bones": [
+		{ "name": "root" },
+		{ "name": "special effects -arc torch", "parent": "root" },
+		{ "name": "special effects -laser gun", "parent": "root" },
+		{ "name": "tx-laser gun1-1", "parent": "special effects -laser gun" },
+		{ "name": "tx-laser gun1-2", "parent": "special effects -laser gun" },
+		{ "name": "tx-laser gun1-3", "parent": "special effects -laser gun" },
+		{ "name": "tx-arc torch1-1", "parent": "special effects -arc torch" },
+		{ "name": "tx-arc torch1-2", "parent": "special effects -arc torch" },
+		{ "name": "tx-arc torch1-3", "parent": "special effects -arc torch" },
+		{ "name": "special effects-energy gun", "parent": "root" }
+	],
+	"slots": [
+		{ "name": "tx-arc torch1-3", "bone": "tx-arc torch1-3" },
+		{ "name": "tx-arc torch1-2", "bone": "tx-arc torch1-2" },
+		{ "name": "tx-arc torch1-1", "bone": "tx-arc torch1-1" },
+		{ "name": "special effects-energy gun", "bone": "special effects-energy gun" },
+		{ "name": "tx-laser gun1-3", "bone": "tx-laser gun1-3" },
+		{ "name": "tx-laser gun1-2", "bone": "tx-laser gun1-2" },
+		{ "name": "tx-laser gun1-1_5", "bone": "tx-laser gun1-1" },
+		{ "name": "tx-laser gun1-1_4", "bone": "tx-laser gun1-1" },
+		{ "name": "tx-laser gun1-1_3", "bone": "tx-laser gun1-1" },
+		{ "name": "tx-laser gun1-1_1", "bone": "tx-laser gun1-1" },
+		{ "name": "tx-laser gun1-1_2", "bone": "tx-laser gun1-1" }
+	],
+	"skins": [
+		{
+			"name": "default",
+			"attachments": {
+				"special effects-energy gun": {
+					"nengliangpao01": { "width": 360, "height": 360 },
+					"nengliangpao02": { "width": 360, "height": 360 },
+					"nengliangpao03": { "width": 360, "height": 360 },
+					"nengliangpao04": { "width": 360, "height": 360 },
+					"nengliangpao05": { "width": 360, "height": 360 },
+					"nengliangpao06": { "width": 360, "height": 360 },
+					"nengliangpao07": { "width": 360, "height": 360 },
+					"nengliangpao08": { "width": 360, "height": 360 },
+					"nengliangpao09": { "width": 360, "height": 360 },
+					"nengliangpao10": { "width": 360, "height": 360 },
+					"nengliangpao11": { "width": 360, "height": 360 },
+					"nengliangpao12": { "width": 360, "height": 360 },
+					"nengliangpao13": { "width": 360, "height": 360 },
+					"nengliangpao14": { "width": 360, "height": 360 },
+					"nengliangpao15": { "width": 360, "height": 360 },
+					"nengliangpao16": { "width": 360, "height": 360 },
+					"nengliangpao17": { "width": 360, "height": 360 },
+					"nengliangpao18": { "width": 360, "height": 360 },
+					"nengliangpao19": { "width": 360, "height": 360 },
+					"nengliangpao20": { "width": 360, "height": 360 },
+					"nengliangpao21": { "width": 360, "height": 360 },
+					"nengliangpao22": { "width": 360, "height": 360 },
+					"nengliangpao23": { "width": 360, "height": 360 },
+					"nengliangpao24": { "width": 360, "height": 360 }
+				},
+				"tx-arc torch1-1": {
+					"shandian01": { "x": -9.74, "y": 216.8, "width": 159, "height": 498 },
+					"shandian02": { "x": -15.74, "y": 217.3, "width": 147, "height": 497 },
+					"shandian03": { "x": -15.74, "y": 217.3, "width": 147, "height": 497 },
+					"shandian04": { "x": -11.24, "y": 217.3, "width": 156, "height": 497 },
+					"shandian05": { "x": 1.26, "y": 217.3, "width": 123, "height": 497 },
+					"shandian06": { "x": -3.74, "y": 216.8, "width": 145, "height": 498 },
+					"shandian07": { "x": -8.24, "y": 216.8, "width": 136, "height": 498 },
+					"shandian08": { "x": -22.74, "y": 216.3, "width": 167, "height": 499 },
+					"shandian09": { "x": -10.74, "y": 215.8, "width": 145, "height": 500 },
+					"shandian10": { "x": -10.74, "y": 216.3, "width": 145, "height": 499 },
+					"shandian11": { "x": -11.74, "y": 216.3, "width": 145, "height": 499 },
+					"shandian12": { "x": -11.24, "y": 216.3, "width": 146, "height": 499 },
+					"shandian13": { "x": -11.24, "y": 216.3, "width": 146, "height": 499 },
+					"shandian14": { "x": -15.24, "y": 217.3, "width": 138, "height": 497 },
+					"shandian15": { "x": -15.74, "y": 217.3, "width": 139, "height": 497 },
+					"shandian16": { "x": -19.74, "y": 217.3, "width": 131, "height": 497 },
+					"shandian17": { "x": -21.24, "y": 217.3, "width": 128, "height": 497 },
+					"shandian18": { "x": -21.24, "y": 217.3, "width": 132, "height": 497 },
+					"shandian19": { "x": -26.24, "y": 217.3, "width": 124, "height": 497 },
+					"shandian20": { "x": -27.74, "y": 217.3, "width": 127, "height": 497 },
+					"shandian21": { "x": -8.74, "y": 216.3, "width": 119, "height": 499 },
+					"shandian22": { "x": -7.74, "y": 217.8, "width": 119, "height": 496 },
+					"shandian23": { "x": -2.24, "y": 217.3, "width": 174, "height": 497 },
+					"shandian24": { "x": 3.26, "y": 217.3, "width": 155, "height": 497 },
+					"shandian25": { "x": 3.26, "y": 215.8, "width": 147, "height": 500 },
+					"shandian26": { "x": 6.76, "y": 216.3, "width": 160, "height": 499 },
+					"shandian27": { "x": 4.26, "y": 217.3, "width": 135, "height": 497 }
+				},
+				"tx-arc torch1-2": {
+					"sanguang": { "x": 9.61, "y": 278.29, "width": 993, "height": 919 }
+				},
+				"tx-arc torch1-3": {
+					"lizi01": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi02": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi03": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi04": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi05": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi06": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi07": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi08": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi09": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi10": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi11": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi12": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi13": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi14": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi15": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi16": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi17": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi18": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi19": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi20": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi21": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi22": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi23": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi24": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi25": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi26": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi27": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi28": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi29": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi30": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi31": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi32": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi33": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi34": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi35": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi36": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi37": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi38": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi39": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 },
+					"lizi40": { "x": 13.59, "y": 170.12, "width": 204, "height": 395 }
+				},
+				"tx-laser gun1-1_1": {
+					"fashe01": { "x": 1.25, "y": 1.75, "width": 116, "height": 110 },
+					"fashe02": { "x": -0.75, "y": 20.75, "width": 146, "height": 142 },
+					"fashe03": { "x": -3.36, "y": 34.75, "width": 160, "height": 160 },
+					"fashe04": { "x": -0.75, "y": 40.25, "width": 164, "height": 165 },
+					"fashe05": { "x": -0.25, "y": 44.75, "width": 165, "height": 168 },
+					"fashe06": { "x": -0.75, "y": 46.25, "width": 164, "height": 165 },
+					"fashe07": { "x": -1.75, "y": 45.75, "width": 162, "height": 156 },
+					"fashe08": { "x": -2.25, "y": 47.25, "width": 161, "height": 157 },
+					"fashe09": { "x": -1.75, "y": 46.75, "width": 162, "height": 154 },
+					"fashe10": { "x": 1.75, "y": 50.75, "width": 133, "height": 142 },
+					"fashe11": { "x": 0.25, "y": 31.75, "width": 134, "height": 106 },
+					"fashe12": { "x": 15.75, "y": 38.75, "width": 103, "height": 90 }
+				},
+				"tx-laser gun1-1_2": {
+					"tx-laser gun1-1_2": { "x": 0.81, "y": 112.07, "width": 41, "height": 270 }
+				},
+				"tx-laser gun1-1_3": {
+					"tx-laser gun1-1_3": { "width": 30, "height": 30 }
+				},
+				"tx-laser gun1-1_4": {
+					"tx-laser gun1-1_4": { "x": 1.53, "y": -10.56, "width": 105, "height": 125 }
+				},
+				"tx-laser gun1-1_5": {
+					"tx-laser gun1-1_5": { "x": 0.03, "y": 51.94, "width": 70, "height": 250 }
+				},
+				"tx-laser gun1-2": {
+					"yanwu01": { "x": 3.45, "y": 84.84, "width": 169, "height": 322 },
+					"yanwu02": { "x": 3.45, "y": 85.84, "width": 169, "height": 320 },
+					"yanwu03": { "x": 3.45, "y": 86.84, "width": 169, "height": 318 },
+					"yanwu04": { "x": 3.45, "y": 86.34, "width": 169, "height": 319 },
+					"yanwu05": { "x": 3.45, "y": 88.34, "width": 169, "height": 315 },
+					"yanwu06": { "x": 3.45, "y": 88.84, "width": 169, "height": 314 },
+					"yanwu07": { "x": 3.45, "y": 88.34, "width": 169, "height": 315 },
+					"yanwu08": { "x": 3.45, "y": 88.84, "width": 169, "height": 314 },
+					"yanwu09": { "x": 3.45, "y": 89.34, "width": 169, "height": 313 },
+					"yanwu10": { "x": 3.45, "y": 89.34, "width": 169, "height": 313 },
+					"yanwu11": { "x": 3.45, "y": 87.34, "width": 169, "height": 317 },
+					"yanwu12": { "x": 3.45, "y": 86.84, "width": 169, "height": 318 },
+					"yanwu13": { "x": 3.45, "y": 87.84, "width": 169, "height": 316 },
+					"yanwu14": { "x": 3.45, "y": 88.34, "width": 169, "height": 315 },
+					"yanwu15": { "x": 3.45, "y": 88.34, "width": 169, "height": 315 },
+					"yanwu16": { "x": 3.45, "y": 89.84, "width": 169, "height": 312 },
+					"yanwu17": { "x": 3.45, "y": 85.84, "width": 169, "height": 320 },
+					"yanwu18": { "x": 3.45, "y": 86.84, "width": 169, "height": 318 },
+					"yanwu19": { "x": 3.45, "y": 88.84, "width": 169, "height": 314 },
+					"yanwu20": { "x": 3.45, "y": 88.34, "width": 169, "height": 315 },
+					"yanwu21": { "x": 3.45, "y": 87.84, "width": 169, "height": 316 },
+					"yanwu22": { "x": 3.45, "y": 89.84, "width": 169, "height": 312 },
+					"yanwu23": { "x": 3.45, "y": 91.34, "width": 169, "height": 309 },
+					"yanwu24": { "x": 3.45, "y": 92.34, "width": 169, "height": 307 },
+					"yanwu25": { "x": 3.45, "y": 86.34, "width": 169, "height": 319 },
+					"yanwu26": { "x": 3.45, "y": 88.34, "width": 169, "height": 315 },
+					"yanwu27": { "x": 3.45, "y": 90.34, "width": 169, "height": 311 },
+					"yanwu28": { "x": 3.45, "y": 89.34, "width": 169, "height": 313 },
+					"yanwu29": { "x": 3.45, "y": 87.34, "width": 169, "height": 317 },
+					"yanwu30": { "x": 3.45, "y": 88.84, "width": 169, "height": 314 },
+					"yanwu31": { "x": 3.45, "y": 85.34, "width": 169, "height": 321 },
+					"yanwu32": { "x": 3.45, "y": 86.84, "width": 169, "height": 318 },
+					"yanwu33": { "x": 3.45, "y": 87.34, "width": 169, "height": 317 },
+					"yanwu34": { "x": 3.45, "y": 87.34, "width": 169, "height": 317 },
+					"yanwu35": { "x": 3.45, "y": 88.34, "width": 169, "height": 315 },
+					"yanwu36": { "x": 3.45, "y": 88.84, "width": 169, "height": 314 }
+				},
+				"tx-laser gun1-3": {
+					"lizhi01": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi02": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi03": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi04": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi05": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi06": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi07": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi08": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi09": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi10": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi11": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi12": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi13": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi14": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi15": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi16": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi17": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi18": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi19": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi20": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi21": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi22": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi23": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi24": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi25": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi26": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi27": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi28": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi29": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi30": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi31": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi32": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi33": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi34": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi35": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi36": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi37": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi38": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi39": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi40": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi41": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi42": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi43": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi44": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi45": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi46": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi47": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 },
+					"lizhi48": { "x": 9.81, "y": 83.57, "width": 120, "height": 185 }
+				}
+			}
+		}
+	],
+	"animations": {
+		"special effects _arc torch_circulation": {
+			"slots": {
+				"special effects-energy gun": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-1": {
+					"attachment": [
+						{ "name": "shandian01" },
+						{ "time": 0.0333, "name": "shandian02" },
+						{ "time": 0.0667, "name": "shandian03" },
+						{ "time": 0.1, "name": "shandian04" },
+						{ "time": 0.1333, "name": "shandian05" },
+						{ "time": 0.1667, "name": "shandian06" },
+						{ "time": 0.2, "name": "shandian07" },
+						{ "time": 0.2333, "name": "shandian08" },
+						{ "time": 0.2667, "name": "shandian09" },
+						{ "time": 0.3, "name": "shandian10" },
+						{ "time": 0.3333, "name": "shandian11" },
+						{ "time": 0.3667, "name": "shandian12" },
+						{ "time": 0.4, "name": "shandian13" },
+						{ "time": 0.4333, "name": "shandian14" },
+						{ "time": 0.4667, "name": "shandian15" },
+						{ "time": 0.5, "name": "shandian16" },
+						{ "time": 0.5333, "name": "shandian17" },
+						{ "time": 0.5667, "name": "shandian18" },
+						{ "time": 0.6, "name": "shandian19" },
+						{ "time": 0.6333, "name": "shandian20" },
+						{ "time": 0.6667, "name": "shandian21" },
+						{ "time": 0.7, "name": "shandian22" },
+						{ "time": 0.7333, "name": "shandian23" },
+						{ "time": 0.7667, "name": "shandian24" },
+						{ "time": 0.8, "name": "shandian25" },
+						{ "time": 0.8333, "name": "shandian26" },
+						{ "time": 0.8667, "name": "shandian27" }
+					]
+				},
+				"tx-arc torch1-2": {
+					"rgba": [
+						{ "color": "ffffff00" },
+						{ "time": 0.1, "color": "ffffffac" },
+						{ "time": 0.2, "color": "ffffff00" },
+						{ "time": 0.3333, "color": "ffffffac" },
+						{ "time": 0.4333, "color": "ffffff00" },
+						{ "time": 0.5333, "color": "ffffffac" },
+						{ "time": 0.6333, "color": "ffffff00" },
+						{ "time": 0.7667, "color": "ffffffac" },
+						{ "time": 0.8667, "color": "ffffff00" }
+					],
+					"attachment": [
+						{ "name": "sanguang" }
+					]
+				},
+				"tx-laser gun1-1_1": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_4": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_5": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				}
+			},
+			"bones": {
+				"tx-arc torch1-1": {
+					"scale": [
+						{ "x": 2, "y": 2 }
+					]
+				},
+				"tx-arc torch1-3": {
+					"scale": [
+						{ "x": 2, "y": 2 }
+					]
+				}
+			}
+		},
+		"special effects _arc torch_vanish": {
+			"slots": {
+				"special effects-energy gun": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-3": {
+					"rgba": [
+						{ "time": 1.3, "color": "ffffffff" },
+						{ "time": 1.3333, "color": "ffffff00" }
+					],
+					"attachment": [
+						{ "name": "lizi01" },
+						{ "time": 0.0333, "name": "lizi02" },
+						{ "time": 0.0667, "name": "lizi03" },
+						{ "time": 0.1, "name": "lizi04" },
+						{ "time": 0.1333, "name": "lizi05" },
+						{ "time": 0.1667, "name": "lizi06" },
+						{ "time": 0.2, "name": "lizi07" },
+						{ "time": 0.2333, "name": "lizi08" },
+						{ "time": 0.2667, "name": "lizi09" },
+						{ "time": 0.3, "name": "lizi10" },
+						{ "time": 0.3333, "name": "lizi11" },
+						{ "time": 0.3667, "name": "lizi12" },
+						{ "time": 0.4, "name": "lizi13" },
+						{ "time": 0.4333, "name": "lizi14" },
+						{ "time": 0.4667, "name": "lizi15" },
+						{ "time": 0.5, "name": "lizi16" },
+						{ "time": 0.5333, "name": "lizi17" },
+						{ "time": 0.5667, "name": "lizi18" },
+						{ "time": 0.6, "name": "lizi19" },
+						{ "time": 0.6333, "name": "lizi20" },
+						{ "time": 0.6667, "name": "lizi21" },
+						{ "time": 0.7, "name": "lizi22" },
+						{ "time": 0.7333, "name": "lizi23" },
+						{ "time": 0.7667, "name": "lizi24" },
+						{ "time": 0.8, "name": "lizi25" },
+						{ "time": 0.8333, "name": "lizi26" },
+						{ "time": 0.8667, "name": "lizi27" },
+						{ "time": 0.9, "name": "lizi28" },
+						{ "time": 0.9333, "name": "lizi29" },
+						{ "time": 0.9667, "name": "lizi30" },
+						{ "time": 1, "name": "lizi31" },
+						{ "time": 1.0333, "name": "lizi32" },
+						{ "time": 1.0667, "name": "lizi33" },
+						{ "time": 1.1, "name": "lizi34" },
+						{ "time": 1.1333, "name": "lizi35" },
+						{ "time": 1.1667, "name": "lizi36" },
+						{ "time": 1.2, "name": "lizi37" },
+						{ "time": 1.2333, "name": "lizi38" },
+						{ "time": 1.2667, "name": "lizi39" },
+						{ "time": 1.3, "name": "lizi40" }
+					]
+				},
+				"tx-laser gun1-1_1": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_4": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_5": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				}
+			},
+			"bones": {
+				"tx-arc torch1-1": {
+					"scale": [
+						{ "x": 2, "y": 2 }
+					]
+				},
+				"tx-arc torch1-3": {
+					"scale": [
+						{ "x": 2, "y": 2 }
+					]
+				}
+			}
+		},
+		"special effects _energy cannon": {
+			"slots": {
+				"special effects-energy gun": {
+					"rgba": [
+						{ "time": 0.9, "color": "ffffffff" },
+						{ "time": 0.9333, "color": "ffffff00" }
+					],
+					"attachment": [
+						{ "time": 0.1333, "name": "nengliangpao01" },
+						{ "time": 0.1667, "name": "nengliangpao02" },
+						{ "time": 0.2, "name": "nengliangpao03" },
+						{ "time": 0.2333, "name": "nengliangpao04" },
+						{ "time": 0.2667, "name": "nengliangpao05" },
+						{ "time": 0.3, "name": "nengliangpao06" },
+						{ "time": 0.3333, "name": "nengliangpao07" },
+						{ "time": 0.3667, "name": "nengliangpao08" },
+						{ "time": 0.4, "name": "nengliangpao09" },
+						{ "time": 0.4333, "name": "nengliangpao10" },
+						{ "time": 0.4667, "name": "nengliangpao11" },
+						{ "time": 0.5, "name": "nengliangpao12" },
+						{ "time": 0.5333, "name": "nengliangpao13" },
+						{ "time": 0.5667, "name": "nengliangpao14" },
+						{ "time": 0.6, "name": "nengliangpao15" },
+						{ "time": 0.6333, "name": "nengliangpao16" },
+						{ "time": 0.6667, "name": "nengliangpao17" },
+						{ "time": 0.7, "name": "nengliangpao18" },
+						{ "time": 0.7333, "name": "nengliangpao19" },
+						{ "time": 0.7667, "name": "nengliangpao20" },
+						{ "time": 0.8, "name": "nengliangpao21" },
+						{ "time": 0.8333, "name": "nengliangpao22" },
+						{ "time": 0.8667, "name": "nengliangpao23" },
+						{ "time": 0.9, "name": "nengliangpao24" }
+					]
+				},
+				"tx-arc torch1-1": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_1": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_4": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_5": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				}
+			},
+			"bones": {
+				"special effects-energy gun": {
+					"scale": [
+						{ "x": 3, "y": 3 }
+					]
+				}
+			}
+		},
+		"special effects _laser_appear": {
+			"slots": {
+				"special effects-energy gun": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-1": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_1": {
+					"rgba": [
+						{ "time": 0.5, "color": "ffffffff" },
+						{ "time": 0.5333, "color": "ffffff00" }
+					],
+					"attachment": [
+						{ "time": 0.1333, "name": "fashe01" },
+						{ "time": 0.1667, "name": "fashe02" },
+						{ "time": 0.2, "name": "fashe03" },
+						{ "time": 0.2333, "name": "fashe04" },
+						{ "time": 0.2667, "name": "fashe05" },
+						{ "time": 0.3, "name": "fashe06" },
+						{ "time": 0.3333, "name": "fashe07" },
+						{ "time": 0.3667, "name": "fashe08" },
+						{ "time": 0.4, "name": "fashe09" },
+						{ "time": 0.4333, "name": "fashe10" },
+						{ "time": 0.4667, "name": "fashe11" },
+						{ "time": 0.5, "name": "fashe12" }
+					]
+				},
+				"tx-laser gun1-1_2": {
+					"rgba": [
+						{ "color": "ffffff00", "curve": "stepped" },
+						{
+							"time": 0.2,
+							"color": "ffffff00",
+							"curve": [ 0.267, 1, 0.333, 1, 0.267, 1, 0.333, 1, 0.267, 1, 0.333, 1, 0.267, 0, 0.333, 1 ]
+						},
+						{ "time": 0.4, "color": "ffffffff" }
+					],
+					"attachment": [
+						{ "name": "tx-laser gun1-1_2" }
+					]
+				},
+				"tx-laser gun1-1_3": {
+					"attachment": [
+						{ "name": "tx-laser gun1-1_3" }
+					]
+				},
+				"tx-laser gun1-1_4": {
+					"rgba": [
+						{
+							"color": "ffffff00",
+							"curve": [ 0.078, 1, 0.156, 1, 0.078, 1, 0.156, 1, 0.078, 1, 0.156, 1, 0.078, 0, 0.156, 1 ]
+						},
+						{ "time": 0.2333, "color": "ffffffff" }
+					],
+					"attachment": [
+						{ "name": "tx-laser gun1-1_4" }
+					]
+				},
+				"tx-laser gun1-1_5": {
+					"rgba": [
+						{ "color": "ffffff00", "curve": "stepped" },
+						{ "time": 0.1333, "color": "ffffff00" },
+						{ "time": 0.7, "color": "ffffffff" }
+					],
+					"attachment": [
+						{ "name": "tx-laser gun1-1_5" }
+					]
+				}
+			},
+			"bones": {
+				"tx-laser gun1-1": {
+					"scale": [
+						{ "x": 3, "y": 3 }
+					]
+				},
+				"tx-laser gun1-3": {
+					"scale": [
+						{ "x": 3, "y": 3 }
+					]
+				},
+				"tx-laser gun1-2": {
+					"scale": [
+						{ "x": 3, "y": 3 }
+					]
+				}
+			}
+		},
+		"special effects _laser_circulation": {
+			"slots": {
+				"special effects-energy gun": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-1": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_2": {
+					"rgba": [
+						{ "color": "ffffff00", "curve": "stepped" },
+						{
+							"time": 0.2,
+							"color": "ffffff00",
+							"curve": [ 0.267, 1, 0.333, 1, 0.267, 1, 0.333, 1, 0.267, 1, 0.333, 1, 0.267, 0, 0.333, 1 ]
+						},
+						{ "time": 0.4, "color": "ffffffff" }
+					]
+				},
+				"tx-laser gun1-1_4": {
+					"rgba": [
+						{
+							"color": "ffffff00",
+							"curve": [ 0.078, 1, 0.156, 1, 0.078, 1, 0.156, 1, 0.078, 1, 0.156, 1, 0.078, 0, 0.156, 1 ]
+						},
+						{ "time": 0.2333, "color": "ffffffff" }
+					]
+				},
+				"tx-laser gun1-1_5": {
+					"rgba": [
+						{ "color": "ffffff00", "curve": "stepped" },
+						{ "time": 0.1333, "color": "ffffff00" },
+						{ "time": 0.7, "color": "ffffffff" }
+					]
+				},
+				"tx-laser gun1-2": {
+					"attachment": [
+						{ "name": "yanwu01" },
+						{ "time": 0.0333, "name": "yanwu02" },
+						{ "time": 0.0667, "name": "yanwu03" },
+						{ "time": 0.1, "name": "yanwu04" },
+						{ "time": 0.1333, "name": "yanwu05" },
+						{ "time": 0.1667, "name": "yanwu06" },
+						{ "time": 0.2, "name": "yanwu07" },
+						{ "time": 0.2333, "name": "yanwu08" },
+						{ "time": 0.2667, "name": "yanwu09" },
+						{ "time": 0.3, "name": "yanwu10" },
+						{ "time": 0.3333, "name": "yanwu11" },
+						{ "time": 0.3667, "name": "yanwu12" },
+						{ "time": 0.4, "name": "yanwu13" },
+						{ "time": 0.4333, "name": "yanwu14" },
+						{ "time": 0.4667, "name": "yanwu15" },
+						{ "time": 0.5, "name": "yanwu16" },
+						{ "time": 0.5333, "name": "yanwu17" },
+						{ "time": 0.5667, "name": "yanwu18" },
+						{ "time": 0.6, "name": "yanwu19" },
+						{ "time": 0.6333, "name": "yanwu20" },
+						{ "time": 0.6667, "name": "yanwu21" },
+						{ "time": 0.7, "name": "yanwu22" },
+						{ "time": 0.7333, "name": "yanwu23" },
+						{ "time": 0.7667, "name": "yanwu24" },
+						{ "time": 0.8, "name": "yanwu25" },
+						{ "time": 0.8333, "name": "yanwu26" },
+						{ "time": 0.8667, "name": "yanwu27" },
+						{ "time": 0.9, "name": "yanwu28" },
+						{ "time": 0.9333, "name": "yanwu29" },
+						{ "time": 0.9667, "name": "yanwu30" },
+						{ "time": 1, "name": "yanwu31" },
+						{ "time": 1.0333, "name": "yanwu32" },
+						{ "time": 1.0667, "name": "yanwu33" },
+						{ "time": 1.1, "name": "yanwu34" },
+						{ "time": 1.1333, "name": "yanwu35" },
+						{ "time": 1.1667, "name": "yanwu36" }
+					]
+				}
+			},
+			"bones": {
+				"tx-laser gun1-3": {
+					"scale": [
+						{ "x": 3, "y": 3 }
+					]
+				},
+				"tx-laser gun1-2": {
+					"scale": [
+						{ "x": 3, "y": 3 }
+					]
+				}
+			}
+		},
+		"special effects _laser_vanish": {
+			"slots": {
+				"special effects-energy gun": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-1": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-2": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-arc torch1-3": {
+					"rgba": [
+						{ "color": "ffffff00" }
+					]
+				},
+				"tx-laser gun1-1_2": {
+					"rgba": [
+						{ "color": "ffffff00", "curve": "stepped" },
+						{
+							"time": 0.2,
+							"color": "ffffff00",
+							"curve": [ 0.267, 1, 0.333, 1, 0.267, 1, 0.333, 1, 0.267, 1, 0.333, 1, 0.267, 0, 0.333, 1 ]
+						},
+						{ "time": 0.4, "color": "ffffffff" }
+					]
+				},
+				"tx-laser gun1-1_4": {
+					"rgba": [
+						{
+							"color": "ffffff00",
+							"curve": [ 0.078, 1, 0.156, 1, 0.078, 1, 0.156, 1, 0.078, 1, 0.156, 1, 0.078, 0, 0.156, 1 ]
+						},
+						{ "time": 0.2333, "color": "ffffffff" }
+					]
+				},
+				"tx-laser gun1-1_5": {
+					"rgba": [
+						{ "color": "ffffff00", "curve": "stepped" },
+						{ "time": 0.1333, "color": "ffffff00" },
+						{ "time": 0.7, "color": "ffffffff" }
+					]
+				},
+				"tx-laser gun1-3": {
+					"rgba": [
+						{ "time": 1.5667, "color": "ffffffff" },
+						{ "time": 1.6, "color": "ffffff00" }
+					],
+					"attachment": [
+						{ "name": "lizhi01" },
+						{ "time": 0.0333, "name": "lizhi02" },
+						{ "time": 0.0667, "name": "lizhi03" },
+						{ "time": 0.1, "name": "lizhi04" },
+						{ "time": 0.1333, "name": "lizhi05" },
+						{ "time": 0.1667, "name": "lizhi06" },
+						{ "time": 0.2, "name": "lizhi07" },
+						{ "time": 0.2333, "name": "lizhi08" },
+						{ "time": 0.2667, "name": "lizhi09" },
+						{ "time": 0.3, "name": "lizhi10" },
+						{ "time": 0.3333, "name": "lizhi11" },
+						{ "time": 0.3667, "name": "lizhi12" },
+						{ "time": 0.4, "name": "lizhi13" },
+						{ "time": 0.4333, "name": "lizhi14" },
+						{ "time": 0.4667, "name": "lizhi15" },
+						{ "time": 0.5, "name": "lizhi16" },
+						{ "time": 0.5333, "name": "lizhi17" },
+						{ "time": 0.5667, "name": "lizhi18" },
+						{ "time": 0.6, "name": "lizhi19" },
+						{ "time": 0.6333, "name": "lizhi20" },
+						{ "time": 0.6667, "name": "lizhi21" },
+						{ "time": 0.7, "name": "lizhi22" },
+						{ "time": 0.7333, "name": "lizhi23" },
+						{ "time": 0.7667, "name": "lizhi24" },
+						{ "time": 0.8, "name": "lizhi25" },
+						{ "time": 0.8333, "name": "lizhi26" },
+						{ "time": 0.8667, "name": "lizhi27" },
+						{ "time": 0.9, "name": "lizhi28" },
+						{ "time": 0.9333, "name": "lizhi29" },
+						{ "time": 0.9667, "name": "lizhi30" },
+						{ "time": 1, "name": "lizhi31" },
+						{ "time": 1.0333, "name": "lizhi32" },
+						{ "time": 1.0667, "name": "lizhi33" },
+						{ "time": 1.1, "name": "lizhi34" },
+						{ "time": 1.1333, "name": "lizhi35" },
+						{ "time": 1.1667, "name": "lizhi36" },
+						{ "time": 1.2, "name": "lizhi37" },
+						{ "time": 1.2333, "name": "lizhi38" },
+						{ "time": 1.2667, "name": "lizhi39" },
+						{ "time": 1.3, "name": "lizhi40" },
+						{ "time": 1.3333, "name": "lizhi41" },
+						{ "time": 1.3667, "name": "lizhi42" },
+						{ "time": 1.4, "name": "lizhi43" },
+						{ "time": 1.4333, "name": "lizhi44" },
+						{ "time": 1.4667, "name": "lizhi45" },
+						{ "time": 1.5, "name": "lizhi46" },
+						{ "time": 1.5333, "name": "lizhi47" },
+						{ "time": 1.5667, "name": "lizhi48" }
+					]
+				}
+			},
+			"bones": {
+				"tx-laser gun1-3": {
+					"scale": [
+						{ "x": 3, "y": 3 }
+					]
+				}
+			}
+		}
+	}
+}

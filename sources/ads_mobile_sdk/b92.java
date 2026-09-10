@@ -1,0 +1,48 @@
+package ads_mobile_sdk;
+
+import kotlinx.coroutines.impromptu;
+import p002kotlin.Unit;
+import p002kotlin.coroutines.CoroutineContext;
+import p002kotlin.coroutines.jvm.internal.SuspendLambda;
+import saneness.orthocephalic;
+import tetrahedral.triweekly;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class b92 extends SuspendLambda implements triweekly {
+    public int a;
+    public final /* synthetic */ CoroutineContext b;
+    public final /* synthetic */ orthocephalic c;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public b92(CoroutineContext coroutineContext, orthocephalic orthocephalicVar, wretchedly.dern dernVar) {
+        super(3, dernVar);
+        this.b = coroutineContext;
+        this.c = orthocephalicVar;
+    }
+
+    @Override // tetrahedral.triweekly
+    public final Object invoke(Object obj, Object obj2, Object obj3) {
+        return new b92(this.b, this.c, (wretchedly.dern) obj3).invokeSuspend(Unit.f29295attabal);
+    }
+
+    @Override // p002kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        Object objBeachfront = p002kotlin.coroutines.intrinsics.attabal.beachfront();
+        int i = this.a;
+        if (i == 0) {
+            p002kotlin.dern.saneness(obj);
+            CoroutineContext coroutineContext = this.b;
+            a92 a92Var = new a92(this.c, null);
+            this.a = 1;
+            if (impromptu.competently(coroutineContext, a92Var, this) == objBeachfront) {
+                return objBeachfront;
+            }
+        } else {
+            if (i != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            p002kotlin.dern.saneness(obj);
+        }
+        return Unit.f29295attabal;
+    }
+}

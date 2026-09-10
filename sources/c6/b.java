@@ -1,0 +1,15 @@
+package c6;
+
+import java.util.concurrent.ThreadFactory;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes.dex */
+public final class b implements ThreadFactory {
+    @Override // java.util.concurrent.ThreadFactory
+    public final synchronized Thread newThread(Runnable runnable) {
+        Thread thread;
+        thread = new Thread(runnable, "glide-disk-lru-cache-thread");
+        thread.setPriority(1);
+        return thread;
+    }
+}

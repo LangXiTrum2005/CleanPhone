@@ -1,0 +1,12 @@
+package javax.annotation;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+/* JADX INFO: loaded from: classes7.dex */
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Nonnegative
+public @interface CheckForSigned {
+}

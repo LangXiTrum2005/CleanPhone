@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">Cleanup</string>
+    <string name="app_tagline">Dọn Dẹp &amp; Tối Ưu Bộ Nhớ Thông Minh</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_swipe">Vuốt dọn ảnh</string>
+    <string name="nav_contacts">Danh bạ</string>
+    <string name="nav_compress">Nén video</string>
+    <string name="nav_secret">Kho bí mật</string>
+    <string name="nav_apps">Quản lý ứng dụng</string>
+    <string name="nav_battery">Pin &amp; Sạc</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <!-- Settings Sections & Items -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_section_utilities">Tiện ích</string>
+    <string name="settings_section_secret">Bảo mật Kho bí mật</string>
+    <string name="settings_section_social">Kết nối với chúng tôi</string>
+    <string name="settings_section_support">Hỗ trợ &amp; Phản hồi</string>
+    <string name="settings_section_about">Giới thiệu &amp; Pháp lý</string>
+    <string name="settings_pro_banner_title">Cleanup PRO</string>
+    <string name="settings_pro_banner_sub">Truy cập không giới hạn tất cả tính năng</string>
+    <string name="settings_use_pin">Dùng mã PIN</string>
+    <string name="settings_use_biometrics">Dùng Vân tay / Khuôn mặt</string>
+    <string name="settings_change_pin">Đổi mã PIN 6 số</string>
+    <string name="settings_remove_after_import">Xóa ảnh gốc sau khi chuyển vào kho</string>
+    <string name="settings_trash_bin">Thùng rác tạm</string>
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_widgets">Tiện ích màn hình (Widget)</string>
+    <string name="settings_share_app">Chia sẻ Cleanup</string>
+    <string name="settings_instagram">Theo dõi Instagram</string>
+    <string name="settings_tiktok">Theo dõi TikTok</string>
+    <string name="settings_twitter">Theo dõi Twitter / X</string>
+    <string name="settings_faq">Câu hỏi thường gặp (FAQ)</string>
+    <string name="settings_rate_us">Đánh giá ứng dụng</string>
+    <string name="settings_contact_us">Liên hệ hỗ trợ</string>
+    <string name="settings_restore_purchase">Khôi phục mua hàng</string>
+    <string name="settings_privacy_policy">Chính sách bảo mật</string>
+    <string name="settings_terms_of_service">Điều khoản dịch vụ</string>
+    <string name="settings_community_guidelines">Nguyên tắc cộng đồng</string>
+    <string name="popups_got_it">Đã hiểu</string>
+    <string name="popups_maybe_later">Để sau</string>
+    <string name="contact_us_four_answer">Để cho phép Cleanup truy cập ảnh &amp; video: Mở Cài đặt -> Ứng dụng -> Cleanup -> Quyền -> Ảnh và video -> Chọn \'Cho phép\'. Mọi tác vụ quét và xử lý đều chạy 100% cục bộ và ngoại tuyến trên máy của bạn.</string>
+
+    <!-- Dashboard -->
+    <string name="storage_used_title">Bộ Nhớ Đã Dùng</string>
+    <string name="storage_used_fmt">Đã dùng %1$s trên %2$s</string>
+    <string name="storage_free_fmt">Còn trống %1$s</string>
+    <string name="btn_smart_clean">Dọn Dẹp Thông Minh AI</string>
+    <string name="scanning_storage">Đang quét bộ nhớ…</string>
+    <string name="scanning_photos">Phân tích ảnh &amp; phát hiện ảnh trùng…</string>
+    <string name="scanning_videos">Đang quét video dung lượng lớn…</string>
+    <string name="scan_completed">Đã hoàn thành quét!</string>
+    <string name="reclaimable_space">Dung Lượng Có Thể Giải Phóng</string>
+
+    <!-- Categories -->
+    <string name="category_similar_photos">Ảnh Tương Tự</string>
+    <string name="category_similar_desc">Gom cụm các ảnh gần giống, giữ ảnh đẹp nhất</string>
+    <string name="category_duplicates">Ảnh Trùng Lặp 100%</string>
+    <string name="category_duplicates_desc">Các bản sao giống hệt nhau chiếm bộ nhớ</string>
+    <string name="category_screenshots">Ảnh Chụp Màn Hình</string>
+    <string name="category_screenshots_desc">Ảnh chụp màn hình cũ không còn dùng</string>
+    <string name="category_large_videos">Video Dung Lượng Lớn</string>
+    <string name="category_large_videos_desc">Các video dung lượng nặng chiếm hàng GB</string>
+    <string name="category_other_media">Tệp Khác</string>
+    <string name="category_other_media_desc">Ảnh tải về, ảnh ứng dụng nhắn tin</string>
+
+    <!-- Photo Cleaner & Similarity -->
+    <string name="best_result">ĐẸP NHẤT</string>
+    <string name="delete_selected">Xoá Đã Chọn (%1$d)</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="deselect_all">Bỏ chọn tất cả</string>
+    <string name="keep_best">Chỉ giữ lại ảnh đẹp nhất</string>
+    <string name="no_items_found">Không tìm thấy tệp nào cần dọn!</string>
+
+    <!-- Photo Swiping -->
+    <string name="swipe_hint_keep">Vuốt PHẢI để Giữ lại</string>
+    <string name="swipe_hint_delete">Vuốt TRÁI để Xoá</string>
+    <string name="swipe_progress_fmt">%1$d / %2$d Ảnh</string>
+    <string name="swipe_undo">Hoàn tác</string>
+    <string name="swipe_open_trash">Mở Thùng Rác (%1$d)</string>
+    <string name="trash_title">Thùng Rác Tạm</string>
+    <string name="trash_clear_all">Xoá sạch thùng rác</string>
+    <string name="trash_recover_all">Khôi phục tất cả</string>
+    <string name="trash_empty_state">Thùng rác đang trống</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">Tối Ưu Danh Bạ</string>
+    <string name="contacts_screen_title">Quản lý liên hệ</string>
+    <string name="duplicates_category_title">Trùng lặp</string>
+    <string name="incomplete_contacts_category_title">Liên hệ chưa đầy đủ</string>
+    <string name="all_contacts_category_title">Tất cả liên hệ</string>
+    <string name="backups_category_title">Sao lưu</string>
+    <string name="contacts_duplicate_title">Danh Bạ Trùng Lặp</string>
+    <string name="contacts_duplicate_desc">Cùng số điện thoại hoặc trùng tên</string>
+    <string name="contacts_incomplete_title">Danh Bạ Thiếu Thông Tin</string>
+    <string name="contacts_incomplete_desc">Thiếu tên hoặc thiếu số điện thoại</string>
+    <string name="contacts_backup_title">Sao Lưu &amp; Khôi Phục</string>
+    <string name="contacts_backup_desc">Tạo tệp danh bạ VCF an toàn</string>
+    <string name="contacts_btn_merge">Hợp nhất danh bạ</string>
+    <string name="contacts_btn_backup">Tạo bản sao lưu</string>
+    <string name="contacts_btn_restore">Khôi phục từ tệp VCF</string>
+    <string name="contacts_merge_preview">Xem trước khi gộp</string>
+    <string name="contacts_no_name">Không có tên</string>
+    <string name="contacts_no_phone">Không có số điện thoại</string>
+    <string name="contacts_duplicated_empty_state_title">Không tìm thấy liên hệ trùng số điện thoại!</string>
+    <string name="contacts_incomplete_contacts_empty_state_title">Không tìm thấy liên hệ nào thiếu số!</string>
+    <string name="contacts_backups_empty_state_title">Không có bản sao lưu nào!</string>
+    <string name="all_contacts_empty_state_title">Không tìm thấy liên hệ nào!</string>
+    <string name="all_contacts_text_field_hint_text">Tìm kiếm liên hệ…</string>
+    <string name="contacts_backup_popup_title">Bạn có muốn sao lưu trước khi thay đổi?</string>
+    <string name="contacts_backup_popup_subtitle">Nếu không sao lưu, thay đổi sẽ không thể hoàn tác.</string>
+    <string name="contacts_backup_popup_primary_action_text">Tạo bản sao lưu</string>
+    <string name="contacts_backup_popup_secondary_action_text">Không, cảm ơn</string>
+    <string name="contacts_backup_popup_backup_success_title">Đã tạo bản sao lưu!</string>
+    <string name="contacts_restore_backup">Khôi phục bản sao lưu</string>
+    <string name="contacts_restore_backup_success">Khôi phục bản sao lưu thành công!</string>
+    <string name="contacts_delete_backup_popup_title">Bạn chắc chắn muốn xóa?</string>
+    <string name="contacts_delete_backup_popup_subtitle">Bản sao lưu sẽ bị xóa. Không thể hoàn tác.</string>
+    <string name="contacts_delete_backup_popup_primary_action_text">Xóa</string>
+    <string name="backup_deletion_success_popup_title">Đã xóa bản sao lưu!</string>
+    <string name="contacts_merge_popup_title">Gộp các liên hệ đã chọn?</string>
+    <string name="contacts_merge_popup_subtitle">Các liên hệ sẽ được gộp thành một. Không thể hoàn tác.</string>
+    <string name="delete_contacts_popup_title">Xóa các liên hệ đã chọn?</string>
+    <string name="delete_contacts_popup_subtitle">Liên hệ đã xóa sẽ không thể khôi phục.</string>
+    <string name="deletion_success_popup_title">Xóa thành công!</string>
+    <string name="contacts_merged_fmt">Đã gộp %1$d liên hệ</string>
+    <string name="contacts_need_access_title">Cần quyền truy cập Danh bạ</string>
+    <string name="contacts_need_access_subtitle">Cleanup cần quyền truy cập Danh bạ. Vui lòng cấp quyền trong cài đặt.</string>
+
+    <!-- Video Compressor -->
+    <string name="compress_title">Nén Video</string>
+    <string name="compress_subtitle">Nén video chất lượng cao tiết kiệm hàng GB</string>
+    <string name="video_compress_header_title">Nén video &amp; tiết kiệm dung lượng lên đến:</string>
+    <string name="video_compress_ultimate_space">Tiết kiệm tối đa</string>
+    <string name="video_compress_moderate_space">Tiết kiệm vừa</string>
+    <string name="video_compress_light_space">Tiết kiệm nhẹ</string>
+    <string name="video_compress_ultimate_desc">Chất lượng Thấp • Nén ~70%</string>
+    <string name="video_compress_moderate_desc">Chất lượng Vừa • Nén ~45%</string>
+    <string name="video_compress_light_desc">Chất lượng Cao • Nén ~25%</string>
+    <string name="video_compress_popup_title">Nén video đã chọn?</string>
+    <string name="video_compress_popup_subtitle">Video sẽ được nén. Bạn sẽ giải phóng thêm %1$s dung lượng.</string>
+    <string name="video_compress_in_progress_title">Đang nén video…</string>
+    <string name="video_compress_in_progress_subtitle">Giữ ứng dụng mở cho đến khi hoàn tất.</string>
+    <string name="video_compress_progress_completed_title">Hoàn tất!</string>
+    <string name="video_compress_progress_completed_subtitle">Video đã được nén &amp; lưu vào Ảnh.</string>
+    <string name="video_compress_progress_completed_primary_action">Giữ cả hai video</string>
+    <string name="video_compress_progress_completed_secondary_action">Xóa video gốc</string>
+    <string name="video_compress_exit_popup_title">Đừng để mất tiến trình nén!</string>
+    <string name="video_compress_exit_popup_subtitle">Nếu thoát bây giờ, quá trình nén sẽ chưa hoàn tất.</string>
+    <string name="video_compress_exit_popup_primary_action">Tiếp tục nén</string>
+    <string name="video_compress_exit_popup_secondary_action">Dừng nén</string>
+    <string name="video_compress_congrats_compressed">Bạn đã nén</string>
+    <string name="video_compress_congrats_saved">Bạn đã tiết kiệm</string>
+    <string name="video_compress_empty_state_title">Không có video nào để nén!</string>
+    <string name="video_compress_failed_title">Nén video thất bại</string>
+    <string name="video_compress_failed_subtitle">Có lỗi khi nén video. Vui lòng thử lại.</string>
+    <string name="compress_btn_start">Bắt Đầu Nén Video</string>
+    <string name="compressing_progress_fmt">Đang nén… %1$d%%</string>
+    <string name="compress_saved_fmt">Đã tiết kiệm %1$s</string>
+    <string name="select_video_hint">Chọn video để bắt đầu nén</string>
+    <string name="select_video_title">Chọn Video</string>
+
+    <!-- App Cleaner -->
+    <string name="app_cleaner_title">Quản Lý Ứng Dụng</string>
+    <string name="app_cleaner_subtitle">Tìm và gỡ các ứng dụng nặng ít sử dụng</string>
+    <string name="sort_largest_size">Dung lượng lớn nhất</string>
+    <string name="sort_least_used">Ít sử dụng nhất</string>
+    <string name="sort_most_used">Sử dụng nhiều nhất</string>
+    <string name="btn_uninstall">Gỡ cài đặt đã chọn</string>
+    <string name="uninstall_success">Gỡ cài đặt thành công!</string>
+    <string name="permission_usage_needed">Cần cấp quyền Truy cập Dữ liệu Sử dụng để theo dõi ứng dụng</string>
+    <string name="btn_grant_permission">Cấp Quyền</string>
+    <string name="app_last_used_fmt">Dùng gần nhất: %1$s</string>
+    <string name="app_rarely_used">Hiếm khi dùng</string>
+    <string name="error_open_settings">Không thể mở cài đặt. Vui lòng cấp quyền Truy cập Dữ liệu Sử dụng trong Cài đặt hệ thống.</string>
+    <string name="app_cleaner_hard_permission_title">Tìm app không bao giờ dùng</string>
+    <string name="app_cleaner_hard_permission_subtitle">Quyền truy cập giúp biết app nào chỉ chiếm chỗ.</string>
+    <string name="app_cleaner_hard_permission_step_one">Nhấn \"Vào cài đặt\"</string>
+    <string name="app_cleaner_hard_permission_step_one_desc">Mở màn hình Quyền truy cập dữ liệu sử dụng trong Cài đặt hệ thống.</string>
+    <string name="app_cleaner_hard_permission_step_two">Tìm \"Cleanup\" rồi bật lên</string>
+    <string name="app_cleaner_hard_permission_step_two_desc">Tìm ứng dụng Cleanup trong danh sách và gạt công tắc Cho phép sang BẬT.</string>
+    <string name="app_cleaner_permission_how_btn">Cách làm?</string>
+    <string name="app_cleaner_permission_privacy_note">Cam kết bảo mật: Dữ liệu sử dụng chỉ được đọc ngoại tuyến trên máy và không bao giờ được tải lên mạng.</string>
+    <string name="app_cleaner_btn_go_to_settings">Vào Cài Đặt</string>
+    <string name="app_cleaner_stats_summary_fmt">Đã tìm thấy %1$d ứng dụng (%2$s)</string>
+    <string name="app_cleaner_empty_title">Không tìm thấy ứng dụng nào!</string>
+    <string name="app_cleaner_empty_subtitle">Không tìm thấy ứng dụng người dùng cài đặt nào trên thiết bị này.</string>
+    <string name="app_cleaner_how_dialog_title">Hướng dẫn Cấp quyền Dữ liệu Sử dụng</string>
+    <string name="app_cleaner_how_dialog_msg">1. Nhấn nút \"Vào Cài đặt\" bên dưới.\n2. Trong danh sách Quyền truy cập dữ liệu sử dụng, tìm \"Cleanup\".\n3. Nhấn vào \"Cleanup\" và gạt bật \"Cho phép theo dõi sử dụng\".\n4. Quay lại ứng dụng Cleanup để xem toàn bộ danh sách ứng dụng đã cài đặt.</string>
+
+    <!-- Secret Vault -->
+    <string name="secret_title">Không Gian Bí Mật</string>
+    <string name="secret_desc">Két sắt bảo mật mã hoá với mã PIN &amp; Sinh trắc học</string>
+    <string name="secret_pin_title">Nhập Mã PIN Bí Mật</string>
+    <string name="secret_pin_create">Tạo Mã PIN 6 Số</string>
+    <string name="secret_pin_confirm">Xác Nhận Lại Mã PIN</string>
+    <string name="secret_pin_wrong">Sai mã PIN! Vui lòng thử lại.</string>
+    <string name="secret_tab_gallery">Ảnh / Video Ẩn</string>
+    <string name="secret_tab_contacts">Danh Bạ Ẩn</string>
+    <string name="secret_add_media">Thêm tệp bí mật</string>
+    <string name="secret_add_contact">Thêm danh bạ bí mật</string>
+    <string name="secret_unlock_biometric">Mở khoá bằng Vân tay / Khuôn mặt</string>
+    <string name="btn_reset_pin">Đặt lại mã PIN</string>
+    <string name="secret_pin_reset_notice">Đã đặt lại mã PIN. Vui lòng thiết lập mã PIN 6 số mới.</string>
+
+    <!-- Battery & Charging -->
+    <string name="battery_title">Giám Sát Pin &amp; Sạc</string>
+    <string name="battery_status_charging">Đang Sạc Pin</string>
+    <string name="battery_status_discharging">Đang Dùng Pin</string>
+    <string name="battery_status_full">Pin Đã Đầy</string>
+    <string name="battery_health_good">Tình trạng Tốt</string>
+    <string name="battery_temp_fmt">Nhiệt độ: %1$.1f°C</string>
+    <string name="battery_voltage_fmt">Điện áp: %1$.2f V</string>
+    <string name="charging_animation_btn">Xem Hiệu Ứng Sạc</string>
+
+    <!-- Pro & Paywall -->
+    <string name="pro_title">Mở Khoá Bản Pro Không Giới Hạn</string>
+    <string name="pro_sub_title">Tối ưu hoá điện thoại của bạn không giới hạn</string>
+    <string name="pro_feature_1">Nhận diện ảnh tương tự &amp; trùng lặp bằng AI</string>
+    <string name="pro_feature_2">Nén video không giới hạn</string>
+    <string name="pro_feature_3">Két sắt mã hoá bí mật toàn diện</string>
+    <string name="pro_feature_4">Không có quảng cáo &amp; tốc độ quét tối đa</string>
+    <string name="pro_plan_yearly">Gói Năm - 499.000 đ/năm (Dùng thử 3 ngày)</string>
+    <string name="pro_plan_monthly">Gói Tháng - 99.000 đ/tháng</string>
+    <string name="pro_plan_lifetime">Gói Vĩnh Viễn - 899.000 đ một lần</string>
+    <string name="btn_start_trial">Bắt Đầu Dùng Thử &amp; Tiếp Tục</string>
+    <string name="btn_continue">Tiếp Tục</string>
+
+    <!-- Common Dialogs & Actions -->
+    <string name="confirm_delete_title">Xác Nhận Xoá</string>
+    <string name="confirm_delete_msg">Bạn có chắc chắn muốn xoá các tệp đã chọn?</string>
+    <string name="btn_delete">Xoá</string>
+    <string name="btn_cancel">Huỷ</string>
+    <string name="btn_done">Xong</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_close">Đóng</string>
+    <string name="try_again">Thử lại</string>
+    <string name="success">Thành công</string>
+    <string name="permission_required">Yêu cầu quyền truy cập</string>
+    <string name="permission_media_confirm_title">Cho phép truy cập Ảnh &amp; Video</string>
+    <string name="permission_media_confirm_msg">Ứng dụng cần bạn cho phép truy cập ảnh và video để quét, phân tích các ảnh tương tự, ảnh trùng lặp và ảnh chụp màn hình nhằm giải phóng bộ nhớ cho máy.</string>
+    <string name="btn_allow_and_continue">Đồng ý &amp; Cho phép</string>
+    <string name="btn_not_now">Để sau</string>
+    <string name="category_all_photos">Tất cả ảnh</string>
+    <string name="onboarding_title_1">Dọn Dẹp Bộ Nhớ Thông Minh</string>
+    <string name="onboarding_desc_1">Nhanh chóng quét và dọn sạch các tệp trùng lặp, video nặng và dữ liệu rác chỉ trong vài giây.</string>
+    <string name="onboarding_title_2">Tối Ưu Ảnh Tương Tự</string>
+    <string name="onboarding_desc_2">Giữ lại những khoảnh khắc đẹp nhất và tự động loại bỏ các ảnh mờ, ảnh chụp trùng.</string>
+    <string name="onboarding_title_3">Vuốt Dọn Dẹp Ảnh Dễ Dàng</string>
+    <string name="onboarding_desc_3">Vuốt sang phải để giữ lại kỷ niệm đẹp và vuốt sang trái để xóa ngay ảnh không cần thiết.</string>
+    <string name="onboarding_skip">Bỏ qua</string>
+    <string name="onboarding_next">Tiếp theo</string>
+    <string name="onboarding_get_started">Bắt Đầu Ngay</string>
+    <string name="language_selection_title">Chọn Ngôn Ngữ</string>
+    <string name="language_selection_subtitle">Chọn ngôn ngữ bạn muốn sử dụng để bắt đầu</string>
+
+    <!-- Additional UI & Format Strings -->
+    <string name="contacts_duplicated_empty_state_desc">Danh bạ trên máy của bạn được sắp xếp gọn gàng, không có số hoặc tên bị trùng lặp.</string>
+    <string name="contacts_incomplete_contacts_empty_state_desc">Tất cả các liên hệ trên máy đều có đầy đủ tên và số điện thoại.</string>
+    <string name="contacts_backups_empty_state_desc">Tạo bản sao lưu VCF đầu tiên để bảo vệ danh bạ trước khi thực hiện thay đổi.</string>
+    <string name="contacts_found_summary_fmt">Tìm thấy %1$d liên hệ trên thiết bị</string>
+    <string name="contacts_duplicate_groups_fmt">%1$d nhóm</string>
+    <string name="contacts_incomplete_count_fmt">%1$d thiếu</string>
+    <string name="contacts_backups_saved_fmt">%1$d bản lưu</string>
+    <string name="contacts_duplicate_section_title_fmt">Tìm thấy %1$d nhóm trùng (%2$d liên hệ)</string>
+    <string name="contacts_selected_count_fmt">Đã chọn %1$d</string>
+    <string name="contacts_delete_with_count_fmt">Xóa (%1$d)</string>
+    <string name="contacts_duplicate_profiles_fmt">%1$d liên hệ trùng</string>
+    <string name="contacts_count_badge_fmt">%1$d Liên hệ</string>
+    <string name="contacts_no_contact_info">Không có thông tin liên hệ</string>
+    <string name="contacts_merge_all_confirm_msg">Gộp tất cả %1$d nhóm danh bạ trùng lặp? Bạn có muốn tạo bản sao lưu trước không?</string>
+    <string name="contacts_merge_without_backup">Gộp không cần sao lưu</string>
+    <string name="contacts_merge_success_fmt">Đã gộp thành công %1$d nhóm danh bạ trùng lặp!</string>
+    <string name="contacts_delete_confirm_msg">Xóa %1$d liên hệ đã chọn? Liên hệ đã xóa sẽ không thể khôi phục.</string>
+    <string name="contacts_delete_error">Lỗi khi xóa liên hệ</string>
+    <string name="contacts_backup_failed">Tạo bản sao lưu thất bại</string>
+    <string name="contacts_restore_confirm_msg">Khôi phục danh bạ từ %1$s (%2$d liên hệ)?</string>
+    <string name="contacts_restore_success_fmt">Đã khôi phục %1$d liên hệ từ bản sao lưu!</string>
+    <string name="contacts_share_title">Chia sẻ tệp sao lưu VCF</string>
+    <string name="merge_preview_current_duplicates_fmt">Các liên hệ trùng hiện tại (%1$d)</string>
+    <string name="merge_preview_desc">Các hồ sơ trùng lặp bên dưới sẽ được kết hợp thành một liên hệ duy nhất.</string>
+    <string name="merge_preview_unified_title">Liên hệ kết quả sau khi gộp (1)</string>
+    <string name="merge_preview_aggregated_badge">Thông tin tổng hợp</string>
+    <string name="merge_preview_phones_fmt">Số điện thoại: %1$s</string>
+    <string name="merge_preview_emails_fmt">Email: %1$s</string>
+    <string name="merge_preview_unified_contact">Liên hệ hợp nhất</string>
+    <string name="contacts_filter_all">Tất cả thiếu (%1$d)</string>
+    <string name="contacts_filter_no_name">Thiếu tên (%1$d)</string>
+    <string name="contacts_filter_no_phone">Thiếu SĐT (%1$d)</string>
+    <string name="contacts_filter_no_info">Thiếu cả SĐT &amp; Email (%1$d)</string>
+    <string name="contact_detail_title">Chi tiết liên hệ</string>
+    <string name="contact_detail_call">Gọi điện</string>
+    <string name="contact_detail_message">Nhắn tin</string>
+    <string name="contact_detail_email">Email</string>
+    <string name="contact_detail_share">Chia sẻ</string>
+    <string name="contact_detail_delete">Xoá</string>
+    <string name="contact_detail_phones_header">Số điện thoại</string>
+    <string name="contact_detail_emails_header">Địa chỉ Email</string>
+    <string name="contact_detail_company_header">Công ty &amp; Chức vụ</string>
+    <string name="contact_detail_notes_header">Ghi chú</string>
+    <string name="contact_detail_address_header">Địa chỉ</string>
+    <string name="contact_label_mobile">Di động</string>
+    <string name="contact_label_home">Nhà riêng</string>
+    <string name="contact_label_work">Cơ quan</string>
+    <string name="contact_label_main">Số chính</string>
+    <string name="contact_label_other">Khác</string>
+    <string name="contacts_duplicated_merge_preview_cta_button_text">Xem trước khi gộp</string>
+    <string name="contacts_duplicated_merge_cta_button_text">Gộp liên hệ</string>
+    <string name="btn_merge_all">Gộp tất cả (%1$d nhóm)</string>
+    <string name="contacts_no_search_result_title">Không tìm thấy liên hệ phù hợp!</string>
+    <string name="contacts_need_access_btn">Cấp quyền truy cập</string>
+    <string name="contacts_merge_preview_title">Xem trước khi gộp</string>
+    <string name="contacts_merge_preview_subtitle">Đối chiếu thông tin liên hệ trước khi gộp</string>
+
+    <string name="stat_photos_save_fmt">%1$d ảnh • Tiết kiệm %2$s</string>
+    <string name="stat_files_save_fmt">%1$d tệp • Tiết kiệm %2$s</string>
+    <string name="stat_groups_save_fmt">%1$d nhóm • Tiết kiệm %2$s</string>
+    <string name="stat_files_size_fmt">%1$d tệp • %2$s</string>
+    <string name="stat_save_prefix">Tiết kiệm %1$s</string>
+    <string name="stat_selected_count_fmt">Đã chọn %1$d</string>
+    <string name="trash_stats_fmt">%1$d ảnh • %2$s</string>
+    <string name="trash_restored_all">Đã khôi phục tất cả ảnh từ thùng rác</string>
+
+    <string name="power_source_ac">Củ sạc AC</string>
+    <string name="power_source_usb">Cáp USB</string>
+    <string name="power_source_wireless">Đế sạc không dây</string>
+    <string name="power_source_battery">Đang dùng pin</string>
+
+    <string name="secret_pin_create_success">Tạo mã PIN thành công!</string>
+    <string name="secret_vault_imported_fmt">Đã chuyển %1$d mục vào Kho bí mật!</string>
+    <string name="secret_vault_restored_fmt">Đã khôi phục %1$d mục về thư viện!</string>
+    <string name="secret_original_removed">Đã xóa ảnh gốc khỏi thư viện ảnh!</string>
+    <string name="secret_biometric_unavailable">Thiết bị không hỗ trợ sinh trắc học</string>
+    <string name="settings_widgets_instructions">Để thêm tiện ích Cleanup vào màn hình chính:\n\n1. Chạm và giữ vào khoảng trống trên màn hình chính.\n2. Chọn \'Tiện ích\' (Widgets).\n3. Tìm \'Cleanup\' và kéo tiện ích ra màn hình.</string>
+    <string name="settings_share_text">Trải nghiệm Cleanup - Dọn dẹp bộ nhớ AI &amp; Nén video thông minh: https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="pro_welcome_fmt">Chào mừng đến với Cleanup PRO! Gói đã chọn: %1$s</string>
+    <string name="video_count_fmt">%1$d video</string>
+    <string name="video_save_est_fmt">Tiết kiệm ~%1$s</string>
+    <string name="apps_selected_fmt">Đã chọn %1$d ứng dụng • %2$s</string>
+
+    <string name="scan_scanning_media">Đang quét tệp đa phương tiện…</string>
+    <string name="scan_scanning_videos">Đang quét video…</string>
+    <string name="scan_analyzing_similarity">Đang phân tích ảnh tương tự &amp; trùng lặp…</string>
+    <string name="scan_analyzing_progress_fmt">Đang phân tích ảnh (%1$d/%2$d)…</string>
+    <string name="scan_grouping_similar">Đang nhóm các ảnh tương tự…</string>
+    <string name="scan_done">Hoàn tất!</string>
+    <string name="scan_failed">Quét thất bại</string>
+
+    <string name="pin_must_be_4_digits">Mã PIN phải bao gồm 6 chữ số</string>
+    <string name="pin_confirm_mismatch">Mã PIN xác nhận không khớp</string>
+    <string name="pin_same_as_old_error">Mã PIN mới không được trùng với mã PIN hiện tại</string>
+    <string name="settings_confirm_new_pin_hint">Xác nhận lại mã PIN 6 số mới</string>
+    <string name="support_contact_toast_fmt">Liên hệ hỗ trợ tại: %1$s</string>
+    <string name="subscriptions_checking_restored">Đang kiểm tra gói đăng ký… Khôi phục thành công!</string>
+    <string name="subscriptions_restored_success">Khôi phục gói đăng ký thành công!</string>
+    <string name="secret_restore_all_title">Khôi phục tất cả vào thư viện?</string>
+    <string name="secret_restore_all_msg">Tất cả ảnh &amp; video bí mật trong kho sẽ được khôi phục về thư viện ảnh của thiết bị.</string>
+    <string name="secret_restore_all_btn">Khôi phục tất cả</string>
+    <string name="secret_deleted_fmt">Đã xóa %1$d mục khỏi kho bí mật</string>
+    <string name="contact_name_hint">Tên liên hệ</string>
+    <string name="contact_phone_hint">Số điện thoại</string>
+    <string name="settings_old_pin_hint">Nhập mã PIN hiện tại (6 số)</string>
+    <string name="settings_new_pin_hint">Nhập mã PIN 6 số mới</string>
+    <string name="settings_rate_us_msg">Bạn có thích sử dụng Cleanup không? Hãy đánh giá 5 sao trên Google Play để ủng hộ chúng tôi nhé!</string>
+    <string name="settings_rate_5_stars">Đánh giá 5 sao ⭐</string>
+    <string name="settings_terms_title">Điều khoản Dịch vụ</string>
+    <string name="settings_terms_content">Khi sử dụng Cleanup, bạn đồng ý tuân thủ các điều khoản ứng dụng tiêu chuẩn. Toàn bộ quá trình quét và xử lý tệp diễn ra hoàn toàn cục bộ và an toàn trên thiết bị của bạn.</string>
+    <string name="settings_community_title">Quy tắc Cộng đồng</string>
+    <string name="settings_community_content">Cleanup được xây dựng với ưu tiên hàng đầu là quyền riêng tư và bảo mật dữ liệu của người dùng. Chúng tôi không thu thập hoặc truyền tải bất kỳ ảnh, video hoặc danh bạ cá nhân nào của bạn.</string>
+    <string name="swipe_completed">Đã hoàn thành tất cả ảnh!</string>
+    <string name="swipe_trash_btn_fmt">Thùng rác (%1$d)</string>
+    <string name="plan_yearly_name">Gói Năm Pro (Dùng thử 3 ngày)</string>
+    <string name="plan_monthly_name">Gói Tháng Pro</string>
+    <string name="plan_lifetime_name">Gói Vĩnh Viễn</string>
+</resources>

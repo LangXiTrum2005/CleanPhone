@@ -1,0 +1,67 @@
+{
+"skeleton": {
+	"hash": "wAYCtYBsqEA",
+	"spine": "4.2.37",
+	"x": -264.6,
+	"y": -835.2,
+	"width": 529.2,
+	"height": 1670.4,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "laser gun 5", "parent": "root" },
+	{ "name": "special effects -laser gun 5", "parent": "laser gun 5", "x": 108.82, "y": 781.7 },
+	{ "name": "gun-laser gun 5", "parent": "laser gun 5" }
+],
+"slots": [
+	{ "name": "laser gun 5", "bone": "gun-laser gun 5", "attachment": "laser gun 5" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"laser gun 5": {
+				"laser gun 5": { "scaleX": 1.2, "scaleY": 1.2, "width": 441, "height": 1392 }
+			}
+		}
+	}
+],
+"animations": {
+	"laser gun 5_let go": {
+		"bones": {
+			"laser gun 5": {
+				"translate": [
+					{
+						"y": -48,
+						"curve": [ 0.167, 0, 0.333, 0, 0.167, -48, 0.333, 0 ]
+					},
+					{ "time": 0.5 }
+				]
+			}
+		}
+	},
+	"laser gun 5_long press": {
+		"bones": {
+			"laser gun 5": {
+				"translate": [
+					{
+						"curve": [ 0.089, 0, 0.178, 0, 0.089, 0, 0.178, -48 ]
+					},
+					{ "time": 0.2667, "y": -48 }
+				]
+			}
+		}
+	},
+	"laser gun 5_static": {
+		"bones": {
+			"laser gun 5": {
+				"translate": [
+					{ "y": -48 }
+				]
+			}
+		}
+	}
+}
+}

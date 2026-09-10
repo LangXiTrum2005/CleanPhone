@@ -1,0 +1,15 @@
+zuolun_banji.png
+size:516,174
+filter:Linear,Linear
+pma:true
+0_00
+bounds:2,2,170,235
+rotate:90
+banji_00
+bounds:239,9,163,137
+offsets:40,77,343,338
+rotate:90
+banji_01_00
+bounds:378,8,164,136
+offsets:43,83,350,350
+rotate:90

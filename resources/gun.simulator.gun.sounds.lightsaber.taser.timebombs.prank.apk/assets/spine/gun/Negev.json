@@ -1,0 +1,76 @@
+{
+"skeleton": {
+	"hash": "HNDuhj/fgRk",
+	"spine": "4.2.37",
+	"x": -424.95,
+	"y": -871.27,
+	"width": 849.9,
+	"height": 1742.55,
+	"images": "../images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "Negev", "parent": "bone" },
+	{ "name": "TX_weizhi", "parent": "bone", "x": 194.05, "y": 839.54 },
+	{ "name": "zidan_weizhi", "parent": "bone", "rotation": -90, "x": 246.17, "y": 29.22 }
+],
+"slots": [
+	{ "name": "Negev", "bone": "Negev", "attachment": "Negev" },
+	{ "name": "tx_weizhi", "bone": "TX_weizhi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Negev": {
+				"Negev": { "scaleX": 1.2, "scaleY": 1.2, "rotation": 0.01, "width": 708, "height": 1452 }
+			}
+		}
+	}
+],
+"animations": {
+	"Negev": {
+		"slots": {
+			"Negev": {
+				"attachment": [
+					{ "name": "Negev" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Negev": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -3 },
+					{ "time": 0.2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -1.85, "y": -35.37 },
+					{ "time": 0.2, "x": -0.52 }
+				]
+			},
+			"zidan_weizhi": {
+				"translate": [
+					{}
+				]
+			},
+			"TX_weizhi": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

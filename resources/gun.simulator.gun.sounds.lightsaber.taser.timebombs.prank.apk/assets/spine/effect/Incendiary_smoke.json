@@ -1,0 +1,129 @@
+{
+"skeleton": { "hash": "mat/6nUkZxs", "spine": "4.2.37", "images": "../im/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "Incendiary_smoke", "parent": "1" }
+],
+"slots": [
+	{ "name": "Incendiary_smoke", "bone": "Incendiary_smoke" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Incendiary_smoke": {
+				"huoyandan_yan_01": { "width": 450, "height": 495 },
+				"huoyandan_yan_02": { "width": 450, "height": 495 },
+				"huoyandan_yan_03": { "width": 450, "height": 495 },
+				"huoyandan_yan_04": { "width": 450, "height": 495 },
+				"huoyandan_yan_05": { "width": 450, "height": 495 },
+				"huoyandan_yan_06": { "width": 450, "height": 495 },
+				"huoyandan_yan_07": { "width": 450, "height": 495 },
+				"huoyandan_yan_08": { "width": 450, "height": 495 },
+				"huoyandan_yan_09": { "width": 450, "height": 495 },
+				"huoyandan_yan_10": { "width": 450, "height": 495 },
+				"huoyandan_yan_11": { "width": 450, "height": 495 },
+				"huoyandan_yan_12": { "width": 450, "height": 495 },
+				"huoyandan_yan_13": { "width": 450, "height": 495 },
+				"huoyandan_yan_14": { "width": 450, "height": 495 },
+				"huoyandan_yan_15": { "width": 450, "height": 495 },
+				"huoyandan_yan_16": { "width": 450, "height": 495 },
+				"huoyandan_yan_17": { "width": 450, "height": 495 },
+				"huoyandan_yan_18": { "width": 450, "height": 495 },
+				"huoyandan_yan_19": { "width": 450, "height": 495 },
+				"huoyandan_yan_20": { "width": 450, "height": 495 },
+				"huoyandan_yan_21": { "width": 450, "height": 495 },
+				"huoyandan_yan_22": { "width": 450, "height": 495 },
+				"huoyandan_yan_23": { "width": 450, "height": 495 },
+				"huoyandan_yan_24": { "width": 450, "height": 495 },
+				"huoyandan_yan_25": { "width": 450, "height": 495 },
+				"huoyandan_yan_26": { "width": 450, "height": 495 },
+				"huoyandan_yan_27": { "width": 450, "height": 495 },
+				"huoyandan_yan_28": { "width": 450, "height": 495 },
+				"huoyandan_yan_29": { "width": 450, "height": 495 },
+				"huoyandan_yan_30": { "width": 450, "height": 495 },
+				"huoyandan_yan_31": { "width": 450, "height": 495 },
+				"huoyandan_yan_32": { "width": 450, "height": 495 },
+				"huoyandan_yan_33": { "width": 450, "height": 495 },
+				"huoyandan_yan_34": { "width": 450, "height": 495 },
+				"huoyandan_yan_35": { "width": 450, "height": 495 },
+				"huoyandan_yan_36": { "width": 450, "height": 495 },
+				"huoyandan_yan_37": { "width": 450, "height": 495 },
+				"huoyandan_yan_38": { "width": 450, "height": 495 },
+				"huoyandan_yan_39": { "width": 450, "height": 495 },
+				"huoyandan_yan_40": { "width": 450, "height": 495 },
+				"huoyandan_yan_41": { "width": 450, "height": 495 },
+				"huoyandan_yan_42": { "width": 450, "height": 495 },
+				"huoyandan_yan_43": { "width": 450, "height": 495 },
+				"huoyandan_yan_44": { "width": 450, "height": 495 },
+				"huoyandan_yan_45": { "width": 450, "height": 495 },
+				"huoyandan_yan_46": { "width": 450, "height": 495 }
+			}
+		}
+	}
+],
+"animations": {
+	"Incendiary_smoke": {
+		"slots": {
+			"Incendiary_smoke": {
+				"attachment": [
+					{ "name": "huoyandan_yan_01" },
+					{ "time": 0.0333, "name": "huoyandan_yan_02" },
+					{ "time": 0.0667, "name": "huoyandan_yan_03" },
+					{ "time": 0.1, "name": "huoyandan_yan_04" },
+					{ "time": 0.1333, "name": "huoyandan_yan_05" },
+					{ "time": 0.1667, "name": "huoyandan_yan_06" },
+					{ "time": 0.2, "name": "huoyandan_yan_07" },
+					{ "time": 0.2333, "name": "huoyandan_yan_08" },
+					{ "time": 0.2667, "name": "huoyandan_yan_09" },
+					{ "time": 0.3, "name": "huoyandan_yan_10" },
+					{ "time": 0.3333, "name": "huoyandan_yan_11" },
+					{ "time": 0.3667, "name": "huoyandan_yan_12" },
+					{ "time": 0.4, "name": "huoyandan_yan_13" },
+					{ "time": 0.4333, "name": "huoyandan_yan_14" },
+					{ "time": 0.4667, "name": "huoyandan_yan_15" },
+					{ "time": 0.5, "name": "huoyandan_yan_16" },
+					{ "time": 0.5333, "name": "huoyandan_yan_17" },
+					{ "time": 0.5667, "name": "huoyandan_yan_18" },
+					{ "time": 0.6, "name": "huoyandan_yan_19" },
+					{ "time": 0.6333, "name": "huoyandan_yan_20" },
+					{ "time": 0.6667, "name": "huoyandan_yan_21" },
+					{ "time": 0.7, "name": "huoyandan_yan_22" },
+					{ "time": 0.7333, "name": "huoyandan_yan_23" },
+					{ "time": 0.7667, "name": "huoyandan_yan_24" },
+					{ "time": 0.8, "name": "huoyandan_yan_25" },
+					{ "time": 0.8333, "name": "huoyandan_yan_27" },
+					{ "time": 0.8667, "name": "huoyandan_yan_28" },
+					{ "time": 0.9, "name": "huoyandan_yan_29" },
+					{ "time": 0.9333, "name": "huoyandan_yan_30" },
+					{ "time": 0.9667, "name": "huoyandan_yan_31" },
+					{ "time": 1, "name": "huoyandan_yan_32" },
+					{ "time": 1.0333, "name": "huoyandan_yan_33" },
+					{ "time": 1.0667, "name": "huoyandan_yan_34" },
+					{ "time": 1.1, "name": "huoyandan_yan_35" },
+					{ "time": 1.1333, "name": "huoyandan_yan_36" },
+					{ "time": 1.1667, "name": "huoyandan_yan_37" },
+					{ "time": 1.2, "name": "huoyandan_yan_38" },
+					{ "time": 1.2333, "name": "huoyandan_yan_39" },
+					{ "time": 1.2667, "name": "huoyandan_yan_40" },
+					{ "time": 1.3, "name": "huoyandan_yan_41" },
+					{ "time": 1.3333, "name": "huoyandan_yan_42" },
+					{ "time": 1.3667, "name": "huoyandan_yan_43" },
+					{ "time": 1.4, "name": "huoyandan_yan_44" },
+					{ "time": 1.4333, "name": "huoyandan_yan_45" },
+					{ "time": 1.4667, "name": "huoyandan_yan_46" },
+					{ "time": 1.5 }
+				]
+			}
+		},
+		"bones": {
+			"Incendiary_smoke": {
+				"translate": [
+					{ "x": 70.64, "y": 151.67 }
+				]
+			}
+		}
+	}
+}
+}

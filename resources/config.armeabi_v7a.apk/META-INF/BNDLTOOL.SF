@@ -1,0 +1,44 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: gjUih/oX9cDgUomQjvzQK/o5rjQ=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: v61qRNF3dNYVHDWhQjqefsDcXBk=
+
+Name: lib/armeabi-v7a/libandroidx.graphics.path.so
+SHA1-Digest: RrvXw4mmaeCrYGmQqxr5ya9DbXE=
+
+Name: lib/armeabi-v7a/libapminsighta.so
+SHA1-Digest: A8D02kRkWC0t3DJl25nfoALBnuo=
+
+Name: lib/armeabi-v7a/libapminsightb.so
+SHA1-Digest: 7hmcsS3nSAdXA6zeLr5VfqkU+As=
+
+Name: lib/armeabi-v7a/libapplovin-native-crash-reporter.so
+SHA1-Digest: U55HuvvjUj4FO6r+d27xeikCk04=
+
+Name: lib/armeabi-v7a/libbuffer_pgl.so
+SHA1-Digest: mJ96O3JupUnVI549gwEUHKlY4nw=
+
+Name: lib/armeabi-v7a/libdatastore_shared_counter.so
+SHA1-Digest: Tev4gFTj640tNghI6BuW+48Ro18=
+
+Name: lib/armeabi-v7a/libfile_lock_pgl.so
+SHA1-Digest: 0sHPUSP/YVgzQdzJcVZDXl5sH1o=
+
+Name: lib/armeabi-v7a/libnms.so
+SHA1-Digest: FYHboVGOwapJurAj05pjFX/VKsk=
+
+Name: lib/armeabi-v7a/libpglarmor.so
+SHA1-Digest: JfBPXYvfxh8a4aKCwpWo1GGfRNs=
+
+Name: lib/armeabi-v7a/libtoolChecker.so
+SHA1-Digest: ERoh8adpdUVDKEEw8+v+DHPNLbU=
+
+Name: lib/armeabi-v7a/libtt_ugen_layout.so
+SHA1-Digest: /w0TM8AS9lFnZwYJWANwdWxx92U=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+

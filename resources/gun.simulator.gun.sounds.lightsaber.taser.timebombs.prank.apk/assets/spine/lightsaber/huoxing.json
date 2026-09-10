@@ -1,0 +1,70 @@
+{
+"skeleton": { "hash": "HOFujoq+qjA", "spine": "4.2.37", "images": "../im/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "tx", "parent": "root", "scaleX": 2.2, "scaleY": 2.2 },
+	{ "name": "1", "parent": "root", "y": -71.83 },
+	{ "name": "huoxing", "parent": "tx" }
+],
+"slots": [
+	{ "name": "huoxing", "bone": "huoxing" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"huoxing": {
+				"huoxing_00": { "width": 652, "height": 734 },
+				"huoxing_01": { "width": 652, "height": 734 },
+				"huoxing_02": { "width": 652, "height": 734 },
+				"huoxing_03": { "width": 652, "height": 734 },
+				"huoxing_04": { "width": 652, "height": 734 },
+				"huoxing_05": { "width": 652, "height": 734 },
+				"huoxing_06": { "width": 652, "height": 734 },
+				"huoxing_07": { "width": 652, "height": 734 },
+				"huoxing_08": { "width": 652, "height": 734 },
+				"huoxing_09": { "width": 652, "height": 734 },
+				"huoxing_10": { "width": 652, "height": 734 },
+				"huoxing_11": { "width": 652, "height": 734 },
+				"huoxing_12": { "width": 652, "height": 734 },
+				"huoxing_13": { "width": 652, "height": 734 }
+			}
+		}
+	}
+],
+"animations": {
+	"huoxing": {
+		"slots": {
+			"huoxing": {
+				"attachment": [
+					{ "name": "huoxing_00" },
+					{ "time": 0.0667, "name": "huoxing_01" },
+					{ "time": 0.1333, "name": "huoxing_02" },
+					{ "time": 0.2, "name": "huoxing_03" },
+					{ "time": 0.2667, "name": "huoxing_04" },
+					{ "time": 0.3333, "name": "huoxing_05" },
+					{ "time": 0.4, "name": "huoxing_06" },
+					{ "time": 0.4667, "name": "huoxing_07" },
+					{ "time": 0.5333, "name": "huoxing_08" },
+					{ "time": 0.6, "name": "huoxing_09" },
+					{ "time": 0.6667, "name": "huoxing_10" },
+					{ "time": 0.7333, "name": "huoxing_11" },
+					{ "time": 0.8, "name": "huoxing_12" },
+					{ "time": 0.8667, "name": "huoxing_13" },
+					{ "time": 0.9333 }
+				]
+			}
+		},
+		"bones": {
+			"huoxing": {
+				"translate": [
+					{ "y": 134.79 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.5 }
+				]
+			}
+		}
+	}
+}
+}

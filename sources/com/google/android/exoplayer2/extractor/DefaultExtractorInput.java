@@ -1,0 +1,229 @@
+package com.google.android.exoplayer2.extractor;
+
+import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
+import com.google.android.exoplayer2.upstream.DataSource;
+import com.google.android.exoplayer2.util.Util;
+import java.io.EOFException;
+import java.io.InterruptedIOException;
+import java.util.Arrays;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class DefaultExtractorInput implements ExtractorInput {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final DataSource f17526b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final long f17527c;
+    public long d;
+    public int f;
+    public int g;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public byte[] f17528e = new byte[65536];
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final byte[] f17525a = new byte[4096];
+
+    static {
+        ExoPlayerLibraryInfo.a("goog.exo.extractor");
+    }
+
+    public DefaultExtractorInput(DataSource dataSource, long j, long j2) {
+        this.f17526b = dataSource;
+        this.d = j;
+        this.f17527c = j2;
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final void advancePeekPosition(int i2) throws EOFException, InterruptedIOException {
+        c(i2, false);
+    }
+
+    public final boolean c(int i2, boolean z2) throws EOFException, InterruptedIOException {
+        d(i2);
+        int iF = this.g - this.f;
+        while (iF < i2) {
+            int i3 = i2;
+            boolean z3 = z2;
+            iF = f(this.f17528e, this.f, i3, iF, z3);
+            if (iF == -1) {
+                return false;
+            }
+            this.g = this.f + iF;
+            i2 = i3;
+            z2 = z3;
+        }
+        this.f += i2;
+        return true;
+    }
+
+    public final void d(int i2) {
+        int i3 = this.f + i2;
+        byte[] bArr = this.f17528e;
+        if (i3 > bArr.length) {
+            this.f17528e = Arrays.copyOf(this.f17528e, Util.j(bArr.length * 2, 65536 + i3, i3 + 524288));
+        }
+    }
+
+    public final int e(int i2, int i3, byte[] bArr) throws EOFException, InterruptedIOException {
+        DefaultExtractorInput defaultExtractorInput;
+        int iMin;
+        d(i3);
+        int i4 = this.g;
+        int i5 = this.f;
+        int i6 = i4 - i5;
+        if (i6 == 0) {
+            defaultExtractorInput = this;
+            iMin = defaultExtractorInput.f(this.f17528e, i5, i3, 0, true);
+            if (iMin == -1) {
+                return -1;
+            }
+            defaultExtractorInput.g += iMin;
+        } else {
+            defaultExtractorInput = this;
+            iMin = Math.min(i3, i6);
+        }
+        System.arraycopy(defaultExtractorInput.f17528e, defaultExtractorInput.f, bArr, i2, iMin);
+        defaultExtractorInput.f += iMin;
+        return iMin;
+    }
+
+    public final int f(byte[] bArr, int i2, int i3, int i4, boolean z2) throws EOFException, InterruptedIOException {
+        if (Thread.interrupted()) {
+            throw new InterruptedIOException();
+        }
+        int i5 = this.f17526b.read(bArr, i2 + i4, i3 - i4);
+        if (i5 != -1) {
+            return i4 + i5;
+        }
+        if (i4 == 0 && z2) {
+            return -1;
+        }
+        throw new EOFException();
+    }
+
+    public final int g(int i2) throws EOFException, InterruptedIOException {
+        DefaultExtractorInput defaultExtractorInput;
+        int iMin = Math.min(this.g, i2);
+        h(iMin);
+        if (iMin == 0) {
+            byte[] bArr = this.f17525a;
+            defaultExtractorInput = this;
+            iMin = defaultExtractorInput.f(bArr, 0, Math.min(i2, bArr.length), 0, true);
+        } else {
+            defaultExtractorInput = this;
+        }
+        if (iMin != -1) {
+            defaultExtractorInput.d += (long) iMin;
+        }
+        return iMin;
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final long getLength() {
+        return this.f17527c;
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final long getPeekPosition() {
+        return this.d + ((long) this.f);
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final long getPosition() {
+        return this.d;
+    }
+
+    public final void h(int i2) {
+        int i3 = this.g - i2;
+        this.g = i3;
+        this.f = 0;
+        byte[] bArr = this.f17528e;
+        byte[] bArr2 = i3 < bArr.length - 524288 ? new byte[65536 + i3] : bArr;
+        System.arraycopy(bArr, i2, bArr2, 0, i3);
+        this.f17528e = bArr2;
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final boolean peekFully(byte[] bArr, int i2, int i3, boolean z2) {
+        if (!c(i3, z2)) {
+            return false;
+        }
+        System.arraycopy(this.f17528e, this.f - i3, bArr, i2, i3);
+        return true;
+    }
+
+    @Override // com.google.android.exoplayer2.upstream.DataReader
+    public final int read(byte[] bArr, int i2, int i3) throws EOFException, InterruptedIOException {
+        DefaultExtractorInput defaultExtractorInput;
+        int i4 = this.g;
+        int iF = 0;
+        if (i4 != 0) {
+            int iMin = Math.min(i4, i3);
+            System.arraycopy(this.f17528e, 0, bArr, i2, iMin);
+            h(iMin);
+            iF = iMin;
+        }
+        if (iF == 0) {
+            defaultExtractorInput = this;
+            iF = defaultExtractorInput.f(bArr, i2, i3, 0, true);
+        } else {
+            defaultExtractorInput = this;
+        }
+        if (iF != -1) {
+            defaultExtractorInput.d += (long) iF;
+        }
+        return iF;
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final void readFully(byte[] bArr, int i2, int i3) throws EOFException, InterruptedIOException {
+        readFully(bArr, i2, i3, false);
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final void resetPeekPosition() {
+        this.f = 0;
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final void skipFully(int i2) throws EOFException, InterruptedIOException {
+        int iMin = Math.min(this.g, i2);
+        h(iMin);
+        int iF = iMin;
+        while (iF < i2 && iF != -1) {
+            byte[] bArr = this.f17525a;
+            iF = f(bArr, -iF, Math.min(i2, bArr.length + iF), iF, false);
+        }
+        if (iF != -1) {
+            this.d += (long) iF;
+        }
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final boolean readFully(byte[] bArr, int i2, int i3, boolean z2) throws EOFException, InterruptedIOException {
+        int iMin;
+        int i4 = this.g;
+        if (i4 == 0) {
+            iMin = 0;
+        } else {
+            iMin = Math.min(i4, i3);
+            System.arraycopy(this.f17528e, 0, bArr, i2, iMin);
+            h(iMin);
+        }
+        int iF = iMin;
+        while (iF < i3 && iF != -1) {
+            iF = f(bArr, i2, i3, iF, z2);
+        }
+        if (iF != -1) {
+            this.d += (long) iF;
+        }
+        return iF != -1;
+    }
+
+    @Override // com.google.android.exoplayer2.extractor.ExtractorInput
+    public final void peekFully(byte[] bArr, int i2, int i3) {
+        peekFully(bArr, i2, i3, false);
+    }
+}

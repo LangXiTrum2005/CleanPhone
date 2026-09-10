@@ -1,0 +1,50 @@
+{
+"skeleton": {
+	"hash": "3bSJq/xhcuI",
+	"spine": "4.2.37",
+	"x": -338.4,
+	"y": -579.6,
+	"width": 676.8,
+	"height": 1159.2,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "arc torch 1", "parent": "root" },
+	{ "name": "special effects -arc torch 1", "parent": "arc torch 1", "x": 144.98, "y": 519.02 },
+	{ "name": "gun arc torch 1", "parent": "arc torch 1" }
+],
+"slots": [
+	{ "name": "arc torch 1", "bone": "gun arc torch 1", "attachment": "arc torch 1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arc torch 1": {
+				"arc torch 1": { "scaleX": 1.2, "scaleY": 1.2, "width": 564, "height": 966 }
+			}
+		}
+	}
+],
+"animations": {
+	"arc torch 1": {
+		"bones": {
+			"arc torch 1": {
+				"translate": [
+					{
+						"curve": [ 0.033, -3.33, 0.067, -10, 0.033, 0, 0.067, 0 ]
+					},
+					{
+						"time": 0.1,
+						"x": -10,
+						"curve": [ 0.133, -10, 0.167, -3.33, 0.133, 0, 0.167, 0 ]
+					},
+					{ "time": 0.2 }
+				]
+			}
+		}
+	}
+}
+}

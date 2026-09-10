@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.codejoy.boom.clap.widget.ParkinsansFontText
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/function_count_down_title"
+        android:layout_marginHorizontal="25dp"
+        app:customFontWeight="semibold"/>
+    <com.codejoy.boom.clap.widget.ParkinsansFontText
+        android:textSize="120dp"
+        android:textColor="#04c759"
+        android:gravity="center"
+        android:id="@+id/tvCountDownSec"
+        android:background="@drawable/bg_corner8"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="#f6f6f7"
+        android:layout_marginHorizontal="25dp"
+        app:customFontWeight="bold"/>
+    <com.codejoy.boom.clap.widget.ParkinsansFontText
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/tvTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/function_count_down_tips"
+        android:layout_marginHorizontal="25dp"
+        app:customFontWeight="semibold"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+package kotlinx.coroutines.flow;
+
+import kotlin.Metadata;
+import kotlin.ResultKt;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+import kotlin.jvm.internal.Ref;
+
+/* JADX INFO: loaded from: classes7.dex */
+@Metadata(k = 3, mv = {2, 0, 0}, xi = 48)
+@DebugMetadata(c = "kotlinx.coroutines.flow.FlowKt__CountKt", f = "Count.kt", l = {13}, m = "count")
+final class FlowKt__CountKt$count$1<T> extends ContinuationImpl {
+    public Ref.IntRef X;
+
+    /* JADX INFO: renamed from: Y, reason: collision with root package name */
+    public /* synthetic */ Object f44874Y;
+    public int Z;
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.f44874Y = obj;
+        int i2 = (this.Z | Integer.MIN_VALUE) - Integer.MIN_VALUE;
+        this.Z = i2;
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.X;
+        if (i2 == 0) {
+            ResultKt.b(obj);
+            this.X = new Ref.IntRef();
+            this.Z = 1;
+            throw null;
+        }
+        if (i2 != 1) {
+            throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+        }
+        Ref.IntRef intRef = this.X;
+        ResultKt.b(obj);
+        return new Integer(intRef.X);
+    }
+}

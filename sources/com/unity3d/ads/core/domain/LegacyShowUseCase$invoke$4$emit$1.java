@@ -1,0 +1,34 @@
+package com.unity3d.ads.core.domain;
+
+import ak.f;
+import ck.c;
+import ck.e;
+import com.unity3d.ads.core.data.model.ShowEvent;
+import gatewayprotocol.v1.DiagnosticEventRequestOuterClass;
+import kotlin.Metadata;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes4.dex */
+@e(c = "com.unity3d.ads.core.domain.LegacyShowUseCase$invoke$4", f = "LegacyShowUseCase.kt", l = {209, 214, 223}, m = "emit")
+@Metadata(k = 3, mv = {1, 8, 0}, xi = DiagnosticEventRequestOuterClass.DiagnosticEventType.DIAGNOSTIC_EVENT_TYPE_NATIVE_AD_QUALITY_INIT_STARTED_VALUE)
+public final class LegacyShowUseCase$invoke$4$emit$1 extends c {
+    Object L$0;
+    Object L$1;
+    int label;
+    /* synthetic */ Object result;
+    final /* synthetic */ LegacyShowUseCase.AnonymousClass4<T> this$0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    /* JADX WARN: Multi-variable type inference failed */
+    public LegacyShowUseCase$invoke$4$emit$1(LegacyShowUseCase.AnonymousClass4<? super T> anonymousClass4, f fVar) {
+        super(fVar);
+        this.this$0 = anonymousClass4;
+    }
+
+    @Override // ck.a
+    public final Object invokeSuspend(Object obj) {
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        return this.this$0.emit((ShowEvent) null, (f) this);
+    }
+}

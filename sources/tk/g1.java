@@ -1,0 +1,59 @@
+package tk;
+
+/* JADX INFO: compiled from: r8-map-id-973aa9d9b796effe3b508a3c84731d4635123126fcd911ab513d3350ce8d3052 */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class g1 extends c1 implements qk.h {
+
+    /* JADX INFO: renamed from: h, reason: collision with root package name */
+    public static final /* synthetic */ qk.w[] f50978h;
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    public final o1 f50979f = q1.g(null, new f1(this, 1));
+
+    /* JADX INFO: renamed from: g, reason: collision with root package name */
+    public final Object f50980g = r9.b.t(wj.e.f53280a, new f1(this, 0));
+
+    static {
+        kotlin.jvm.internal.e0 e0Var = kotlin.jvm.internal.d0.f44761a;
+        f50978h = new qk.w[]{e0Var.g(new kotlin.jvm.internal.v(e0Var.b(g1.class), "descriptor", "getDescriptor()Lorg/jetbrains/kotlin/descriptors/PropertySetterDescriptor;"))};
+    }
+
+    /* JADX WARN: Type inference failed for: r0v1, types: [java.lang.Object, wj.d] */
+    @Override // tk.r
+    public final uk.f c() {
+        return (uk.f) this.f50980g.getValue();
+    }
+
+    public final boolean equals(Object obj) {
+        return (obj instanceof g1) && kotlin.jvm.internal.n.a(l(), ((g1) obj).l());
+    }
+
+    @Override // qk.c
+    public final String getName() {
+        return wi.d.k(new StringBuilder("<set-"), l().f50989g, '>');
+    }
+
+    @Override // tk.r
+    public final zk.c h() {
+        qk.w wVar = f50978h[0];
+        Object objInvoke = this.f50979f.invoke();
+        kotlin.jvm.internal.n.e(objInvoke, "<get-descriptor>(...)");
+        return (cl.p0) objInvoke;
+    }
+
+    public final int hashCode() {
+        return l().hashCode();
+    }
+
+    @Override // tk.c1
+    public final zk.g0 k() {
+        qk.w wVar = f50978h[0];
+        Object objInvoke = this.f50979f.invoke();
+        kotlin.jvm.internal.n.e(objInvoke, "<get-descriptor>(...)");
+        return (cl.p0) objInvoke;
+    }
+
+    public final String toString() {
+        return "setter of " + l();
+    }
+}

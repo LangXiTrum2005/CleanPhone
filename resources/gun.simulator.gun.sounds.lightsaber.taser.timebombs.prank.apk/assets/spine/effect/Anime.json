@@ -1,0 +1,48 @@
+{
+"skeleton": { "hash": "1Fmrl04FrYM", "spine": "4.2.37", "images": "../im/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "Anime", "parent": "1" }
+],
+"slots": [
+	{ "name": "Anime", "bone": "Anime" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Anime": {
+				"dongman01": { "width": 360, "height": 411 },
+				"dongman02": { "width": 360, "height": 411 }
+			}
+		}
+	}
+],
+"events": {
+	"end": {}
+},
+"animations": {
+	"Anime": {
+		"slots": {
+			"Anime": {
+				"attachment": [
+					{ "name": "dongman01" },
+					{ "time": 0.0667, "name": "dongman02" },
+					{ "time": 0.1333 }
+				]
+			}
+		},
+		"bones": {
+			"Anime": {
+				"translate": [
+					{ "x": 62.74, "y": 147.64 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1333, "name": "end" }
+		]
+	}
+}
+}

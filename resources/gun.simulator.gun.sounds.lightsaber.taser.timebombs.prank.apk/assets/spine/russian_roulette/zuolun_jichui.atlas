@@ -1,0 +1,15 @@
+zuolun_jichui.png
+size:666,199
+filter:Linear,Linear
+pma:true
+0_00
+bounds:2,27,170,235
+rotate:90
+jiqui_00
+bounds:239,3,194,211
+offsets:47,18,255,321
+rotate:90
+jiqui_01_00
+bounds:452,2,195,212
+offsets:94,32,350,350
+rotate:90

@@ -1,0 +1,668 @@
+Science fiction weapons -special effects.png
+	size: 2760, 3079
+	filter: Linear, Linear
+	pma: true
+fashe01
+	bounds: 1703, 298, 87, 84
+	offsets: 15, 12, 116, 110
+fashe02
+	bounds: 294, 37, 119, 115
+	offsets: 13, 12, 146, 142
+fashe03
+	bounds: 1480, 1686, 129, 132
+	offsets: 16, 13, 160, 160
+fashe04
+	bounds: 1402, 164, 135, 134
+	offsets: 13, 15, 164, 165
+fashe05
+	bounds: 2455, 342, 134, 133
+	offsets: 13, 17, 165, 168
+fashe06
+	bounds: 1539, 171, 127, 125
+	offsets: 17, 19, 164, 165
+	rotate: 90
+fashe07
+	bounds: 1698, 179, 117, 110
+	offsets: 23, 22, 162, 156
+	rotate: 90
+fashe08
+	bounds: 2630, 1777, 115, 108
+	offsets: 24, 23, 161, 157
+fashe09
+	bounds: 1817, 91, 113, 107
+	offsets: 25, 23, 162, 154
+fashe10
+	bounds: 1611, 1722, 86, 95
+	offsets: 21, 24, 133, 142
+fashe11
+	bounds: 542, 1278, 86, 58
+	offsets: 24, 24, 134, 106
+fashe12
+	bounds: 1157, 2351, 56, 39
+	offsets: 22, 26, 103, 90
+lizhi01
+	bounds: 2016, 199, 29, 160
+	offsets: 40, 4, 120, 185
+	rotate: 90
+lizhi02
+	bounds: 2707, 974, 29, 161
+	offsets: 40, 4, 120, 185
+lizhi03
+	bounds: 1919, 1361, 29, 162
+	offsets: 40, 4, 120, 185
+	rotate: 90
+lizhi04
+	bounds: 2676, 973, 29, 162
+	offsets: 40, 5, 120, 185
+lizhi05
+	bounds: 1919, 1392, 29, 163
+	offsets: 40, 5, 120, 185
+	rotate: 90
+lizhi06
+	bounds: 2729, 2069, 29, 164
+	offsets: 40, 5, 120, 185
+lizhi07
+	bounds: 2059, 1923, 29, 164
+	offsets: 40, 6, 120, 185
+	rotate: 90
+lizhi08
+	bounds: 2729, 2235, 29, 165
+	offsets: 40, 6, 120, 185
+lizhi09
+	bounds: 1234, 665, 30, 166
+	offsets: 40, 6, 120, 185
+	rotate: 90
+lizhi10
+	bounds: 2591, 342, 30, 166
+	offsets: 40, 7, 120, 185
+	rotate: 90
+lizhi11
+	bounds: 2591, 374, 31, 167
+	offsets: 40, 7, 120, 185
+	rotate: 90
+lizhi12
+	bounds: 1714, 2, 31, 175
+	offsets: 40, 0, 120, 185
+lizhi13
+	bounds: 1747, 2, 31, 175
+	offsets: 40, 0, 120, 185
+lizhi14
+	bounds: 2522, 122, 31, 176
+	offsets: 40, 0, 120, 185
+	rotate: 90
+lizhi15
+	bounds: 2487, 89, 31, 177
+	offsets: 40, 0, 120, 185
+	rotate: 90
+lizhi16
+	bounds: 2301, 25, 31, 178
+	offsets: 40, 0, 120, 185
+	rotate: 90
+lizhi17
+	bounds: 2302, 58, 31, 179
+	offsets: 40, 0, 120, 185
+	rotate: 90
+lizhi18
+	bounds: 2720, 1887, 31, 180
+	offsets: 40, 0, 120, 185
+lizhi19
+	bounds: 2118, 57, 31, 181
+	offsets: 40, 0, 120, 185
+	rotate: 90
+lizhi20
+	bounds: 2118, 90, 31, 182
+	offsets: 40, 0, 120, 185
+	rotate: 90
+lizhi21
+	bounds: 2152, 123, 30, 183
+	offsets: 41, 0, 120, 185
+	rotate: 90
+lizhi22
+	bounds: 2559, 1137, 30, 184
+	offsets: 41, 0, 120, 185
+	rotate: 90
+lizhi23
+	bounds: 1932, 114, 30, 184
+	offsets: 41, 1, 120, 185
+	rotate: 90
+lizhi24
+	bounds: 1932, 82, 30, 184
+	offsets: 41, 1, 120, 185
+	rotate: 90
+lizhi25
+	bounds: 2337, 123, 30, 183
+	offsets: 41, 2, 120, 185
+	rotate: 90
+lizhi26
+	bounds: 2302, 91, 30, 183
+	offsets: 41, 2, 120, 185
+	rotate: 90
+lizhi27
+	bounds: 322, 1454, 30, 124
+	offsets: 41, 2, 120, 185
+	rotate: 90
+lizhi28
+	bounds: 2686, 213, 30, 127
+	offsets: 41, 0, 120, 185
+lizhi29
+	bounds: 2718, 212, 30, 128
+	offsets: 41, 0, 120, 185
+lizhi30
+	bounds: 2615, 57, 30, 128
+	offsets: 41, 0, 120, 185
+	rotate: 90
+lizhi31
+	bounds: 1948, 50, 30, 128
+	offsets: 41, 1, 120, 185
+	rotate: 90
+lizhi32
+	bounds: 2481, 25, 30, 129
+	offsets: 41, 1, 120, 185
+	rotate: 90
+lizhi33
+	bounds: 270, 5, 30, 129
+	offsets: 41, 1, 120, 185
+	rotate: 90
+lizhi34
+	bounds: 2612, 25, 30, 129
+	offsets: 41, 2, 120, 185
+	rotate: 90
+lizhi35
+	bounds: 2178, 477, 30, 130
+	offsets: 41, 2, 120, 185
+	rotate: 90
+lizhi36
+	bounds: 1810, 258, 30, 129
+	offsets: 41, 3, 120, 185
+lizhi37
+	bounds: 2719, 1232, 30, 130
+	offsets: 41, 3, 120, 185
+lizhi38
+	bounds: 1666, 180, 30, 130
+	offsets: 41, 3, 120, 185
+lizhi39
+	bounds: 2483, 57, 30, 130
+	offsets: 41, 4, 120, 185
+	rotate: 90
+lizhi40
+	bounds: 1817, 50, 30, 129
+	offsets: 41, 4, 120, 185
+	rotate: 90
+lizhi41
+	bounds: 2700, 95, 30, 115
+	offsets: 41, 5, 120, 185
+lizhi42
+	bounds: 1817, 18, 30, 116
+	offsets: 41, 5, 120, 185
+	rotate: 90
+lizhi43
+	bounds: 1935, 18, 30, 116
+	offsets: 41, 5, 120, 185
+	rotate: 90
+lizhi44
+	bounds: 2078, 25, 30, 116
+	offsets: 41, 6, 120, 185
+	rotate: 90
+lizhi45
+	bounds: 322, 1422, 30, 117
+	offsets: 41, 6, 120, 185
+	rotate: 90
+lizhi46
+	bounds: 1243, 2611, 27, 112
+	offsets: 44, 11, 120, 185
+lizhi47
+	bounds: 1413, 1278, 26, 112
+	offsets: 45, 12, 120, 185
+lizhi48
+	bounds: 2232, 2410, 26, 113
+	offsets: 45, 12, 120, 185
+lizi01
+	bounds: 1737, 1805, 114, 395
+	offsets: 42, 0, 204, 395
+	rotate: 90
+lizi02
+	bounds: 334, 1486, 114, 395
+	offsets: 42, 0, 204, 395
+lizi03
+	bounds: 1016, 1277, 113, 395
+	offsets: 43, 0, 204, 395
+	rotate: 90
+lizi04
+	bounds: 324, 154, 112, 395
+	offsets: 43, 0, 204, 395
+lizi05
+	bounds: 325, 880, 111, 395
+	offsets: 44, 0, 204, 395
+lizi06
+	bounds: 438, 880, 110, 395
+	offsets: 44, 0, 204, 395
+lizi07
+	bounds: 438, 161, 109, 395
+	offsets: 45, 0, 204, 395
+lizi08
+	bounds: 549, 161, 108, 395
+	offsets: 45, 0, 204, 395
+lizi09
+	bounds: 659, 161, 107, 395
+	offsets: 46, 0, 204, 395
+lizi10
+	bounds: 768, 161, 106, 395
+	offsets: 46, 0, 204, 395
+lizi11
+	bounds: 876, 161, 105, 395
+	offsets: 47, 0, 204, 395
+lizi12
+	bounds: 983, 161, 104, 395
+	offsets: 47, 0, 204, 395
+lizi13
+	bounds: 1089, 161, 103, 395
+	offsets: 48, 0, 204, 395
+lizi14
+	bounds: 1194, 161, 102, 395
+	offsets: 48, 0, 204, 395
+lizi15
+	bounds: 1298, 161, 102, 395
+	offsets: 48, 0, 204, 395
+lizi16
+	bounds: 1402, 300, 100, 395
+	offsets: 49, 0, 204, 395
+lizi17
+	bounds: 1504, 300, 99, 395
+	offsets: 49, 0, 204, 395
+lizi18
+	bounds: 1459, 1286, 97, 395
+	offsets: 50, 0, 204, 395
+lizi19
+	bounds: 1605, 312, 96, 394
+	offsets: 50, 1, 204, 395
+lizi20
+	bounds: 1703, 1707, 96, 392
+	offsets: 50, 3, 204, 395
+	rotate: 90
+lizi21
+	bounds: 2097, 1680, 94, 390
+	offsets: 51, 5, 204, 395
+	rotate: 90
+lizi22
+	bounds: 1558, 1290, 92, 388
+	offsets: 51, 7, 204, 395
+lizi23
+	bounds: 1652, 1319, 90, 386
+	offsets: 52, 9, 204, 395
+lizi24
+	bounds: 1744, 1322, 89, 383
+	offsets: 52, 12, 204, 395
+lizi25
+	bounds: 997, 558, 86, 381
+	offsets: 53, 14, 204, 395
+	rotate: 90
+lizi26
+	bounds: 618, 558, 85, 377
+	offsets: 53, 16, 204, 395
+	rotate: 90
+lizi27
+	bounds: 1835, 1332, 82, 373
+	offsets: 54, 18, 204, 395
+lizi28
+	bounds: 322, 1338, 78, 367
+	offsets: 55, 21, 204, 395
+	rotate: 90
+lizi29
+	bounds: 1703, 384, 75, 362
+	offsets: 56, 23, 204, 395
+lizi30
+	bounds: 1780, 389, 72, 357
+	offsets: 57, 26, 204, 395
+lizi31
+	bounds: 2325, 1000, 69, 352
+	offsets: 58, 28, 204, 395
+lizi32
+	bounds: 2455, 275, 65, 229
+	offsets: 60, 31, 204, 395
+	rotate: 90
+lizi33
+	bounds: 2451, 211, 62, 225
+	offsets: 61, 34, 204, 395
+	rotate: 90
+lizi34
+	bounds: 1932, 146, 51, 218
+	offsets: 66, 37, 204, 395
+	rotate: 90
+lizi35
+	bounds: 322, 1284, 52, 218
+	offsets: 64, 38, 204, 395
+	rotate: 90
+lizi36
+	bounds: 2451, 155, 54, 216
+	offsets: 62, 41, 204, 395
+	rotate: 90
+lizi37
+	bounds: 2559, 1169, 44, 185
+	offsets: 67, 66, 204, 395
+	rotate: 90
+lizi38
+	bounds: 2719, 1364, 39, 178
+	offsets: 69, 69, 204, 395
+lizi39
+	bounds: 1780, 6, 35, 171
+	offsets: 71, 71, 204, 395
+lizi40
+	bounds: 1738, 2566, 26, 40
+	offsets: 75, 76, 204, 395
+nengliangpao01
+	bounds: 1568, 23, 144, 146
+	offsets: 108, 107, 360, 360
+nengliangpao02
+	bounds: 1234, 697, 286, 284
+	offsets: 37, 38, 360, 360
+	rotate: 90
+nengliangpao03
+	bounds: 2, 1883, 356, 352
+	offsets: 2, 4, 360, 360
+nengliangpao04
+	bounds: 914, 2725, 356, 352
+	offsets: 2, 4, 360, 360
+nengliangpao05
+	bounds: 1194, 985, 319, 290
+	offsets: 22, 35, 360, 360
+nengliangpao06
+	bounds: 1137, 1392, 320, 289
+	offsets: 20, 36, 360, 360
+nengliangpao07
+	bounds: 327, 558, 320, 289
+	offsets: 20, 36, 360, 360
+	rotate: 90
+nengliangpao08
+	bounds: 618, 645, 320, 306
+	offsets: 20, 36, 360, 360
+	rotate: 90
+nengliangpao09
+	bounds: 872, 968, 320, 307
+	offsets: 20, 36, 360, 360
+nengliangpao10
+	bounds: 550, 967, 320, 309
+	offsets: 20, 36, 360, 360
+nengliangpao11
+	bounds: 2, 223, 320, 326
+	offsets: 20, 22, 360, 360
+nengliangpao12
+	bounds: 696, 1910, 320, 325
+	offsets: 20, 24, 360, 360
+nengliangpao13
+	bounds: 1157, 1987, 321, 325
+	offsets: 19, 26, 360, 360
+nengliangpao14
+	bounds: 692, 1593, 322, 315
+	offsets: 19, 28, 360, 360
+nengliangpao15
+	bounds: 692, 1278, 322, 313
+	offsets: 19, 35, 360, 360
+nengliangpao16
+	bounds: 2, 551, 323, 326
+	offsets: 20, 25, 360, 360
+nengliangpao17
+	bounds: 2, 879, 321, 330
+	offsets: 20, 26, 360, 360
+nengliangpao18
+	bounds: 1737, 1921, 320, 318
+	offsets: 20, 27, 360, 360
+nengliangpao19
+	bounds: 2, 1211, 337, 318
+	offsets: 3, 27, 360, 360
+	rotate: 90
+nengliangpao20
+	bounds: 360, 1911, 334, 324
+	offsets: 6, 27, 360, 360
+nengliangpao21
+	bounds: 2, 1550, 330, 331
+	offsets: 10, 25, 360, 360
+nengliangpao22
+	bounds: 914, 2392, 327, 331
+	offsets: 13, 23, 360, 360
+nengliangpao23
+	bounds: 1157, 1683, 321, 302
+	offsets: 19, 22, 360, 360
+nengliangpao24
+	bounds: 926, 646, 320, 306
+	offsets: 20, 21, 360, 360
+	rotate: 90
+sanguang
+	bounds: 2, 2237, 910, 840
+	offsets: 42, 47, 993, 919
+shandian01
+	bounds: 1768, 2924, 153, 493
+	offsets: 3, 4, 159, 498
+	rotate: 90
+shandian02
+	bounds: 1272, 2608, 141, 492
+	offsets: 3, 4, 147, 497
+	rotate: 90
+shandian03
+	bounds: 1243, 2314, 141, 493
+	offsets: 3, 3, 147, 497
+	rotate: 90
+shandian04
+	bounds: 1766, 2638, 147, 492
+	offsets: 3, 4, 156, 497
+	rotate: 90
+shandian05
+	bounds: 1766, 2525, 111, 492
+	offsets: 7, 4, 123, 497
+	rotate: 90
+shandian06
+	bounds: 1768, 2787, 135, 493
+	offsets: 5, 4, 145, 498
+	rotate: 90
+shandian07
+	bounds: 2263, 2809, 129, 494
+	offsets: 4, 3, 136, 498
+	rotate: 90
+shandian08
+	bounds: 1272, 2915, 162, 494
+	offsets: 1, 4, 167, 499
+	rotate: 90
+shandian09
+	bounds: 2263, 2940, 137, 495
+	offsets: 4, 4, 145, 500
+	rotate: 90
+shandian10
+	bounds: 1738, 2241, 138, 494
+	offsets: 3, 4, 145, 499
+	rotate: 90
+shandian11
+	bounds: 2263, 2669, 138, 494
+	offsets: 4, 4, 145, 499
+	rotate: 90
+shandian12
+	bounds: 2260, 2528, 139, 494
+	offsets: 4, 4, 146, 499
+	rotate: 90
+shandian13
+	bounds: 2234, 2261, 139, 493
+	offsets: 4, 5, 146, 499
+	rotate: 90
+shandian14
+	bounds: 2226, 2007, 129, 492
+	offsets: 3, 4, 138, 497
+	rotate: 90
+shandian15
+	bounds: 1480, 1820, 130, 492
+	offsets: 4, 4, 139, 497
+shandian16
+	bounds: 2260, 2402, 124, 494
+	offsets: 4, 2, 131, 497
+	rotate: 90
+shandian17
+	bounds: 2234, 2138, 121, 493
+	offsets: 4, 3, 128, 497
+	rotate: 90
+shandian18
+	bounds: 1612, 1819, 123, 493
+	offsets: 4, 3, 132, 497
+shandian19
+	bounds: 2226, 1887, 118, 492
+	offsets: 3, 4, 124, 497
+	rotate: 90
+shandian20
+	bounds: 1016, 1402, 119, 492
+	offsets: 4, 4, 127, 497
+shandian21
+	bounds: 2134, 1776, 109, 494
+	offsets: 7, 4, 119, 499
+	rotate: 90
+shandian22
+	bounds: 579, 1418, 111, 491
+	offsets: 5, 4, 119, 496
+shandian23
+	bounds: 1272, 2751, 162, 492
+	offsets: 6, 4, 174, 497
+	rotate: 90
+shandian24
+	bounds: 1738, 2381, 142, 492
+	offsets: 7, 4, 155, 497
+	rotate: 90
+shandian25
+	bounds: 1018, 1896, 137, 494
+	offsets: 5, 5, 147, 500
+shandian26
+	bounds: 1243, 2457, 149, 493
+	offsets: 6, 5, 160, 499
+	rotate: 90
+shandian27
+	bounds: 450, 1418, 127, 491
+	offsets: 4, 5, 135, 497
+tx-laser gun1-1_2
+	bounds: 2, 23, 35, 266
+	offsets: 3, 3, 41, 270
+	rotate: 90
+tx-laser gun1-1_3
+	bounds: 360, 1883, 26, 27
+	offsets: 2, 2, 30, 30
+	rotate: 90
+tx-laser gun1-1_4
+	bounds: 914, 2271, 97, 119
+	offsets: 3, 1, 105, 125
+tx-laser gun1-1_5
+	bounds: 2694, 1544, 60, 231
+	offsets: 5, 5, 70, 250
+yanwu01
+	bounds: 2, 60, 161, 290
+	offsets: 6, 31, 169, 322
+	rotate: 90
+yanwu02
+	bounds: 1515, 997, 161, 287
+	offsets: 6, 32, 169, 320
+yanwu03
+	bounds: 2086, 1354, 161, 284
+	offsets: 6, 33, 169, 318
+	rotate: 90
+yanwu04
+	bounds: 1683, 748, 161, 283
+	offsets: 6, 35, 169, 319
+yanwu05
+	bounds: 1005, 2, 157, 280
+	offsets: 7, 34, 169, 315
+	rotate: 90
+yanwu06
+	bounds: 2374, 1400, 158, 278
+	offsets: 7, 35, 169, 314
+yanwu07
+	bounds: 438, 2, 157, 282
+	offsets: 8, 32, 169, 315
+	rotate: 90
+yanwu08
+	bounds: 722, 2, 157, 281
+	offsets: 8, 32, 169, 314
+	rotate: 90
+yanwu09
+	bounds: 2008, 507, 156, 279
+	offsets: 9, 33, 169, 313
+yanwu10
+	bounds: 1841, 1047, 154, 283
+	offsets: 9, 29, 169, 313
+yanwu11
+	bounds: 2160, 790, 154, 279
+	offsets: 11, 37, 169, 317
+yanwu12
+	bounds: 2166, 509, 151, 279
+	offsets: 11, 38, 169, 318
+yanwu13
+	bounds: 2396, 966, 151, 278
+	offsets: 11, 37, 169, 316
+	rotate: 90
+yanwu14
+	bounds: 1854, 478, 152, 282
+	offsets: 10, 32, 169, 315
+yanwu15
+	bounds: 1846, 762, 154, 283
+	offsets: 9, 31, 169, 315
+yanwu16
+	bounds: 2002, 788, 156, 281
+	offsets: 8, 30, 169, 312
+yanwu17
+	bounds: 1287, 2, 157, 279
+	offsets: 7, 40, 169, 320
+	rotate: 90
+yanwu18
+	bounds: 2319, 477, 159, 277
+	offsets: 6, 40, 169, 318
+	rotate: 90
+yanwu19
+	bounds: 2396, 1119, 161, 279
+	offsets: 5, 34, 169, 314
+yanwu20
+	bounds: 2534, 1495, 158, 279
+	offsets: 6, 35, 169, 315
+yanwu21
+	bounds: 2559, 1215, 158, 278
+	offsets: 6, 37, 169, 316
+yanwu22
+	bounds: 2598, 407, 160, 278
+	offsets: 3, 33, 169, 312
+yanwu23
+	bounds: 1854, 200, 160, 276
+	offsets: 3, 32, 169, 309
+yanwu24
+	bounds: 2016, 230, 160, 275
+	offsets: 3, 31, 169, 307
+yanwu25
+	bounds: 2319, 638, 162, 276
+	offsets: 3, 42, 169, 319
+	rotate: 90
+yanwu26
+	bounds: 1997, 1071, 162, 281
+	offsets: 4, 33, 169, 315
+yanwu27
+	bounds: 2059, 1954, 165, 285
+	offsets: 2, 25, 169, 311
+yanwu28
+	bounds: 1919, 1423, 165, 282
+	offsets: 2, 30, 169, 313
+yanwu29
+	bounds: 2161, 1073, 162, 279
+	offsets: 4, 37, 169, 317
+yanwu30
+	bounds: 2597, 687, 161, 277
+	offsets: 5, 36, 169, 314
+yanwu31
+	bounds: 2316, 802, 162, 279
+	offsets: 5, 41, 169, 321
+	rotate: 90
+yanwu32
+	bounds: 2178, 155, 159, 271
+	offsets: 6, 46, 169, 318
+	rotate: 90
+yanwu33
+	bounds: 2178, 316, 159, 275
+	offsets: 6, 41, 169, 317
+	rotate: 90
+yanwu34
+	bounds: 1520, 708, 161, 287
+	offsets: 6, 29, 169, 317
+yanwu35
+	bounds: 2086, 1517, 161, 286
+	offsets: 6, 28, 169, 315
+	rotate: 90
+yanwu36
+	bounds: 1678, 1033, 161, 284
+	offsets: 6, 29, 169, 314

@@ -1,0 +1,9 @@
+package kotlin.reflect.jvm.internal.impl.descriptors;
+
+import kotlin.reflect.jvm.internal.impl.descriptors.DeclarationDescriptorNonRoot;
+import kotlin.reflect.jvm.internal.impl.types.TypeSubstitutor;
+
+/* JADX INFO: loaded from: classes7.dex */
+public interface Substitutable<T extends DeclarationDescriptorNonRoot> {
+    DeclarationDescriptorNonRoot b(TypeSubstitutor typeSubstitutor);
+}

@@ -1,0 +1,10 @@
+package robbia;
+
+import com.yoadx.ad.lib.core.AdBaseManager;
+import p002kotlin.Metadata;
+
+/* JADX INFO: compiled from: AdAppOpenManager.kt */
+/* JADX INFO: loaded from: classes3.dex */
+@Metadata(d1 = {"\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b&\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001B\u0007¢\u0006\u0004\b\u0003\u0010\u0004¨\u0006\u0005"}, d2 = {"Lrobbia/saneness;", "Lcom/yoadx/ad/lib/core/AdBaseManager;", "Lextensimeter/attabal;", "<init>", "()V", "yoadxlib_release"}, k = 1, mv = {2, 0, 0}, xi = 48)
+public abstract class saneness extends AdBaseManager<extensimeter.attabal> {
+}

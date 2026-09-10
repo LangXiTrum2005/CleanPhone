@@ -1,0 +1,110 @@
+{
+"skeleton": { "hash": "FjXXRsjqUWQ", "spine": "4.2.37", "images": "../im/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "Poison", "parent": "1" }
+],
+"slots": [
+	{ "name": "Poison", "bone": "Poison" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Poison": {
+				"duqidan_01": { "width": 780, "height": 1020 },
+				"duqidan_02": { "width": 780, "height": 1020 },
+				"duqidan_03": { "width": 780, "height": 1020 },
+				"duqidan_04": { "width": 780, "height": 1020 },
+				"duqidan_05": { "width": 780, "height": 1020 },
+				"duqidan_06": { "width": 780, "height": 1020 },
+				"duqidan_07": { "width": 780, "height": 1020 },
+				"duqidan_08": { "width": 780, "height": 1020 },
+				"duqidan_09": { "width": 780, "height": 1020 },
+				"duqidan_10": { "width": 780, "height": 1020 },
+				"duqidan_11": { "width": 780, "height": 1020 },
+				"duqidan_12": { "width": 780, "height": 1020 },
+				"duqidan_13": { "width": 780, "height": 1020 },
+				"duqidan_14": { "width": 780, "height": 1020 },
+				"duqidan_15": { "width": 780, "height": 1020 },
+				"duqidan_16": { "width": 780, "height": 1020 },
+				"duqidan_17": { "width": 780, "height": 1020 },
+				"duqidan_18": { "width": 780, "height": 1020 },
+				"duqidan_19": { "width": 780, "height": 1020 },
+				"duqidan_20": { "width": 780, "height": 1020 },
+				"duqidan_21": { "width": 780, "height": 1020 },
+				"duqidan_22": { "width": 780, "height": 1020 },
+				"duqidan_23": { "width": 780, "height": 1020 },
+				"duqidan_24": { "width": 780, "height": 1020 },
+				"duqidan_25": { "width": 780, "height": 1020 },
+				"duqidan_26": { "width": 780, "height": 1020 },
+				"duqidan_27": { "width": 780, "height": 1020 },
+				"duqidan_28": { "width": 780, "height": 1020 },
+				"duqidan_29": { "width": 780, "height": 1020 },
+				"duqidan_30": { "width": 780, "height": 1020 },
+				"duqidan_31": { "width": 780, "height": 1020 },
+				"duqidan_32": { "width": 780, "height": 1020 },
+				"duqidan_33": { "width": 780, "height": 1020 },
+				"duqidan_34": { "width": 780, "height": 1020 },
+				"duqidan_35": { "width": 780, "height": 1020 },
+				"duqidan_36": { "width": 780, "height": 1020 }
+			}
+		}
+	}
+],
+"events": {
+	"end": {}
+},
+"animations": {
+	"Poison": {
+		"slots": {
+			"Poison": {
+				"attachment": [
+					{ "name": "duqidan_01" },
+					{ "time": 0.0333, "name": "duqidan_02" },
+					{ "time": 0.0667, "name": "duqidan_03" },
+					{ "time": 0.1, "name": "duqidan_04" },
+					{ "time": 0.1333, "name": "duqidan_05" },
+					{ "time": 0.1667, "name": "duqidan_06" },
+					{ "time": 0.2, "name": "duqidan_07" },
+					{ "time": 0.2333, "name": "duqidan_08" },
+					{ "time": 0.2667, "name": "duqidan_09" },
+					{ "time": 0.3, "name": "duqidan_10" },
+					{ "time": 0.3333, "name": "duqidan_11" },
+					{ "time": 0.3667, "name": "duqidan_12" },
+					{ "time": 0.4, "name": "duqidan_13" },
+					{ "time": 0.4333, "name": "duqidan_14" },
+					{ "time": 0.4667, "name": "duqidan_15" },
+					{ "time": 0.5, "name": "duqidan_16" },
+					{ "time": 0.5333, "name": "duqidan_17" },
+					{ "time": 0.5667, "name": "duqidan_18" },
+					{ "time": 0.6, "name": "duqidan_19" },
+					{ "time": 0.6333, "name": "duqidan_20" },
+					{ "time": 0.6667, "name": "duqidan_21" },
+					{ "time": 0.7, "name": "duqidan_22" },
+					{ "time": 0.7333, "name": "duqidan_23" },
+					{ "time": 0.7667 }
+				]
+			}
+		},
+		"bones": {
+			"Poison": {
+				"translate": [
+					{ "x": 193.64, "y": 311.31 }
+				]
+			},
+			"1": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.1, "x": 0.5, "y": 0.5 },
+					{ "time": 0.1333, "x": 0.5, "y": 0.6 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.7667, "name": "end" }
+		]
+	}
+}
+}

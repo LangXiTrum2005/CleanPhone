@@ -1,0 +1,14 @@
+Standard.png
+size:770,500
+filter:Linear,Linear
+pma:true
+scale:0.8
+glow_00
+bounds:2,7,120,120
+kaihuo_00
+bounds:2,129,369,488
+offsets:250,492,864,1536
+rotate:90
+kaihuo_01
+bounds:492,2,276,496
+offsets:295,498,864,1536

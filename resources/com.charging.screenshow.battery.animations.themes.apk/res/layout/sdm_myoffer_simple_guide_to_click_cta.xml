@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="12dp"
+    android:layout_centerVertical="true">
+    <com.smartdigimkt.sdk.basead.ui.WaveAnimImageView
+        android:id="@+id/sdm_myoffer_wave_anim_image"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginRight="6dp"/>
+    <com.smartdigimkt.sdk.basead.ui.WaveAnimImageView
+        android:id="@+id/sdm_myoffer_wave_anim_image2"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginRight="6dp"/>
+    <ImageView
+        android:id="@+id/sdm_myoffer_guide_to_click_finger"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sdm_myoffer_finger_white_v1"
+        android:scaleType="fitXY"
+        android:layout_alignLeft="@+id/sdm_myoffer_wave_anim_image"
+        android:layout_alignTop="@+id/sdm_myoffer_wave_anim_image"/>
+</RelativeLayout>

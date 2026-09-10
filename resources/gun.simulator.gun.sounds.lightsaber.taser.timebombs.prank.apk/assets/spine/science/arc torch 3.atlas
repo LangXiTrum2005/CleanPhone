@@ -1,0 +1,7 @@
+arc torch 3.png
+	size: 569, 916
+	filter: Linear, Linear
+	pma: true
+arc torch 3
+	bounds: 2, 2, 565, 912
+	offsets: 2, 22, 717, 936

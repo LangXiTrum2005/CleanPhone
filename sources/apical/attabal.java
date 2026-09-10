@@ -1,0 +1,79 @@
+package apical;
+
+import android.content.Context;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.content.res.TypedArray;
+import beachfront.cutely;
+
+/* JADX INFO: compiled from: ActionBarPolicy.java */
+/* JADX INFO: loaded from: classes.dex */
+public class attabal {
+
+    /* JADX INFO: renamed from: attabal, reason: collision with root package name */
+    public Context f14233attabal;
+
+    public attabal(Context context) {
+        this.f14233attabal = context;
+    }
+
+    public static attabal saneness(Context context) {
+        return new attabal(context);
+    }
+
+    public boolean attabal() {
+        return this.f14233attabal.getApplicationInfo().targetSdkVersion < 14;
+    }
+
+    public int beachfront() {
+        TypedArray typedArrayObtainStyledAttributes = this.f14233attabal.obtainStyledAttributes(null, cutely.ActionBar, beachfront.attabal.actionBarStyle, 0);
+        int layoutDimension = typedArrayObtainStyledAttributes.getLayoutDimension(cutely.ActionBar_height, 0);
+        Resources resources = this.f14233attabal.getResources();
+        if (!competently()) {
+            layoutDimension = Math.min(layoutDimension, resources.getDimensionPixelSize(beachfront.wireman.abc_action_bar_stacked_max_height));
+        }
+        typedArrayObtainStyledAttributes.recycle();
+        return layoutDimension;
+    }
+
+    public boolean competently() {
+        return this.f14233attabal.getResources().getBoolean(beachfront.saneness.abc_action_bar_embed_tabs);
+    }
+
+    public int dern() {
+        return this.f14233attabal.getResources().getDisplayMetrics().widthPixels / 2;
+    }
+
+    public boolean impromptu() {
+        return true;
+    }
+
+    public int marial() {
+        return this.f14233attabal.getResources().getDimensionPixelSize(beachfront.wireman.abc_action_bar_stacked_tab_max_width);
+    }
+
+    public int wireman() {
+        Configuration configuration = this.f14233attabal.getResources().getConfiguration();
+        int i = configuration.screenWidthDp;
+        int i2 = configuration.screenHeightDp;
+        if (configuration.smallestScreenWidthDp > 600 || i > 600) {
+            return 5;
+        }
+        if (i > 960 && i2 > 720) {
+            return 5;
+        }
+        if (i > 720 && i2 > 960) {
+            return 5;
+        }
+        if (i >= 500) {
+            return 4;
+        }
+        if (i > 640 && i2 > 480) {
+            return 4;
+        }
+        if (i <= 480 || i2 <= 640) {
+            return i >= 360 ? 3 : 2;
+        }
+        return 4;
+    }
+}

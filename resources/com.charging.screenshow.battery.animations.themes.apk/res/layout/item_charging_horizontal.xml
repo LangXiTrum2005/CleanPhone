@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="174dp"
+    app:cardBackgroundColor="@color/bg_item"
+    app:cardCornerRadius="8dp"
+    app:strokeColor="@color/bg_item_stroke"
+    app:strokeWidth="1dp">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/ivPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/ic_placeholder"
+        android:layout_marginHorizontal="24dp"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/ivWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:id="@+id/rlCover"
+        android:background="@color/bg_cover"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/see_more"
+            android:layout_centerInParent="true"
+            android:fontFamily="@string/Roboto_Medium"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

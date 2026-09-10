@@ -1,0 +1,69 @@
+{
+"skeleton": {
+	"hash": "1YV8pFY1jxc",
+	"spine": "4.2.37",
+	"x": -351.15,
+	"y": -846.06,
+	"width": 702.3,
+	"height": 1692.12,
+	"images": "../images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "AK-47", "parent": "bone", "rotation": 0.01 },
+	{ "name": "TX_weizhi", "parent": "bone", "x": 179.5, "y": 800.14 },
+	{ "name": "zidan_weizhi", "parent": "bone", "rotation": -90, "x": 243.29, "y": 40.11 }
+],
+"slots": [
+	{ "name": "AK-47", "bone": "AK-47", "attachment": "AK-47" },
+	{ "name": "tx_weizhi", "bone": "TX_weizhi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"AK-47": {
+				"AK-47": { "x": -2.14, "scaleX": 1.2, "scaleY": 1.2, "width": 585, "height": 1410 }
+			}
+		}
+	}
+],
+"animations": {
+	"AK-47": {
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"AK-47": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -3 },
+					{ "time": 0.2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -1.85, "y": -35.37 },
+					{ "time": 0.2, "x": -0.52 }
+				]
+			},
+			"zidan_weizhi": {
+				"translate": [
+					{}
+				]
+			},
+			"TX_weizhi": {
+				"translate": [
+					{ "x": -1.14, "y": -5.49 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,76 @@
+{
+"skeleton": {
+	"hash": "O8T3ulijbxI",
+	"spine": "4.2.37",
+	"x": -345.74,
+	"y": -828.06,
+	"width": 691.49,
+	"height": 1656.12,
+	"images": "../images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "M4A4-P", "parent": "bone" },
+	{ "name": "TX_weizhi", "parent": "bone", "x": 94.71, "y": 797.57 },
+	{ "name": "zidan_weizhi", "parent": "bone", "rotation": -90, "x": 126.7, "y": 80.45 }
+],
+"slots": [
+	{ "name": "M4A4-P", "bone": "M4A4-P", "attachment": "M4A4-P" },
+	{ "name": "tx_weizhi", "bone": "TX_weizhi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"M4A4-P": {
+				"M4A4-P": { "scaleX": 1.2, "scaleY": 1.2, "rotation": 0.01, "width": 576, "height": 1380 }
+			}
+		}
+	}
+],
+"animations": {
+	"M4A4-P": {
+		"slots": {
+			"M4A4-P": {
+				"attachment": [
+					{ "name": "M4A4-P" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"M4A4-P": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -3 },
+					{ "time": 0.2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -1.85, "y": -35.37 },
+					{ "time": 0.2, "x": -0.52 }
+				]
+			},
+			"zidan_weizhi": {
+				"translate": [
+					{}
+				]
+			},
+			"TX_weizhi": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

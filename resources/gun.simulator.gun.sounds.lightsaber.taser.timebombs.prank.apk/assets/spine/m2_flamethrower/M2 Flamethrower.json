@@ -1,0 +1,33 @@
+{
+"skeleton": {
+	"hash": "vx8lwox+rdk",
+	"spine": "4.2.37",
+	"x": -351.5,
+	"y": -464.5,
+	"width": 703,
+	"height": 929,
+	"images": "",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "M2 Flamethrower", "parent": "root" },
+	{ "name": "fire", "parent": "root", "x": 210.11, "y": 456.14 }
+],
+"slots": [
+	{ "name": "M2 Flamethrower", "bone": "M2 Flamethrower", "attachment": "M2 Flamethrower" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"M2 Flamethrower": {
+				"M2 Flamethrower": { "width": 703, "height": 929 }
+			}
+		}
+	}
+],
+"animations": {
+	"M2 Flamethrower": {}
+}
+}

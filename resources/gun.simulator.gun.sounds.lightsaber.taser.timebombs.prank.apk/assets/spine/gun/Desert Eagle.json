@@ -1,0 +1,69 @@
+{
+"skeleton": {
+	"hash": "ApnTOB/wZgQ",
+	"spine": "4.2.37",
+	"x": -338.5,
+	"y": -601.26,
+	"width": 677.01,
+	"height": 1202.52,
+	"images": "../images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "Desert Eagle", "parent": "bone" },
+	{ "name": "TX_weizhi", "parent": "bone", "x": 174.18, "y": 556.87 },
+	{ "name": "zidan_weizhi", "parent": "bone", "rotation": -90, "x": 252.47, "y": 4.44 }
+],
+"slots": [
+	{ "name": "Desert Eagle", "bone": "Desert Eagle", "attachment": "Desert Eagle" },
+	{ "name": "tx_weishi", "bone": "TX_weizhi" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Desert Eagle": {
+				"Desert Eagle": { "scaleX": 1.2, "scaleY": 1.2, "rotation": 0.01, "width": 564, "height": 1002 }
+			}
+		}
+	}
+],
+"animations": {
+	"Desert Eagle": {
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Desert Eagle": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "value": -3 },
+					{ "time": 0.2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -1.85, "y": -35.37 },
+					{ "time": 0.2, "x": -0.52 }
+				]
+			},
+			"zidan_weizhi": {
+				"translate": [
+					{}
+				]
+			},
+			"TX_weizhi": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}
