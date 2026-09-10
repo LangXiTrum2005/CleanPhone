@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cleanup</string>
+    <string name="app_name">Phone Cleaner: Freeup Storage</string>
     <string name="app_tagline">Limpiador inteligente de almacenamiento y fotos</string>
 
     <!-- Navigation -->
