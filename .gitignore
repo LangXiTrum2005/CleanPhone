@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+/sources
+/resources
+/jadx
+
