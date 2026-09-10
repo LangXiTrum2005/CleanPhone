@@ -261,7 +261,7 @@
     <string name="secret_original_removed">已从系统相册中删除原始文件！</string>
     <string name="secret_biometric_unavailable">当前设备不支持生物识别</string>
     <string name="settings_widgets_instructions">添加 Cleanup 桌面小组件方法：\n\n1. 长按主屏幕空白区域。\n2. 点击底部的“微件/小组件”。\n3. 找到“Cleanup”并拖动到屏幕上。</string>
-    <string name="settings_share_text">推荐使用 Cleanup - AI 智能清理 &amp; 极速视频压缩神器：https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="settings_share_text">推荐使用 Cleanup - AI 智能清理 &amp; 极速视频压缩神器：https://play.google.com/store/apps/details?id=nixlab.phone.cleaner.freeup.storage</string>
     <string name="pro_welcome_fmt">欢迎体验 Cleanup PRO！已选择方案：%1$s</string>
     <string name="video_count_fmt">%1$d 个视频</string>
     <string name="video_save_est_fmt">预计可省 ~%1$s</string>

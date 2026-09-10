@@ -261,7 +261,7 @@
     <string name="secret_original_removed">Originaldateien aus der Galerie entfernt!</string>
     <string name="secret_biometric_unavailable">Biometrie auf diesem Gerät nicht verfügbar</string>
     <string name="settings_widgets_instructions">So fügen Sie Cleanup-Widgets zum Startbildschirm hinzu:\n\n1. Halten Sie eine freie Stelle auf dem Startbildschirm gedrückt.\n2. Tippen Sie auf \'Widgets\'.\n3. Suchen Sie nach \'Cleanup\' und ziehen Sie das Widget auf den Bildschirm.</string>
-    <string name="settings_share_text">Entdecken Sie Cleanup - KI Speicherreiniger &amp; Videokomprimierer: https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="settings_share_text">Entdecken Sie Cleanup - KI Speicherreiniger &amp; Videokomprimierer: https://play.google.com/store/apps/details?id=nixlab.phone.cleaner.freeup.storage</string>
     <string name="pro_welcome_fmt">Willkommen bei Cleanup PRO! Ausgewählt: %1$s</string>
     <string name="video_count_fmt">%1$d Videos</string>
     <string name="video_save_est_fmt">~%1$s sparen</string>

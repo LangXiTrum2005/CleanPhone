@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cleanapp"
+    namespace = "nixlab.phone.cleaner.freeup.storage"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.cleanapp"
+        applicationId = "nixlab.phone.cleaner.freeup.storage"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

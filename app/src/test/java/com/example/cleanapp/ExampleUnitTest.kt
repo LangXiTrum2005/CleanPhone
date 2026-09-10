@@ -1,4 +1,4 @@
-package com.example.cleanapp
+package nixlab.phone.cleaner.freeup.storage
 
 import org.junit.Test
 

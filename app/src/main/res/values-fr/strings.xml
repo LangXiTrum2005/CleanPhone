@@ -261,7 +261,7 @@
     <string name="secret_original_removed">Fichiers originaux supprimés de la galerie !</string>
     <string name="secret_biometric_unavailable">Biométrie non disponible sur cet appareil</string>
     <string name="settings_widgets_instructions">Pour ajouter les widgets Cleanup à votre écran d\'accueil :\n\n1. Touchez et maintenez un espace vide sur l\'écran d\'accueil.\n2. Appuyez sur \'Widgets\'.\n3. Recherchez \'Cleanup\' et faites glisser le widget sur votre écran.</string>
-    <string name="settings_share_text">Découvrez Cleanup - Nettoyeur de stockage IA et compresseur vidéo : https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="settings_share_text">Découvrez Cleanup - Nettoyeur de stockage IA et compresseur vidéo : https://play.google.com/store/apps/details?id=nixlab.phone.cleaner.freeup.storage</string>
     <string name="pro_welcome_fmt">Bienvenue sur Cleanup PRO ! Choix : %1$s</string>
     <string name="video_count_fmt">%1$d vidéos</string>
     <string name="video_save_est_fmt">Économisez ~%1$s</string>

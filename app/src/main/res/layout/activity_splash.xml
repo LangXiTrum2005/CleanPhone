@@ -7,7 +7,7 @@
     android:background="#FAFCFA">
 
     <!-- Custom Canvas Animated Background (Particles, Rotating Orbit Rings, Ripples, Light Sweep) -->
-    <com.example.cleanapp.ui.splash.SplashAuraView
+    <nixlab.phone.cleaner.freeup.storage.ui.splash.SplashAuraView
         android:id="@+id/splashAuraView"
         android:layout_width="0dp"
         android:layout_height="0dp"

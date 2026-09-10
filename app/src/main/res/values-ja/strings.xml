@@ -261,7 +261,7 @@
     <string name="secret_original_removed">元のファイルをギャラリーから削除しました！</string>
     <string name="secret_biometric_unavailable">この端末は生体認証に対応していません</string>
     <string name="settings_widgets_instructions">ホーム画面にCleanupウィジェットを追加する方法：\n\n1. ホーム画面の空いている場所を長押しします。\n2. [ウィジェット] をタップします。\n3. [Cleanup] を探してホーム画面にドラッグします。</string>
-    <string name="settings_share_text">Cleanup - AIストレージクリーナー＆動画圧縮アプリをお試しください: https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="settings_share_text">Cleanup - AIストレージクリーナー＆動画圧縮アプリをお試しください: https://play.google.com/store/apps/details?id=nixlab.phone.cleaner.freeup.storage</string>
     <string name="pro_welcome_fmt">Cleanup PROへようこそ！ 選択プラン: %1$s</string>
     <string name="video_count_fmt">%1$d 本の動画</string>
     <string name="video_save_est_fmt">約 %1$s 節約</string>

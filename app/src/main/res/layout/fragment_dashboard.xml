@@ -77,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp">
 
-                <com.example.cleanapp.ui.common.StorageGaugeView
+                <nixlab.phone.cleaner.freeup.storage.ui.common.StorageGaugeView
                     android:id="@+id/storageGauge"
                     android:layout_width="220dp"
                     android:layout_height="220dp"

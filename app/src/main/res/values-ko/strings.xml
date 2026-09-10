@@ -261,7 +261,7 @@
     <string name="secret_original_removed">갤러리에서 원본 파일이 삭제되었습니다!</string>
     <string name="secret_biometric_unavailable">이 기기에서는 생체 인식을 지원하지 않습니다</string>
     <string name="settings_widgets_instructions">홈 화면에 Cleanup 위젯을 추가하는 방법:\n\n1. 홈 화면의 빈 공간을 길게 터치합니다.\n2. \'위젯\'을 탭합니다.\n3. \'Cleanup\'을 찾아 홈 화면으로 드래그합니다.</string>
-    <string name="settings_share_text">Cleanup - AI 저장공간 정리 &amp; 동영상 압축 앱을 만나보세요: https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="settings_share_text">Cleanup - AI 저장공간 정리 &amp; 동영상 압축 앱을 만나보세요: https://play.google.com/store/apps/details?id=nixlab.phone.cleaner.freeup.storage</string>
     <string name="pro_welcome_fmt">Cleanup PRO에 오신 것을 환영합니다! 선택: %1$s</string>
     <string name="video_count_fmt">동영상 %1$d개</string>
     <string name="video_save_est_fmt">약 %1$s 절약</string>

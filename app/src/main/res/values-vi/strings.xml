@@ -334,7 +334,7 @@
     <string name="secret_original_removed">Đã xóa ảnh gốc khỏi thư viện ảnh!</string>
     <string name="secret_biometric_unavailable">Thiết bị không hỗ trợ sinh trắc học</string>
     <string name="settings_widgets_instructions">Để thêm tiện ích Cleanup vào màn hình chính:\n\n1. Chạm và giữ vào khoảng trống trên màn hình chính.\n2. Chọn \'Tiện ích\' (Widgets).\n3. Tìm \'Cleanup\' và kéo tiện ích ra màn hình.</string>
-    <string name="settings_share_text">Trải nghiệm Cleanup - Dọn dẹp bộ nhớ AI &amp; Nén video thông minh: https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="settings_share_text">Trải nghiệm Cleanup - Dọn dẹp bộ nhớ AI &amp; Nén video thông minh: https://play.google.com/store/apps/details?id=nixlab.phone.cleaner.freeup.storage</string>
     <string name="pro_welcome_fmt">Chào mừng đến với Cleanup PRO! Gói đã chọn: %1$s</string>
     <string name="video_count_fmt">%1$d video</string>
     <string name="video_save_est_fmt">Tiết kiệm ~%1$s</string>

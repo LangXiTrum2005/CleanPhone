@@ -334,7 +334,7 @@
     <string name="secret_original_removed">Original media removed from gallery!</string>
     <string name="secret_biometric_unavailable">Biometric hardware not available</string>
     <string name="settings_widgets_instructions">To add Cleanup widgets to your home screen:\n\n1. Touch &amp; hold an empty space on your Home Screen.\n2. Tap \'Widgets\' at the bottom.\n3. Scroll to find \'Cleanup\' and drag the widget to your screen.</string>
-    <string name="settings_share_text">Check out Cleanup - AI Storage Cleaner &amp; Video Compressor: https://play.google.com/store/apps/details?id=com.example.cleanapp</string>
+    <string name="settings_share_text">Check out Cleanup - AI Storage Cleaner &amp; Video Compressor: https://play.google.com/store/apps/details?id=nixlab.phone.cleaner.freeup.storage</string>
     <string name="pro_welcome_fmt">Welcome to Cleanup PRO! Selected: %1$s</string>
     <string name="video_count_fmt">%1$d videos</string>
     <string name="video_save_est_fmt">Save ~%1$s</string>

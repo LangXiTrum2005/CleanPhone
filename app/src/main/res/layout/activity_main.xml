@@ -7,7 +7,7 @@
     android:background="@drawable/bg_modern_dark">
 
     <!-- Custom Canvas Animated Ambient Background (Floating Glowing Orbs & Ambient Particles) -->
-    <com.example.cleanapp.ui.main.MainBackgroundAuraView
+    <nixlab.phone.cleaner.freeup.storage.ui.main.MainBackgroundAuraView
         android:id="@+id/mainBackgroundAura"
         android:layout_width="0dp"
         android:layout_height="0dp"
