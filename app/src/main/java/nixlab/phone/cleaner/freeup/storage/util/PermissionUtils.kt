@@ -47,7 +47,10 @@ object PermissionUtils {
                 Manifest.permission.READ_MEDIA_VIDEO
             )
         } else {
-            arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE)
+            arrayOf(
+                Manifest.permission.READ_EXTERNAL_STORAGE,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE
+            )
         }
     }
 

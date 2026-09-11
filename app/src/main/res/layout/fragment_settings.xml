@@ -187,113 +187,7 @@
                         app:tint="@color/text_tertiary" />
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="52dp"
-                    android:background="@color/border_subtle" />
 
-                <!-- Use PIN Lock Switch -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:gravity="center_vertical"
-                    android:paddingHorizontal="16dp">
-
-                    <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
-                        android:src="@drawable/ic_nav_secret"
-                        app:tint="@color/category_secret" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_weight="1"
-                        android:text="@string/settings_use_pin"
-                        android:textColor="@color/text_primary"
-                        android:textSize="14sp" />
-
-                    <com.google.android.material.materialswitch.MaterialSwitch
-                        android:id="@+id/switchUsePin"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="true" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="52dp"
-                    android:background="@color/border_subtle" />
-
-                <!-- Use Biometrics Switch -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:gravity="center_vertical"
-                    android:paddingHorizontal="16dp">
-
-                    <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
-                        android:src="@drawable/ic_fingerprint"
-                        app:tint="@color/accent_cyan" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_weight="1"
-                        android:text="@string/settings_use_biometrics"
-                        android:textColor="@color/text_primary"
-                        android:textSize="14sp" />
-
-                    <com.google.android.material.materialswitch.MaterialSwitch
-                        android:id="@+id/switchUseBiometrics"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="true" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="52dp"
-                    android:background="@color/border_subtle" />
-
-                <!-- Change PIN -->
-                <LinearLayout
-                    android:id="@+id/btnChangePin"
-                    android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:gravity="center_vertical"
-                    android:paddingHorizontal="16dp">
-
-                    <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
-                        android:src="@drawable/ic_nav_secret"
-                        app:tint="@color/accent_purple" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_weight="1"
-                        android:text="@string/settings_change_pin"
-                        android:textColor="@color/text_primary"
-                        android:textSize="14sp" />
-
-                    <ImageView
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:rotation="180"
-                        android:src="@drawable/ic_arrow_back"
-                        app:tint="@color/text_tertiary" />
-                </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
@@ -447,149 +341,6 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- ================= SECTION 3: STAY IN TOUCH ================= -->
-        <TextView
-            android:id="@+id/tvSectionSocial"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="24dp"
-            android:text="@string/settings_section_social"
-            android:textColor="@color/text_tertiary"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardSectionGeneral" />
-
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cardSectionSocial"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="8dp"
-            app:cardBackgroundColor="@color/bg_card"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="0dp"
-            app:strokeColor="@color/border_subtle"
-            app:strokeWidth="1dp"
-            app:layout_constraintTop_toBottomOf="@id/tvSectionSocial">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <!-- Share App -->
-                <LinearLayout
-                    android:id="@+id/btnShareApp"
-                    android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:gravity="center_vertical"
-                    android:paddingHorizontal="16dp">
-
-                    <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
-                        android:src="@drawable/ic_share"
-                        app:tint="@color/primary_glow" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_weight="1"
-                        android:text="@string/settings_share_app"
-                        android:textColor="@color/text_primary"
-                        android:textSize="14sp" />
-
-                    <ImageView
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:rotation="180"
-                        android:src="@drawable/ic_arrow_back"
-                        app:tint="@color/text_tertiary" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="52dp"
-                    android:background="@color/border_subtle" />
-
-                <!-- Instagram -->
-                <LinearLayout
-                    android:id="@+id/btnInstagram"
-                    android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:gravity="center_vertical"
-                    android:paddingHorizontal="16dp">
-
-                    <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
-                        android:src="@drawable/ic_star"
-                        app:tint="#E1306C" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_weight="1"
-                        android:text="@string/settings_instagram"
-                        android:textColor="@color/text_primary"
-                        android:textSize="14sp" />
-
-                    <ImageView
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:rotation="180"
-                        android:src="@drawable/ic_arrow_back"
-                        app:tint="@color/text_tertiary" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="52dp"
-                    android:background="@color/border_subtle" />
-
-                <!-- TikTok -->
-                <LinearLayout
-                    android:id="@+id/btnTiktok"
-                    android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:gravity="center_vertical"
-                    android:paddingHorizontal="16dp">
-
-                    <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
-                        android:src="@drawable/ic_star"
-                        app:tint="#00F2FE" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_weight="1"
-                        android:text="@string/settings_tiktok"
-                        android:textColor="@color/text_primary"
-                        android:textSize="14sp" />
-
-                    <ImageView
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:rotation="180"
-                        android:src="@drawable/ic_arrow_back"
-                        app:tint="@color/text_tertiary" />
-                </LinearLayout>
-
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-
         <!-- ================= SECTION 4: SUPPORT & FEEDBACK ================= -->
         <TextView
             android:id="@+id/tvSectionSupport"
@@ -602,7 +353,7 @@
             android:textSize="12sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardSectionSocial" />
+            app:layout_constraintTop_toBottomOf="@id/cardSectionGeneral" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardSectionSupport"
@@ -692,81 +443,7 @@
                         app:tint="@color/text_tertiary" />
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="52dp"
-                    android:background="@color/border_subtle" />
 
-                <!-- Contact Us -->
-                <LinearLayout
-                    android:id="@+id/btnContactUs"
-                    android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:gravity="center_vertical"
-                    android:paddingHorizontal="16dp">
-
-                    <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
-                        android:src="@drawable/ic_mail"
-                        app:tint="@color/category_similar" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_weight="1"
-                        android:text="@string/settings_contact_us"
-                        android:textColor="@color/text_primary"
-                        android:textSize="14sp" />
-
-                    <ImageView
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:rotation="180"
-                        android:src="@drawable/ic_arrow_back"
-                        app:tint="@color/text_tertiary" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="52dp"
-                    android:background="@color/border_subtle" />
-
-                <!-- Restore Purchase -->
-                <LinearLayout
-                    android:id="@+id/btnRestorePurchase"
-                    android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:gravity="center_vertical"
-                    android:paddingHorizontal="16dp">
-
-                    <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
-                        android:src="@drawable/ic_restore"
-                        app:tint="@color/accent_emerald" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_weight="1"
-                        android:text="@string/settings_restore_purchase"
-                        android:textColor="@color/text_primary"
-                        android:textSize="14sp" />
-
-                    <ImageView
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:rotation="180"
-                        android:src="@drawable/ic_arrow_back"
-                        app:tint="@color/text_tertiary" />
-                </LinearLayout>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -914,18 +591,7 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Version Footer -->
-        <TextView
-            android:id="@+id/tvAppVersion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="Cleanup v1.2.0 • 100% Kotlin Native"
-            android:textColor="@color/text_muted"
-            android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardSectionAbout" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

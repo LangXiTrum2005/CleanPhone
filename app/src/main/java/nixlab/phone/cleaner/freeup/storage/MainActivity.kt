@@ -19,7 +19,7 @@ import nixlab.phone.cleaner.freeup.storage.databinding.ActivityMainBinding
 import nixlab.phone.cleaner.freeup.storage.ui.appcleaner.AppCleanerFragment
 import nixlab.phone.cleaner.freeup.storage.ui.base.BaseActivity
 import nixlab.phone.cleaner.freeup.storage.ui.contacts.ContactsFragment
-import nixlab.phone.cleaner.freeup.storage.ui.compressor.VideoCompressFragment
+import nixlab.phone.cleaner.freeup.storage.ui.compressor.ApkCleanFragment
 import nixlab.phone.cleaner.freeup.storage.ui.dashboard.DashboardFragment
 import nixlab.phone.cleaner.freeup.storage.ui.swipe.PhotoSwipeFragment
 import nixlab.phone.cleaner.freeup.storage.util.SafeAreaUtils
@@ -31,9 +31,13 @@ class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        enableEdgeToEdge(
+            statusBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
+            navigationBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT)
+        )
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        androidx.core.view.WindowCompat.getInsetsController(window, binding.root).isAppearanceLightStatusBars = false
 
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { _, windowInsets ->
             val insets = windowInsets.getInsets(
@@ -81,7 +85,7 @@ class MainActivity : BaseActivity() {
                 R.id.nav_home -> DashboardFragment.newInstance()
                 R.id.nav_apps -> AppCleanerFragment.newInstance()
                 R.id.nav_contacts -> ContactsFragment.newInstance()
-                R.id.nav_compress -> VideoCompressFragment.newInstance()
+                R.id.nav_compress -> ApkCleanFragment.newInstance()
                 R.id.nav_swipe -> PhotoSwipeFragment.newInstance()
                 else -> DashboardFragment.newInstance()
             }

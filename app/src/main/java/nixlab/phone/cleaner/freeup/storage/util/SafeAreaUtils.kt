@@ -31,7 +31,12 @@ object SafeAreaUtils {
         applyLeft: Boolean = true,
         applyRight: Boolean = true
     ) {
-        activity.enableEdgeToEdge()
+        activity.enableEdgeToEdge(
+            statusBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
+            navigationBarStyle = androidx.activity.SystemBarStyle.dark(android.graphics.Color.TRANSPARENT)
+        )
+        androidx.core.view.WindowCompat.getInsetsController(activity.window, rootView).isAppearanceLightStatusBars = false
+
         ViewCompat.setOnApplyWindowInsetsListener(rootView) { view, windowInsets ->
             val insets = windowInsets.getInsets(
                 WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()

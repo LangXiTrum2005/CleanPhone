@@ -19,8 +19,9 @@
     <!-- Center App Logo & Title -->
     <LinearLayout
         android:id="@+id/centerLayout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,21 +31,28 @@
 
         <TextView
             android:id="@+id/tvAppName"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:elevation="4dp"
-            android:letterSpacing="0.04"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:maxLines="2"
             android:text="@string/app_name"
             android:textColor="#1F2937"
-            android:textSize="32sp"
-            android:textStyle="bold" />
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="26sp"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform" />
 
         <TextView
             android:id="@+id/tvTagline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="8dp"
             android:elevation="4dp"
+            android:gravity="center"
             android:letterSpacing="0.06"
             android:text="AI CLEANER &amp; MEMORY OPTIMIZER"
             android:textColor="#00A884"

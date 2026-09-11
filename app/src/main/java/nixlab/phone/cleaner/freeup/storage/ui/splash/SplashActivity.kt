@@ -122,7 +122,7 @@ class SplashActivity : BaseActivity() {
             addListener(object : AnimatorListenerAdapter() {
                 override fun onAnimationEnd(animation: Animator) {
                     if (!isFinishing) {
-                        navigateToOnboarding()
+                        navigateToNextScreen()
                     }
                 }
             })
@@ -131,7 +131,6 @@ class SplashActivity : BaseActivity() {
     }
 
     private fun startContinuousBreathing() {
-        // Subtle center title breathing & vertical float
         val pvhScaleX = PropertyValuesHolder.ofFloat(View.SCALE_X, 1.0f, 1.05f)
         val pvhScaleY = PropertyValuesHolder.ofFloat(View.SCALE_Y, 1.0f, 1.05f)
         val pvhTranslationY = PropertyValuesHolder.ofFloat(View.TRANSLATION_Y, 0f, -6f)
@@ -145,10 +144,18 @@ class SplashActivity : BaseActivity() {
         }
     }
 
-    private fun navigateToOnboarding() {
-        val intent = Intent(this, OnboardingActivity::class.java)
-        startActivity(intent)
-        finish()
+    private fun navigateToNextScreen() {
+        if (nixlab.phone.cleaner.freeup.storage.util.LocaleHelper.isOnboardingCompleted(this)) {
+            // Subsequent launches: Splash -> Language -> MainActivity
+            val intent = Intent(this, nixlab.phone.cleaner.freeup.storage.ui.language.LanguageSelectionActivity::class.java)
+            startActivity(intent)
+            finish()
+        } else {
+            // First launch: Splash -> Onboarding -> Language -> MainActivity
+            val intent = Intent(this, OnboardingActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
     override fun onDestroy() {

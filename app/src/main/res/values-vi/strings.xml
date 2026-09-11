@@ -6,7 +6,24 @@
     <string name="nav_home">Trang chủ</string>
     <string name="nav_swipe">Vuốt dọn ảnh</string>
     <string name="nav_contacts">Danh bạ</string>
-    <string name="nav_compress">Nén video</string>
+    <string name="nav_compress">Dọn tệp APK</string>
+
+    <!-- APK Cleaner Strings -->
+    <string name="apk_cleaner_title">Dọn tệp APK rác</string>
+    <string name="apk_cleaner_subtitle">Dọn dẹp các tệp cài đặt APK để giải phóng dung lượng</string>
+    <string name="apk_banner_title">Tổng dung lượng tệp cài đặt APK</string>
+    <string name="apk_list_title">Danh sách tệp APK tìm thấy</string>
+    <string name="apk_count_fmt">%d tệp APK</string>
+    <string name="apk_select_all">Chọn tất cả</string>
+    <string name="apk_deselect_all">Bỏ chọn tất cả</string>
+    <string name="apk_installed">Đã cài đặt</string>
+    <string name="apk_not_installed">Chưa cài đặt</string>
+    <string name="apk_btn_clean_fmt">Xóa các tệp đã chọn (%s)</string>
+    <string name="apk_empty_title">Không tìm thấy tệp APK rác nào</string>
+    <string name="apk_empty_sub">Bộ nhớ máy của bạn hoàn toàn sạch sẽ!</string>
+    <string name="apk_delete_confirm_title">Xóa tệp APK đã chọn?</string>
+    <string name="apk_delete_confirm_msg">Bạn có chắc chắn muốn xóa vĩnh viễn %d tệp APK này không?</string>
+    <string name="apk_deleted_success">Đã xóa sạch %s tệp APK rác!</string>
     <string name="nav_secret">Kho bí mật</string>
     <string name="nav_apps">Quản lý ứng dụng</string>
     <string name="nav_battery">Pin &amp; Sạc</string>

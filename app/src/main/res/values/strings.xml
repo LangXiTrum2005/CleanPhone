@@ -6,7 +6,24 @@
     <string name="nav_home">Home</string>
     <string name="nav_swipe">Photo Swipe</string>
     <string name="nav_contacts">Contacts</string>
-    <string name="nav_compress">Compress</string>
+    <string name="nav_compress">APK Cleaner</string>
+
+    <!-- APK Cleaner Strings -->
+    <string name="apk_cleaner_title">APK Cleaner</string>
+    <string name="apk_cleaner_subtitle">Clean leftover APK installer files to free up storage space</string>
+    <string name="apk_banner_title">Total APK Files Storage</string>
+    <string name="apk_list_title">Found APK Files</string>
+    <string name="apk_count_fmt">%d APK Files</string>
+    <string name="apk_select_all">Select All</string>
+    <string name="apk_deselect_all">Deselect All</string>
+    <string name="apk_installed">Installed</string>
+    <string name="apk_not_installed">Not Installed</string>
+    <string name="apk_btn_clean_fmt">Clean Selected (%s)</string>
+    <string name="apk_empty_title">No APK Files Found</string>
+    <string name="apk_empty_sub">Your storage is clean and free of leftover APKs!</string>
+    <string name="apk_delete_confirm_title">Delete Selected APK Files?</string>
+    <string name="apk_delete_confirm_msg">Are you sure you want to permanently delete these %d APK files?</string>
+    <string name="apk_deleted_success">Cleaned %s of APK files!</string>
     <string name="nav_secret">Secret Vault</string>
     <string name="nav_apps">App Cleaner</string>
     <string name="nav_battery">Battery &amp; Charging</string>

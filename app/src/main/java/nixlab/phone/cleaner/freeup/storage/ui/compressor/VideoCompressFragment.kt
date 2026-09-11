@@ -11,8 +11,9 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.app.AlertDialog
+import android.content.DialogInterface
 import androidx.fragment.app.Fragment
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import nixlab.phone.cleaner.freeup.storage.R
@@ -340,10 +341,17 @@ class VideoCompressFragment : Fragment() {
             } else 0
             dialogBinding.tvResultSavedSize.text = "🎉 " + getString(R.string.video_compress_congrats_saved) + " " + FileUtils.formatBytes(result.savedBytes) + " ($percentSaved%)"
 
+            // Reload videos immediately so newly compressed video appears
+            loadVideos()
+
             // Action: Keep Both Videos
             dialogBinding.btnKeepBoth.setOnClickListener {
                 dialog.dismiss()
-                Toast.makeText(requireContext(), R.string.video_compress_progress_completed_title, Toast.LENGTH_SHORT).show()
+                Toast.makeText(
+                    requireContext(),
+                    getString(R.string.video_compress_progress_completed_title) + " (Movies/Cleanup)",
+                    Toast.LENGTH_LONG
+                ).show()
                 loadVideos()
             }
 
@@ -356,13 +364,13 @@ class VideoCompressFragment : Fragment() {
     }
 
     private fun showCancelConfirmation(dialog: BottomSheetDialog) {
-        AlertDialog.Builder(requireContext())
+        MaterialAlertDialogBuilder(requireContext())
             .setTitle(R.string.video_compress_exit_popup_title)
             .setMessage(R.string.video_compress_exit_popup_subtitle)
-            .setPositiveButton(R.string.video_compress_exit_popup_primary_action) { d, _ ->
+            .setPositiveButton(R.string.video_compress_exit_popup_primary_action) { d: DialogInterface, _ ->
                 d.dismiss()
             }
-            .setNegativeButton(R.string.video_compress_exit_popup_secondary_action) { d, _ ->
+            .setNegativeButton(R.string.video_compress_exit_popup_secondary_action) { d: DialogInterface, _ ->
                 compressionJob?.cancel()
                 dialog.dismiss()
                 d.dismiss()
